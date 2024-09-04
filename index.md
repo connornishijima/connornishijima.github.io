@@ -1,5 +1,5 @@
 ---
-title: Connor Nishijima
+title: Intro
 layout: home
 ---
 
