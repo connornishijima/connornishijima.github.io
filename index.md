@@ -1,7 +1,13 @@
 ---
-title: Home
+title: Connor Nishijima
 layout: home
 ---
+
+## Embedded C/C++ Engineer
+
+*I specialize in microcontrollers, high-refresh rate LED displays, and real-time audio analysis/synthesis.*
+
+--------------
 
 This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
