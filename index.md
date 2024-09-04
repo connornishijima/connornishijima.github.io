@@ -10,7 +10,7 @@ I get quite sad whenever I run out of ways to optimize software. Luckily - I nev
 
 **12 years of experience** in:
 
-- Microcontrollers
-- High refresh rate LED displays
-- Real-time audio analysis/synthesis
+- Microcontroller Firmware Development
+- High-Refresh-Rate LED Displays
+- Real-time Audio Analysis/Synthesis
 - and *way* more...
