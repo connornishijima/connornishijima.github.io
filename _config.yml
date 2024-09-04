@@ -6,8 +6,8 @@ url: https://just-the-docs.github.io
 
 color_scheme: connor
 
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+#aux_links:
+#  Template Repository: https://github.com/just-the-docs/just-the-docs-template
 
 # External navigation links
 nav_external_links:
