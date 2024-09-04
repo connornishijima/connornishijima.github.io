@@ -8,4 +8,9 @@ nav_order: 1
 
 I get quite sad whenever I run out of ways to optimize software. Luckily - I never do!
 
-12 years of experience in microcontrollers, high-refresh rate LED displays, real-time audio analysis/synthesis, and *way* more...
+12 years of experience in:
+
+- Microcontrollers
+- High refresh rate LED displays
+- Real-time audio analysis/synthesis
+- and *way* more...
