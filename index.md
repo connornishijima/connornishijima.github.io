@@ -14,7 +14,7 @@ nav_order: 1
 
 **12 years of experience** across:
 
-- Microcontroller Firmware Development
+- **[Microcontroller Firmware Development](TBD)**
 - High-Refresh-Rate LED Displays
 - Real-time Audio Analysis/Synthesis
 - Design For Manufacture
