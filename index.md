@@ -12,7 +12,7 @@ nav_order: 1
 
 --------
 
-**12 years of experience** across:
+Often doing work under the name ***"Lixie Labs"***, I have **12 years of experience** across:
 
 - **[Microcontroller Firmware Development](TBD)**
 - **[High-Refresh-Rate LED Displays](TBD)**
