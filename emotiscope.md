@@ -60,7 +60,7 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 
 # The "God Damn Fast Transform"
 
-Actually, "GDFT" is what I call a Goertzel-based Discrete Fourier Transform. Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, I've opted to calculate 64 bins of my own choosing one at a time.
+Actually, "GDFT" is what I call a Goertzel-based Discrete Fourier Transform. Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time.
 
 This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
 
@@ -96,6 +96,23 @@ I used the Goertzel algorithm to quickly calculate each bin sequentially. This a
         normalized_magnitude = magnitude_squared / (block_size / 2.0);
 
         return normalized_magnitude;
+    }
+
+By having varying window lengths per bin, the highest notes can be detected with minimal sample data, and the lowest notes can still have good frequency-domain resolution with minimal latency.
+
+Also employed is a lookup table to a Gaussian window. The index into this table is a floating point number incremented by "window_step", another non-integer. This allows for nearest-neighbor interpolation of the 4096-sample-long LUT at crazy speeds.
+
+    void init_window_lookup() {
+        for (uint16_t i = 0; i < 2048; i++) {
+            // Gaussian window
+            float sigma = 0.8;
+            float n_minus_halfN = i - 2048 / 2;
+            float gaussian_weighing_factor = exp(-0.5 * pow((n_minus_halfN / (sigma * 2048 / 2)), 2));
+            float weighing_factor = gaussian_weighing_factor;
+
+            window_lookup[i] = weighing_factor;
+            window_lookup[4095 - i] = weighing_factor; // Mirror the value for the second half
+        }
     }
 
 ------------------------------------------------
