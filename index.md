@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-![Connor Nishijima](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/banner.png?raw=true)
+<iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Embedded C/C++ Engineer
 
