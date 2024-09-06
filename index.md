@@ -20,5 +20,4 @@ Often doing work under the name ***"Lixie Labs"***, I have **12 years of experie
 - **[Memory Size/Access Optimization](TBD)**
 - **[PCB Layout & Routing](TBD)**
 - **[Design For Manufacture](TBD)**
-- **[Computer Graphics](TBD)**
 - **and [*way* more...](TBD)**
