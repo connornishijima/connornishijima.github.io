@@ -77,10 +77,10 @@ float calculate_magnitude_of_bin(uint16_t bin_number) {
     float window_pos = 0.0;
 
     const uint16_t block_size = frequencies_musical[bin_number].block_size;
-
     float coeff = frequencies_musical[bin_number].coeff;
     float window_step = frequencies_musical[bin_number].window_step;
 
+    // blocksize*2 for downsampling
     float* sample_ptr = &sample_history[(SAMPLE_HISTORY_LENGTH - 1) - block_size*2];
 
     for ( uint16_t i = 0; i < block_size; i++ ) {
