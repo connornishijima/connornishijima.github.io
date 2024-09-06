@@ -64,7 +64,7 @@ Actually, "GDFT" is what I call a Goertzel-based Discrete Fourier Transform. Ins
 
 This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
 
-I used the Goertzel algorithm to quickly calculate each bin sequentially. This allows me to set custom window lengths for every bin to best balance them betweem time and frequency resolution.
+I used the Goertzel algorithm to quickly calculate each bin sequentially. This allows me to set custom window lengths (block sizes) for every bin to best balance them betweem time and frequency resolution.
 
 ```c
 float calculate_magnitude_of_bin(uint16_t bin_number) {
@@ -85,6 +85,8 @@ float calculate_magnitude_of_bin(uint16_t bin_number) {
 
     for ( uint16_t i = 0; i < block_size; i++ ) {
         float windowed_sample = sample_ptr[i] * window_lookup[(uint32_t)window_pos];
+
+        // Perform Goertzel step
         float q0 = coeff * q1 - q2 + windowed_sample;
         q2 = q1;
         q1 = q0;
@@ -92,6 +94,7 @@ float calculate_magnitude_of_bin(uint16_t bin_number) {
         window_pos += window_step;
     }
 
+    // Calculate magnitude, no phase
     magnitude_squared = (q1 * q1) + (q2 * q2) - q1 * q2 * coeff;
     magnitude = sqrtf(magnitude_squared);
     normalized_magnitude = magnitude_squared / (block_size / 2.0);
