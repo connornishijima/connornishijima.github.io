@@ -8,7 +8,7 @@ color_scheme: connor
 
 aux_links:
   "HIRE ME":
-    - "<link-out>https://www.linkedin.com/in/connornishijima</link-out>"
+    - <link-out>https://www.linkedin.com/in/connornishijima</link-out>
 
 # External navigation links
 nav_external_links:
