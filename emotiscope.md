@@ -24,7 +24,13 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 - Dual-core 240 MHz (CPU and "GPU")
 - Built on new ESP-IDF 5.x
 - Uses Espressif's ESP-DSP library to perform SIMD operations on 32-bit floating point registers
-- Core 0 / **CPU**: 
+- **GPU** / Core 0:
+    - "Light Mode" Renderers (Shaders)
+    - Simulated Phosphor Decay
+    - Temporal Dithering
+    - RMT output to LEDs
+    - 300-500 FPS
+- **CPU** / Core 1: 
     - IO/touch reading
     - Audio acquisition
     - Goertzel (160 instances)
@@ -36,12 +42,6 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
     - HTTP
     - Self Profiling
     - 100 FPS
-- Core 1 / **GPU**:
-    - "Light Mode" Renderers (Shaders)
-    - Simulated Phosphor Decay
-    - Temporal Dithering
-    - RMT output to LEDs
-    - 300-500 FPS
 
 ### XL-1010RGBC (x128)
 
