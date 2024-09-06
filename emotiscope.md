@@ -28,6 +28,7 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
     - "Light Mode" Renderers (Shaders)
     - Simulated Phosphor Decay
     - Temporal Dithering
+    - Incandescent LUT
     - RMT output to LEDs
     - 300-500 FPS
 - **CPU** / Core 1: 
