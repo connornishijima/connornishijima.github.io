@@ -46,13 +46,23 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 ### XL-1010RGBC (x128)
 
 - 8-bit RGB Adressable LEDs
+- Error diffusion algorithm for temporal dithering
+- Approx. 11-bit range visible to eye after dither trick
 
 ### SPH-0645 MEMS Microphone
 
 - I2S Bottom-firing Digital Microphone
 - Sample Rate: 12,800Hz (Custom)
+- Mounted to custom daughter board
 
+------------------------------------------------
 
+## Tricks Used
+
+- The "God Damn Fast Transform"
+- Tempo Detection
+- Temporal Dithering
+- Low-latency control
 
 
 ![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
