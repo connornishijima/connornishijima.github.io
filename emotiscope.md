@@ -58,7 +58,7 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 
 ------------------------------------------------
 
-# The "God Damn Fast Transform"
+## The "God Damn Fast Transform"
 
 Actually, "GDFT" is what I call a Goertzel-based Discrete Fourier Transform. Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time.
 
@@ -124,17 +124,16 @@ void init_window_lookup() {
 
 ------------------------------------------------
 
-# Live Tempo Detection
+## Live Tempo Detection
 
 ------------------------------------------------
 
-# Tricking Your Eyes
+## Tricking Your Eyes
 
 ------------------------------------------------
 
-# The Remote Control
+## The Remote Control
 
 ------------------------------------------------
-
 
 ![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
