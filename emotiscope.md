@@ -5,6 +5,8 @@ parent: Products
 nav_order: 1
 ---
 
+![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
+
 # Emotiscope
 
 #### A Music Visualizer From The Future
