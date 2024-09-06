@@ -1,10 +1,10 @@
 ---
-title: Works
+title: Other Works
 layout: page
 nav_order: 4
 ---
 
-## Works
+## Other Works
 
 - Microcontrollers
 - High-refresh rate LED displays
