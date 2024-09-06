@@ -66,54 +66,58 @@ This way, they can be allocated logarithmically to represent every note of the w
 
 I used the Goertzel algorithm to quickly calculate each bin sequentially. This allows me to set custom window lengths for every bin to best balance them betweem time and frequency resolution.
 
-    float calculate_magnitude_of_bin(uint16_t bin_number) {
-        float magnitude;
-        float magnitude_squared;
-        float normalized_magnitude;
+```c
+float calculate_magnitude_of_bin(uint16_t bin_number) {
+    float magnitude;
+    float magnitude_squared;
+    float normalized_magnitude;
 
-        float q1 = 0;
-        float q2 = 0;
-        float window_pos = 0.0;
+    float q1 = 0;
+    float q2 = 0;
+    float window_pos = 0.0;
 
-        const uint16_t block_size = frequencies_musical[bin_number].block_size;
+    const uint16_t block_size = frequencies_musical[bin_number].block_size;
 
-        float coeff = frequencies_musical[bin_number].coeff;
-        float window_step = frequencies_musical[bin_number].window_step;
+    float coeff = frequencies_musical[bin_number].coeff;
+    float window_step = frequencies_musical[bin_number].window_step;
 
-        float* sample_ptr = &sample_history[(SAMPLE_HISTORY_LENGTH - 1) - block_size*2];
+    float* sample_ptr = &sample_history[(SAMPLE_HISTORY_LENGTH - 1) - block_size*2];
 
-        for ( uint16_t i = 0; i < block_size; i++ ) {
-            float windowed_sample = sample_ptr[i*2] * window_lookup[(uint32_t)window_pos];
-            float q0 = coeff * q1 - q2 + windowed_sample;
-            q2 = q1;
-            q1 = q0;
+    for ( uint16_t i = 0; i < block_size; i++ ) {
+        float windowed_sample = sample_ptr[i*2] * window_lookup[(uint32_t)window_pos];
+        float q0 = coeff * q1 - q2 + windowed_sample;
+        q2 = q1;
+        q1 = q0;
 
-            window_pos += window_step;
-        }
-
-        magnitude_squared = (q1 * q1) + (q2 * q2) - q1 * q2 * coeff;
-        magnitude = sqrtf(magnitude_squared);
-        normalized_magnitude = magnitude_squared / (block_size / 2.0);
-
-        return normalized_magnitude;
+        window_pos += window_step;
     }
+
+    magnitude_squared = (q1 * q1) + (q2 * q2) - q1 * q2 * coeff;
+    magnitude = sqrtf(magnitude_squared);
+    normalized_magnitude = magnitude_squared / (block_size / 2.0);
+
+    return normalized_magnitude;
+}
+```
 
 By having varying window lengths per bin, the highest notes can be detected with minimal sample data, and the lowest notes can still have good frequency-domain resolution with minimal latency.
 
 Also employed is a lookup table to a Gaussian window. The index into this table is a floating point number incremented by "window_step", another non-integer. This allows for nearest-neighbor interpolation of the 4096-sample-long LUT at crazy speeds.
 
-    void init_window_lookup() {
-        for (uint16_t i = 0; i < 2048; i++) {
-            // Gaussian window
-            float sigma = 0.8;
-            float n_minus_halfN = i - 2048 / 2;
-            float gaussian_weighing_factor = exp(-0.5 * pow((n_minus_halfN / (sigma * 2048 / 2)), 2));
-            float weighing_factor = gaussian_weighing_factor;
+```c
+void init_window_lookup() {
+    for (uint16_t i = 0; i < 2048; i++) {
+        // Gaussian window
+        float sigma = 0.8;
+        float n_minus_halfN = i - 2048 / 2;
+        float gaussian_weighing_factor = exp(-0.5 * pow((n_minus_halfN / (sigma * 2048 / 2)), 2));
+        float weighing_factor = gaussian_weighing_factor;
 
-            window_lookup[i] = weighing_factor;
-            window_lookup[4095 - i] = weighing_factor; // Mirror the value for the second half
-        }
+        window_lookup[i] = weighing_factor;
+        window_lookup[4095 - i] = weighing_factor; // Mirror the value for the second half
     }
+}
+```
 
 ------------------------------------------------
 
