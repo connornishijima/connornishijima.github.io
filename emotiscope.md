@@ -26,8 +26,10 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 - Uses Espressif's ESP-DSP library to perform SIMD operations on 32-bit floating point registers
 - Core 0: 
     - CPU Operations (Audio acquisition, DSP, Networking)
+    - 100 FPS
 - Core 1:
     - GPU Operations (Shaders, Temporal Dithering, RMT output to LEDs)
+    - 300-500 FPS
 
 ### XL-1010RGBC (x128)
 
