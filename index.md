@@ -10,6 +10,8 @@ nav_order: 1
 
 ### I get quite sad whenever I run out of ways to optimize software. Luckily - I never do!
 
+[Learn More](https://connor.nishiji.ma/products.html){: .btn .btn-green }
+
 --------
 
 Often doing work under the name ***"Lixie Labs"***, I have **12 years of experience** across:
