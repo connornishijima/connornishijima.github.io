@@ -15,7 +15,7 @@ nav_order: 1
 
 I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design.
 
-## Parts Chosen:
+## PARTS CHOSEN:
 
 ### ESP32-S3 Microcontroller
 
