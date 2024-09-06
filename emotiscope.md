@@ -7,7 +7,7 @@ nav_order: 1
 
 ![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
 
-## EMOTISCOPE
+## Emotiscope
 
 #### A Music Visualizer From The Future
 
