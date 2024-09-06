@@ -23,7 +23,7 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 
 ### XL-1010RGBC (x128)
 
-- 8-bit RGB Adressable LEDs         |
+- 8-bit RGB Adressable LEDs
 
 
 ![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
