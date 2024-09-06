@@ -5,4 +5,4 @@ parent: Products
 nav_order: 1
 ---
 
-Emotiscope
+Emotiscope rocks
