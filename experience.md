@@ -4,6 +4,8 @@ layout: page
 nav_order: 2
 ---
 
+![Connor Nishijima](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/banner.png?raw=true)
+
 ## Experience
 
 Often doing work under the name ***"Lixie Labs"***, I have **12 years of experience** across:
