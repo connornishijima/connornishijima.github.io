@@ -8,7 +8,7 @@ nav_order: 1
 
 # Embedded C/C++ Engineer
 
-### I get quite sad whenever I run out of ways to optimize software. Luckily - I never do!
+### I get quite sad whenever I run out of ways to optimize software. Luckily - I never do!<br>
 
 [Learn More](https://connor.nishiji.ma/products.html){: .btn .btn-green }
 
