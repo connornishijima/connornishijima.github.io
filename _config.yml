@@ -1,4 +1,4 @@
-title: CONNOR NISHIJIMA
+title: "CONNOR <span class='last-name'>NISHIJIMA</span>"
 description: Embedded C/C++ Engineer
 theme: just-the-docs
 
@@ -8,7 +8,7 @@ color_scheme: connor
 
 aux_links:
   "HIRE ME":
-    - "https://www.linkedin.com/in/connornishijima"
+    - "<link-out>https://www.linkedin.com/in/connornishijima</link-out>"
 
 # External navigation links
 nav_external_links:
