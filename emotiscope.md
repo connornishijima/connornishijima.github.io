@@ -57,12 +57,21 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 
 ------------------------------------------------
 
-## Tricks Used
+# The "God Damn Fast Transform"
 
-- The "God Damn Fast Transform"
-- Tempo Detection
-- Temporal Dithering
-- Low-latency control
+------------------------------------------------
+
+# Live Tempo Detection
+
+------------------------------------------------
+
+# Tricking Your Eyes
+
+------------------------------------------------
+
+# The Remote Control
+
+------------------------------------------------
 
 
 ![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
