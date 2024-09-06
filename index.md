@@ -17,6 +17,7 @@ Often doing work under the name ***"Lixie Labs"***, I have **12 years of experie
 - **[Microcontroller Firmware Development](TBD)**
 - **[High-Refresh-Rate LED Displays](TBD)**
 - **[Real-time Audio Analysis/Synthesis](TBD)**
+- **[Digital PCB Design](TBD)**
 - **[Design For Manufacture](TBD)**
 - **[Memory Size/Access Optimization](TBD)**
 - **[Computer Graphics](TBD)**
