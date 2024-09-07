@@ -17,6 +17,8 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 
 --------------------------------------------
 
+![PCB](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/emotiscope_pcb.jfif?raw=true)
+
 ## Part Highlights
 
 ### ESP32-S3 Microcontroller
