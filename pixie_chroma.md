@@ -9,7 +9,7 @@ nav_order: 3
 
 # Pixie Chroma
 
-#### My Most Colorful Display
+#### Colorful Displays For Those In A Damn Hurry
 
 --------------------------------------------
 
