@@ -29,7 +29,7 @@ I designed Pixies to enable both beginners and professionals to quickly deploy a
 
 - 16 MHz, single core
 - Controls the IS37FL3130 driver
-- Passes clocked data in and out to other displays in the chain
+- Passes clocked data in and out to other displays in the chain with high-speed ASM code
 
 ### LTP-305G (x2)
 
