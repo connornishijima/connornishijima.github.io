@@ -12,3 +12,7 @@ nav_order: 3
 #### My Most Colorful Display
 
 --------------------------------------------
+
+I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alpha-numeric displays using an intuitive Arduino Library.
+
+--------------------------------------------
