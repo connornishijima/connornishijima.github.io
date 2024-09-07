@@ -9,7 +9,7 @@ nav_order: 3
 
 # Pixie Chroma
 
-#### Colorful Displays For Those In A Damn Hurry
+#### Colorful Displays For Folks In A Damn Hurry
 
 --------------------------------------------
 
