@@ -50,15 +50,11 @@ void loop() {
 
 --------------------------------------------------
 
-![Shortcodes Demo](https://github.com/connornishijima/Pixie_Chroma/blob/main/extras/img/shortcodes.jpg?raw=true)
-
 ## Fast Lookups with Mark Bytes
 
 Pixie Chroma allows users to add raster icons to their projects with special writing inside of C strings, like this:
 
-```c
-    pix.print("You have a nice [:SMILE:]");
-```
+![Shortcodes Demo](https://github.com/connornishijima/Pixie_Chroma/blob/main/extras/img/shortcodes.jpg?raw=true)
 
 These are called "Shortcodes", and over 200 of them are included with the Pixie Chroma library.
 
