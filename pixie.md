@@ -37,28 +37,13 @@ I designed Pixies to enable both beginners and professionals to quickly deploy a
 
 ----------------------------------------------------------------
 
-## Intuitive Arduino Library
+## HTML-Based Datasheet
 
-The Pixie Chroma Arduino Library comes with many examples explained line-by-line so that anybody can understand them. I also include template Arduino Sketches to skip the parts newcomers find tedious, like #include directives and class definitions.
+No PDF files here, this is a Lixie Labs Livesheet, and comes in a nice dark theme. Notes are clickable, and GPIO can be highlighted via links too.
 
-```c
-#include "Pixie_Chroma.h" // Include library
-PixieChroma pix;
-#define PIXIES_X  6  // Total amount and         x x x x x x
-#define PIXIES_Y  2  // arrangement of Pixies =  x x x x x x
+(However - it's totally broken on phones. I never made it responsive.)
 
-void setup() {
-  pix.begin( 13, PIXIES_X, PIXIES_Y ); // ... Use Pin 13
-  pix.color( CRGB::Blue ); // ............... Set color to blue
-}
-
-void loop() {
-  pix.clear(); // ..................... Clear display
-  pix.println( "Hello World!" ); // ... Write text on first row
-  pix.print( millis() ); // ........... Write the value of millis() on the second row
-  pix.show(); // ...................... Show changes
-}
-```
+[Visit the Pixie Datasheet](https://connor.nishiji.ma/Pixie/extras/datasheet.html)
 
 --------------------------------------------------
 
