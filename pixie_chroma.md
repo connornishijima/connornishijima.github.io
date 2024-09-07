@@ -98,26 +98,11 @@ This table employs a simple trick to increase access speed: **mark bytes**. To f
 
 This lookup saves memory by storing all shortcodes in variable-length space, while still allowing for fast traversal to get results in microseconds.
 
-While I've nicely formatted the shortcode lookup table, the microcontroller only sees it as a large one dimensional array, like this:
+While I've nicely formatted the shortcode lookup table, the microcontroller only sees it as a large 1D array, like this:
 
 ```c
 static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = { 
 //  ----- RASTER ------ MARK H   E   A   R   T   0  ----- RASTER ------ MARK S   A   D   0
     12, 18, 36, 18, 12, 212, 72, 69, 65, 82, 84, 0, 68, 38, 32, 38, 68, 210, 83, 65, 68, 0,  ...
 }
-```
-
-## Only As Powerful As You Need
-
-
-
-```c
-static float iter = 0;  
-float x = (((sin(iter*0.111)+1)/2.0)*0.75)+0.125; // This generates UV coordinates
-float y = (((cos(iter*0.234)+1)/2.0)*0.50)+0.250; // that smoothly drift around over time
-iter+=0.25;
-
-pix.dim(8); // ...................... Fade the mask by 8/256ths
-pix.mask[ pix.uv(x,y) ] = 255; // ... Show the drifting dot with UV coords
-pix.show(); // ...................... Send the updated image to the Pixies
 ```
