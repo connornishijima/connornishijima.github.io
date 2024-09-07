@@ -44,7 +44,7 @@ void loop() {
 
 ![Shortcodes Demo](https://github.com/connornishijima/Pixie_Chroma/blob/main/extras/img/shortcodes.jpg?raw=true)
 
-## Fast String Parsing
+## Fast Lookups with Mark Bytes
 
 Pixie Chroma allows users to add raster icons to their projects with special writing inside of C strings, like this:
 
@@ -79,32 +79,24 @@ This table employs a simple trick to increase access speed: **mark bytes**. To f
 
 - Start at the first mark byte, at index 5.
 - Peek at the following byte, compare to the "SMILE" shortcode name ('H' != 'S')
-- Since not equal, skip MARK-200 bytes forward in the array (Next mark byte)
-- Test again
+- Since not equal, skip MARK-200 bytes forward in the array (Next mark byte is 12 steps forward)
+- Peek at following byte again
 - This time, an "S" was correctly found
-- Look one index forward
+- Peek one more index forward to the second character
 - 'A' != 'M' ("SAD" != "SMILE")
-- Since not equal, MARK-200 bytes forward in the array (Next mark byte)
+- Since not equal, skip MARK-200 bytes forward in the array (Next mark byte)
 - This continues until both "SMILE" and the NULL terminator are found
 - The five bytes proceeding the MARK byte of the found Shortcode contain the raster data to return
 
 This lookup saves memory by storing all shortcodes in variable-length space, while still allowing for fast traversal to get results in microseconds.
 
-```c
-static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = {
-    12, 18, 36, 18, 12, 212, 72, 69, 65, 82, 84, 0,
-    16, 38, 32, 38, 16, 212, 83, 77, 73, 76, 69, 0,
-    32, 22, 16, 22, 32, 212, 70, 82, 79, 87, 78, 0,
-    22, 34, 32, 34, 22, 212, 72, 65, 80, 80, 89, 0,
-    68, 38, 32, 38, 68, 210, 83, 65, 68, 0,
-    73, 42, 32, 42, 73, 212, 65, 78, 71, 82, 89, 0,
-    28, 50, 42, 38, 28, 209, 78, 79, 0,
-    62, 38, 42, 38, 62, 211, 77, 65, 73, 76, 0,
-    0, 99, 119, 62, 0, 217, 80, 72, 79, 78, 69, 95, 67, 65, 76, 76, 0,
-    18, 73, 105, 73, 18, 215, 87, 73, 82, 69, 76, 69, 83, 83, 0,
-    34, 20, 8, 20, 34, 211, 70, 65, 73, 76, 0,
-    16, 32, 16, 8, 4, 211, 80, 65, 83, 83, 0,
+While I've nicely formatted the shortcode lookup table, the microcontroller only sees it as a large one dimensional array, like this:
 
+```c
+static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = { 
+//  ----- RASTER ------ MARK H   E   A   R   T   0  ----- RASTER ------ MARK S   A   D   0
+    12, 18, 36, 18, 12, 212, 72, 69, 65, 82, 84, 0, 68, 38, 32, 38, 68, 210, 83, 65, 68, 0,  ...
+}
 ```
 
 ## Only As Powerful As You Need
