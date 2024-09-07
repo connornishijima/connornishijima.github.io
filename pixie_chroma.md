@@ -13,7 +13,7 @@ nav_order: 3
 
 --------------------------------------------
 
-I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 3 wires.
+<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 3 wires.</blurb>
 
 --------------------------------------------
 

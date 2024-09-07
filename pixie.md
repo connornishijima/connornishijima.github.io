@@ -13,7 +13,7 @@ nav_order: 4
 
 --------------------------------------------
 
-I designed Pixies to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 4 wires.
+<blurb>I designed Pixies to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 4 wires.</blurb>
 
 --------------------------------------------
 
