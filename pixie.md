@@ -37,6 +37,8 @@ I designed Pixies to enable both beginners and professionals to quickly deploy a
 
 ----------------------------------------------------------------
 
+![Connor Nishijima](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/pixie_datasheet.jpg?raw=true)
+
 ## HTML-Based Datasheet
 
 No PDF files here, this is a Lixie Labs Livesheet, and comes in a nice dark theme. Notes are clickable, and GPIO can be highlighted via links too.
