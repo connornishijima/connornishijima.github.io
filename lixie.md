@@ -5,4 +5,4 @@ parent: Products
 nav_order: 5
 ---
 
-Lixie Displays rock
+Lixie Displays (2016)
