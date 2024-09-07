@@ -46,7 +46,7 @@ I designed Emotiscope as a powerful bridge between sight and sound, with a focus
 
 ### XL-1010RGBC (x128)
 
-- 8-bit RGB Adressable LEDs
+- World's smallest 8-bit RGB Adressable LEDs (1mm x 1mm)
 - Error diffusion algorithm for temporal dithering
 - Approx. 11-bit range visible to eye after dither trick
 

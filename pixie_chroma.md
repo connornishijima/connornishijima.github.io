@@ -17,6 +17,14 @@ I designed Pixie Chroma to enable both beginners and professionals to quickly de
 
 --------------------------------------------
 
+## Part Highlights
+
+### SK6805-EC15 (x70)
+
+- 1.5mm-sized 8-bit RGB Addressable LEDs
+
+----------------------------------------------------------------
+
 ## Intuitive Arduino Library
 
 The Pixie Chroma Arduino Library comes with many examples explained line-by-line so that anybody can understand them. I also include template Arduino Sketches to skip the parts newcomers find tedious, like #include directives and class definitions.
