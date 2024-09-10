@@ -6,6 +6,15 @@ url: https://connor.nishiji.ma
 
 color_scheme: connor
 
+collections:
+  products:
+    output: true
+
+just_the_docs:
+  collections:
+    products:
+      name: Products
+
 aux_links:
   "<link-out>HIRE ME</link-out>":
     - https://www.linkedin.com/in/connornishijima
