@@ -24,7 +24,7 @@ nav_order: 1
 ### ESP32-S3 Microcontroller
 
 - Dual-core 240 MHz (CPU and "GPU")
-- Built on new ESP-IDF 5.x
+- Emotiscope Engine FW built on new ESP-IDF 5.x
 - Uses Espressif's ESP-DSP library to perform SIMD operations on 32-bit floating point registers
 - **GPU** / Core 0:
     - "Light Mode" Renderers (Shaders)
