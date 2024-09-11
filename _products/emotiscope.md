@@ -6,7 +6,7 @@ nav_order: 1
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Emotiscope (2024)
+# **Emotiscope (2024)**
 
 #### A Music Visualizer From The Future
 
@@ -63,11 +63,11 @@ nav_order: 1
 
 ## The "God Damn Fast Transform"
 
-Actually, "GDFT" is what I call a Goertzel-based Discrete Fourier Transform. Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time.
+**Actually, "GDFT" is what I call a Goertzel-based Discrete Fourier Transform.**
 
-This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
+Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time. This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
 
-I used the Goertzel algorithm to quickly calculate each bin sequentially. This allows me to set custom window lengths (block sizes) for every bin to best balance them betweem time and frequency resolution.
+I used the Goertzel algorithm to quickly calculate each bin sequentially. This allows me to set custom window lengths (block sizes) for every bin to best balance them betweem time/frequency resolution and performance. Since Emotiscope is not a measurement tool, I was able to find compromises to the DSP code for the sake of speed without sacrificing the final look.
 
 ```c
 float calculate_magnitude_of_bin(uint16_t bin_number) {
