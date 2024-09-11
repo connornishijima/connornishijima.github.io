@@ -102,3 +102,9 @@ static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = {
     12, 18, 36, 18, 12, 212, 72, 69, 65, 82, 84, 0, 68, 38, 32, 38, 68, 210, 83, 65, 68, 0,  ...
 }
 ```
+
+--------------------------------------------------
+
+## Custom Icons Designed Online
+
+![SHORTCODE CREATOR](https://github.com/connornishijima.github.io/blob/main/img/shortcodes.png?raw=true)
