@@ -57,6 +57,8 @@ void loop() {
 
 ## Fully Delivered Crowdfunding Campaign
 
+#### [CrowdSupply Campaign](https://www.crowdsupply.com/lixie-labs/pixie-chroma)
+
 1,100 Pixie Chroma displays were manufactured and populated with 77,000 LEDs by PCBWay. After testing every single one of them with a pogo-pin test jig I built, only 0.3% of units were DOA, likely due to how well PCBway packed it in a cardboard grid. 
 
 ![CAMPAIGN PAGE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/crowdsupply.jpg)
