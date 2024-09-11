@@ -107,4 +107,4 @@ static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = {
 
 ## Custom Icons Designed Online
 
-![SHORTCODE CREATOR](https://github.com/connornishijima.github.io/blob/main/img/shortcodes.png?raw=true)
+![SHORTCODE CREATOR](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/shortcodes.png)
