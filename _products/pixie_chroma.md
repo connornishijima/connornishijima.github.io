@@ -12,7 +12,7 @@ nav_order: 3
 
 --------------------------------------------
 
-<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 3 wires.</blurb>
+<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
 
 --------------------------------------------
 
@@ -132,6 +132,8 @@ static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = {
 I also designed a GUI editor for Shortcode icons which gives out a special number to include in a pix.print() string to embed the icon you designed, or gives the proper name for the icon if it's already in the library.
 
 ![SHORTCODE CREATOR](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/shortcodes.png)
+
+The 
 
 ```c
 pix.print( "Here's a smile: [:SMILE:]" ); // ....... Built-in preset Icon
