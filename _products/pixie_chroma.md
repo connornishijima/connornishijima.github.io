@@ -16,6 +16,8 @@ nav_order: 3
 
 --------------------------------------------
 
+![PIXIE CHROMA](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_loose.jpg)
+
 ## Part Highlights
 
 ### SK6805-EC15 (x70)
