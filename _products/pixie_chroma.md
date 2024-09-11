@@ -26,11 +26,11 @@ nav_order: 3
 
 ----------------------------------------------------------------
 
-## Intuitive Arduino Library
+## A New Standard for Arduino Libraries
 
-The Pixie Chroma Arduino Library comes with many examples explained line-by-line so that anybody can understand them. I also include template Arduino Sketches to skip the parts newcomers find tedious, like #include directives and class definitions.
+**I pride myself in how easy my products are to use.**
 
-It was designed to be "as powerful as you need", so that day-one hobbyists could get results just as easily as a professional, and the professional has enough powerful optional functions to not feel hindered.
+I've kept the wiring very simple, with only three wires connected between each breadboard-friendly display. **[The Pixie Chroma Arduino Library](https://github.com/connornishijima/Pixie_Chroma/#readme)** also has many examples that are explained line-by-line so that anybody can understand them. I even included [template Arduino Sketches](https://github.com/connornishijima/Pixie_Chroma/blob/main/examples/04_Minimal_Sketches/01_Standard/01_Standard.ino) to skip the parts newcomers find tedious, like `#include` directives and class definitions. Many advanced projects that even seasoned coders would find challenging are hassle-free with the Pixie Chroma library!
 
 ```c
 #include "Pixie_Chroma.h" // Include library
