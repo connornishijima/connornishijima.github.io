@@ -129,13 +129,21 @@ void init_window_lookup() {
 
 ## Live Tempo Detection
 
+**Emotiscope knows how to "tap its foot" to the beat of your music**
+
 ------------------------------------------------
 
 ## Tricking Your Eyes
 
+**These aren't the colors you're looking at**
+
 ------------------------------------------------
 
 ## The Remote Control
+
+**An app built by a hardware designer to be fun, responive, and ergonomic.
+
+You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app.
 
 ------------------------------------------------
 
