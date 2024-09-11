@@ -51,7 +51,7 @@ void loop() {
 }
 ```
 
-![PIXIE CHROMA](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_breadboard.jpg)
+![PIXIE CHROMA](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/hello_world.png)
 
 --------------------------------------------------
 
