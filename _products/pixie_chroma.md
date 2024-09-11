@@ -57,7 +57,7 @@ void loop() {
 
 ## Fully Delivered Crowdfunding Campaign
 
-#### [CrowdSupply Campaign Link](https://www.crowdsupply.com/lixie-labs/pixie-chroma)
+**[CrowdSupply Campaign Link](https://www.crowdsupply.com/lixie-labs/pixie-chroma)**
 
 1,100 Pixie Chroma displays were manufactured and populated with 77,000 LEDs by PCBWay. After testing every single one of them with a pogo-pin test jig I built, only 0.3% of units were DOA, likely due to how well PCBway packed it in a cardboard grid. 
 
@@ -129,7 +129,7 @@ static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = {
 
 ## Custom Icons Designed Online
 
-#### [Online Shortcode Editor Link](https://connor.nishiji.ma/Pixie_Chroma/extras/shortcode_library.html)
+**[Online Shortcode Editor Link](https://connor.nishiji.ma/Pixie_Chroma/extras/shortcode_library.html)**
 
 I also designed a GUI editor for Shortcode icons which gives out a special number to include in a pix.print() string to embed the icon you designed, or gives the proper name for the icon if it's already in the library.
 
