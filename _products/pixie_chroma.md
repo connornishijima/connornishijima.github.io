@@ -28,6 +28,8 @@ nav_order: 3
 
 The Pixie Chroma Arduino Library comes with many examples explained line-by-line so that anybody can understand them. I also include template Arduino Sketches to skip the parts newcomers find tedious, like #include directives and class definitions.
 
+It was designed to be "as powerful as you need", so that day-one hobbyists could get results just as easily as a professional, and the professional has enough powerful optional functions to not feel hindered.
+
 ```c
 #include "Pixie_Chroma.h" // Include library
 PixieChroma pix;
