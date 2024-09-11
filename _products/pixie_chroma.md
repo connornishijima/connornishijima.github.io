@@ -53,7 +53,7 @@ void loop() {
 
 1,100 Pixie Chroma displays were manufactured and populated with 77,000 LEDs by PCBWay. After testing every single one of them with a pogo-pin test jig I built, only 0.3% of units were DOA, likely due to how well PCBway packed it in a cardboard grid. (I also paid a goddamn $800 import tariff. *Thanks Trump, you shitty pile.*) 
 
-![CAMPAIGN PAGE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_campaign.jpg)
+![CAMPAIGN PAGE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/crowdsupply.jpg)
 
 Pixie Chroma was manufactured and shipped to my backers in only 2 months and 13 days, and is now available through Adafruit, Mouser, DigiKey and Pimoroni.
 
