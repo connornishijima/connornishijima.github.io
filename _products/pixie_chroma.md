@@ -55,7 +55,7 @@ void loop() {
 
 ![BIG ORDER](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_order.jpg)
 
-Both my backers and Mouser Electronics recieved their portions of this shipment in only 2 months and 13 days. Pixie Chroma is now available through Adafruit, Mouser, DigiKey and Pimoroni.
+Pixie Chroma was manufactured and shipped to my backers in only 2 months and 13 days, and is now available through Adafruit, Mouser, DigiKey and Pimoroni.
 
 ![BIG ORDER PACKED](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_packed.jpg)
 
