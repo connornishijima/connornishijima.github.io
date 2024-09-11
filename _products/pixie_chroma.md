@@ -129,8 +129,6 @@ static const uint8_t PIXIE_SHORTCODE_LIBRARY[] = {
 
 ## Custom Icons Designed Online
 
-**This is a test to see how text looks here.**
-
 #### [Online Shortcode Editor Link](https://connor.nishiji.ma/Pixie_Chroma/extras/shortcode_library.html)
 
 I also designed a GUI editor for Shortcode icons which gives out a special number to include in a pix.print() string to embed the icon you designed, or gives the proper name for the icon if it's already in the library.
