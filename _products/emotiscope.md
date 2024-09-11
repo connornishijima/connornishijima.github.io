@@ -8,7 +8,7 @@ nav_order: 1
 
 # **Emotiscope (2024)**
 
-#### A Music Visualizer From The Future
+#### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
 
 --------------------------------------------
 

@@ -8,7 +8,7 @@ nav_order: 3
 
 # **Pixie Chroma (2021)**
 
-#### Colorful Displays For Folks In A Damn Hurry
+#### COLORFUL DISPLAYS FOR FOLKS IN A DAMN HURRY - [PRODUCT WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
 
 --------------------------------------------
 
