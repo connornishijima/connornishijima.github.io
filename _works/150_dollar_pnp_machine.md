@@ -15,8 +15,6 @@ layout: page
 
 --------------------------------------------
 
-![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/patrick.jfif)
-
 ## Part Highlights
 
 ### ESP32-S3 Microcontroller
@@ -58,7 +56,7 @@ layout: page
 
 ------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/patrick.jfif)
 
 ## The "God Damn Fast Transform"
 
