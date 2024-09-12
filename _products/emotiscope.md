@@ -16,7 +16,7 @@ nav_order: 1
 
 --------------------------------------------
 
-![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_pcb_short_glow.png)
+![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_pcb_fade.png)
 
 ## Part Highlights
 
