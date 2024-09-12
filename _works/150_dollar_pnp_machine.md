@@ -11,7 +11,7 @@ layout: page
 
 --------------------------------------------
 
-<blurb>I converted an awful entry level 3D printer from Wanhao into a PNP machine which only assembles one very specific type of PCB.</blurb>
+<blurb>I converted an awful entry level 3D printer from Wanhao into a PNP machine which only assembles one very specific type of PCB: my original Lixie display boards.</blurb>
 
 --------------------------------------------
 
