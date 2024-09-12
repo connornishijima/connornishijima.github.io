@@ -40,7 +40,7 @@ nav_order: 4
 
 **(I do, I wrote one.)**
 
-**Below is the full datasheet I designed and wrote for Pixie displays, which thoroughly explains both the hardware and firmware, including how the internal data buffer is laid out and how Pixies communicate.**
+**Below is the full datasheet I designed and wrote for Pixie displays which thoroughly explains both the hardware and firmware, including how the internal data buffer is laid out and how Pixies communicate.**
 
 ![PAGE 1](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_1.jpg)
 
