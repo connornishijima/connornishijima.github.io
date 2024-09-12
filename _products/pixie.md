@@ -16,8 +16,6 @@ nav_order: 4
 
 --------------------------------------------
 
-![Pixie CLassic PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_classic_pcb.jpg)
-
 ## Part Highlights
 
 ### IS37FL3130
@@ -37,6 +35,8 @@ nav_order: 4
 - 5x7 Micro-LED display
 
 ![Pile of Pixies](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_classic_pile.jfif)
+
+![Pixie CLassic PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_classic_pcb.jpg)
 
 ----------------------------------------------------------------
 
