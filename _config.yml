@@ -15,9 +15,9 @@ collections:
 just_the_docs:
   collections:
     products:
-      name: Products
+      name: Products I Designed
     works:
-      name: Other Works
+      name: Highlighted Works
 
 aux_links:
   "<link-out>HIRE ME</link-out>":
