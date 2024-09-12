@@ -23,10 +23,19 @@ FIRMWARE
 OPTIMIZATION
 {: .label }
 
-DSP
+DSP ALGORITHMS
 {: .label }
 
 MANUFACTURING
+{: .label }
+
+I2S
+{: .label }
+
+MEMS
+{: .label }
+
+USB-C
 {: .label }
 
 --------------------------------------------
