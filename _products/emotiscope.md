@@ -6,6 +6,14 @@ nav_order: 1
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# **Emotiscope (2024)**
+
+#### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
+
+--------------------------------------------
+
+<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design.</blurb>
+
 HARDWARE
 {: .label }
 
@@ -20,14 +28,6 @@ DSP
 
 MANUFACTURING
 {: .label }
-
-# **Emotiscope (2024)**
-
-#### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
-
---------------------------------------------
-
-<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design.</blurb>
 
 --------------------------------------------
 
