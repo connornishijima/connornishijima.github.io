@@ -9,14 +9,14 @@ color_scheme: connor
 collections:
   products:
     output: true
-  other_works:
+  works:
     output: true
 
 just_the_docs:
   collections:
     products:
       name: Products
-    other_works:
+    works:
       name: Other Works
 
 aux_links:
