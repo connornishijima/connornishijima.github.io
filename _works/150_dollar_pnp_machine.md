@@ -3,7 +3,7 @@ title: $150 Pick and Place Machine
 layout: page
 ---
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/4aowlyGziT8IbDJx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/Us7oQIRNjYY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # **$150 Pick and Place Machine (2018)**
 
