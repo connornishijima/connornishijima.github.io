@@ -40,6 +40,24 @@ nav_order: 4
 
 **Below is the full datasheet I designed and wrote for Pixie displays, which I think explains everything quite thoroughly, including how the internal data buffer is laid out.**
 
-![Connor Nishijima](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/datasheet_page_1.jpg?raw=true)
+![PAGE 1](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_1.jpg)
+
+![PAGE 2](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_2.jpg)
+
+![PAGE 3](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_3.jpg)
+
+![PAGE 4](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_4.jpg)
+
+![PAGE 5](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_5.jpg)
+
+![PAGE 6](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_6.jpg)
+
+![PAGE 7](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_7.jpg)
+
+![PAGE 8](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_8.jpg)
+
+![PAGE 9](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_9.jpg)
+
+![PAGE 10](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/datasheet_page_10.jpg)
 
 --------------------------------------------------
