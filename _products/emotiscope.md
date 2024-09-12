@@ -10,6 +10,18 @@ nav_order: 1
 
 #### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
 
+HARDWARE
+{: .label }
+
+FIRMWARE
+{: .label }
+
+DSP
+{: .label }
+
+MANUFACTURING
+{: .label }
+
 --------------------------------------------
 
 <blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design.</blurb>
