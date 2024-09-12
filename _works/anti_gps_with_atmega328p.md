@@ -7,7 +7,7 @@ layout: page
 
 # **Anti-GPS with ATmega328p (2016)**
 
-#### Sometimes leaving your inputs floating can be useful
+#### Sometimes leaving your inputs floating... can be useful?
 
 --------------------------------------------
 
