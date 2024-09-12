@@ -6,6 +6,21 @@ nav_order: 5
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ov4PKlrrAWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+HARDWARE
+{: .label }
+
+FIRMWARE
+{: .label }
+
+ASM CODE
+{: .label }
+
+I2C
+{: .label }
+
+MANUFACTURING
+{: .label }
+
 # **Pixie Classic (2020)**
 
 #### Easy Micro-LED Displays - [WEBSITE](https://connor.nishiji.ma/Pixie)

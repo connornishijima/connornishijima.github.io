@@ -12,6 +12,9 @@ HARDWARE
 FIRMWARE
 {: .label }
 
+OPTIMIZATION
+{: .label }
+
 DSP
 {: .label }
 
