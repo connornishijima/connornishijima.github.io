@@ -15,7 +15,7 @@ layout: page
 
 --------------------------------------------
 
-![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_pcb_fade.png)
+![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/patrick.jfif)
 
 ## Part Highlights
 

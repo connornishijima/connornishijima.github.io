@@ -1,5 +1,8 @@
 PIXIE CHROMA -----------------------------------------------------
 
+    CGI LOOP
+    https://x.com/lixielabs/status/1468349586838151169/video/1
+
     CGI Progress
     https://x.com/lixielabs/status/1513971563976007683/video/1
 
@@ -22,3 +25,67 @@ LIXIE 3 ----------------------------------------------------------
     https://x.com/lixielabs/status/1513962934195539968/video/1
     https://x.com/lixielabs/status/1513955881951522818/photo/1
 
+
+SUPER PIXIE ------------------------------------------------------
+
+    INITIAL WORKING DEMO
+    https://x.com/lixielabs/status/1681065704626462723/video/1
+
+    ROTATION DEMO
+    https://x.com/lixielabs/status/1681138686891823104/video/1
+
+    DIGIT DEMO
+    https://x.com/lixielabs/status/1685086972614959104/video/1
+
+    ASCII SCROLL
+    https://x.com/lixielabs/status/1688441563935133696/video/1
+
+    MODULAR BASE
+    https://x.com/lixielabs/status/1690081244921626624/video/1
+
+    SELF HEALING
+    https://x.com/lixielabs/status/1694847240396021800/video/1
+
+    BOARD BRING UP
+    https://x.com/lixielabs/status/1696602486701011293/video/1
+
+    SHUTTER SPEEDS
+    https://x.com/lixielabs/status/1696641296490996154/video/1
+
+    WORKING UNIT
+    https://x.com/lixielabs/status/1696683116080046576/video/1
+
+    FIRST PRODUCTION CHAIN
+    https://x.com/lixielabs/status/1696705926299041823/video/1
+
+    FIRST SHELLED VERSIONS
+    https://x.com/lixielabs/status/1698059640557408287/video/1
+
+    PROGRAMMING JIG
+    https://x.com/lixielabs/status/1700225450268832035/video/1
+
+    WIGGLE ANIMATION
+    https://x.com/lixielabs/status/1700938072207274213/video/1
+
+    HIGH SPEED PAIRING
+    https://x.com/lixielabs/status/1704523509752582655/video/1
+
+    TOUCH EVENTS
+    https://x.com/lixielabs/status/1704950192284561753/video/1
+
+    ERROR EVENTS
+    https://x.com/lixielabs/status/1704967353895973041/video/1
+
+    TRANSITIONS
+    https://x.com/lixielabs/status/1706724604973400547/video/1
+
+    BURN-IN TESTING
+    https://x.com/lixielabs/status/1711830931336794509/video/1
+
+    WINDOW SILL
+    https://x.com/lixielabs/status/1712626163229851748/video/1
+
+SENSORY BRIDGE ---------------------------------------------------
+
+    VERTICAL DEMO
+    https://x.com/lixielabs/status/1679325546008944642/video/1
