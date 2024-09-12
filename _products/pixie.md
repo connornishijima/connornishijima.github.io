@@ -28,7 +28,7 @@ nav_order: 4
 
 - 16 MHz, single core
 - Controls the IS37FL3130 driver
-- Passes clocked data in and out to other displays in the chain with high-speed ASM code
+- Passes clocked data in and out to other displays in the chain **[with high-speed ASM code](https://github.com/connornishijima/Pixie/blob/0244ab2d765876a36647734ee5bcd1ff8f17be7c/examples/PIXIE_FIRMWARE/Pixie_Firmware_120/Pixie_Firmware_120.ino#L81)**
 
 ### LTP-305G (x2)
 
