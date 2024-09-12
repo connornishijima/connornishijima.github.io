@@ -35,9 +35,6 @@ I2S
 MEMS
 {: .label }
 
-USB-C
-{: .label }
-
 --------------------------------------------
 
 <video class="youtube-video" autoplay loop muted>
