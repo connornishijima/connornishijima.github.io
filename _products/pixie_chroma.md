@@ -69,7 +69,7 @@ void loop() {
 
 Pixie Chroma was manufactured and shipped to my backers in only 2 months and 13 days, and is now available through Adafruit, Mouser, DigiKey and Pimoroni.
 
-![BIG ORDER](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_order.jpg)
+![BIG ORDER](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_weight.jfif)
 
 By far, the most painful and time-consuming process was packaging, since there were over 500 bags/labels/cards. Thankfully Mouser handled the customer logistics for me and I could bulk-ship them everything in one go.
 
