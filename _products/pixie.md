@@ -1,7 +1,7 @@
 ---
 title: Pixie (Classic)
 layout: page
-nav_order: 4
+nav_order: 5
 ---
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ov4PKlrrAWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

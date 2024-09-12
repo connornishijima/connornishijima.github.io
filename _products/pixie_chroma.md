@@ -1,7 +1,7 @@
 ---
 title: Pixie Chroma
 layout: page
-nav_order: 3
+nav_order: 4
 ---
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
