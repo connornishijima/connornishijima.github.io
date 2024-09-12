@@ -8,13 +8,15 @@ nav_order: 4
 
 # **Pixie Classic (2020)**
 
-#### Easy Micro LED Displays - [WEBSITE]()
+#### Easy Micro LED Displays - [WEBSITE](https://connor.nishiji.ma/Pixie)
 
 --------------------------------------------
 
 <blurb>I designed Pixies to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 4 wires.</blurb>
 
 --------------------------------------------
+
+![Pixie CLassic PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_classic_pcb.jpg)
 
 ## Part Highlights
 
@@ -33,6 +35,8 @@ nav_order: 4
 ### LTP-305G (x2)
 
 - 5x7 Micro-LED display
+
+![Pile of Pixies](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_classic_pile.jfif)
 
 ----------------------------------------------------------------
 
