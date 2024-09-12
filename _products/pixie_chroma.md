@@ -14,8 +14,6 @@ nav_order: 4
 
 <blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
 
---------------------------------------------
-
 HARDWARE
 {: .label }
 
@@ -30,6 +28,8 @@ ARDUINO LIBRARY
 
 MANUFACTURING
 {: .label }
+
+--------------------------------------------
 
 ## Part Highlights
 
