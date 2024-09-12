@@ -8,7 +8,7 @@ nav_order: 4
 
 # **Pixie Classic (2020)**
 
-#### Easy Micro LED Displays - [WEBSITE](https://connor.nishiji.ma/Pixie)
+#### Easy Micro-LED Displays - [WEBSITE](https://connor.nishiji.ma/Pixie)
 
 --------------------------------------------
 
