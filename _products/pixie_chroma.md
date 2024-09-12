@@ -6,6 +6,16 @@ nav_order: 4
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+# **Pixie Chroma (2021)**
+
+#### COLORFUL DISPLAYS FOR FOLKS IN A HURRY - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
+
+--------------------------------------------
+
+<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
+
+--------------------------------------------
+
 HARDWARE
 {: .label }
 
@@ -20,16 +30,6 @@ ARDUINO LIBRARY
 
 MANUFACTURING
 {: .label }
-
-# **Pixie Chroma (2021)**
-
-#### COLORFUL DISPLAYS FOR FOLKS IN A HURRY - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
-
---------------------------------------------
-
-<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
-
---------------------------------------------
 
 ## Part Highlights
 
