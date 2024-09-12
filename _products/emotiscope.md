@@ -40,6 +40,11 @@ USB-C
 
 --------------------------------------------
 
+<video class="youtube-video" autoplay loop muted>
+    <source src="https://github.com/connornishijima/connornishijima.github.io/blob/main/img/EMOTISCOPE_LOOP.mp4?raw=true" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
 ![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_pcb_fade.png)
 
 ## Part Highlights
@@ -80,12 +85,6 @@ USB-C
 - I2S Bottom-firing Digital Microphone
 - Sample Rate: 12,800Hz (Custom)
 - Mounted to custom daughter board
-
-<video class="youtube-video" autoplay loop muted>
-    <source src="https://github.com/connornishijima/connornishijima.github.io/blob/main/img/EMOTISCOPE_LOOP.mp4?raw=true" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
 
 ------------------------------------------------
 
