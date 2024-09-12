@@ -20,7 +20,7 @@ nav_order: 4
 
 ### IS37FL3130
 
-- I2C LED driver
+- I<sup>2</sup>C LED driver
 - Capable of driving a 16x8 matrix
 - Instead used to drive two 5x7 matrices
 
