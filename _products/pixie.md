@@ -6,9 +6,9 @@ nav_order: 4
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ov4PKlrrAWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# Pixie Classic (2020)
+# **Pixie Classic (2020)**
 
-#### Easy Micro LED Displays
+#### Easy Micro LED Displays - [WEBSITE]()
 
 --------------------------------------------
 
@@ -36,14 +36,10 @@ nav_order: 4
 
 ----------------------------------------------------------------
 
-## HTML-Based Datasheet
+## Do You Like Datasheets?
 
-No PDF files here, this is a Lixie Labs Livesheet, and comes in a nice dark theme. Notes are clickable, and GPIO can be highlighted via links too.
+**Below is the full datasheet I designed and wrote for Pixie displays, which I think explains everything quite thoroughly, including how the internal data buffer is laid out.**
 
-(However - it's totally broken on phones. I never made it responsive.)
-
-[Visit the Pixie Datasheet](https://connor.nishiji.ma/Pixie/extras/datasheet.html)
-
-![Connor Nishijima](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/pixie_datasheet.jpg?raw=true)
+![Connor Nishijima](https://github.com/connornishijima/connornishijima.github.io/blob/main/img/datasheet_page_1.jpg?raw=true)
 
 --------------------------------------------------
