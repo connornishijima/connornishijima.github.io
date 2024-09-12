@@ -6,7 +6,7 @@ nav_order: 2
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-# **Zero-Component Motion Detection (2016)**
+# **Super Pixie (Unreleased)**
 
 #### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
 
