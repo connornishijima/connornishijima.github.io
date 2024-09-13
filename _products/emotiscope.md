@@ -108,9 +108,27 @@ Important to the illusion was the use of per-LED Temporal Dithering. These WS281
 
 ---------------------------------------------------
 
+<iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Reversible Panels
+
 Beneath the display is a wooden panel of either Walnut or Bamboo, with the Emotiscope logo in the center. Both the wooden panel and the diffuser are reversible: The wood can be reversed to hide the logo, and the diffuser has either a matte side which is fingerprint resistant, or a classy gloss side with slightly higher contrast.
 
-The plastic parts such as the legs and USB port cover are manufactured in-house with a Prusa Mini+ printer, in Galaxy Black PLA filament. They're designed to be printed without supports, 
+--------------------------------------------------
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## 3D Printed Components
+
+The plastic parts such as the feet and USB port cover are manufactured in-house with a Prusa Mini+ printer, in Galaxy Black PLA filament. They're designed to print quickly and without supports. I use a smooth print bed so that the faces of Emotiscope's feet are smooth to the touch.
+
+--------------------------------------------------
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## A Cushion Of Cork
+
+Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from damage and provide a good grip on surfaces.
 
 --------------------------------------------------
 
