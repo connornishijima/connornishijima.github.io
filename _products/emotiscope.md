@@ -116,7 +116,7 @@ Beneath the display is a wooden panel of either Walnut or Bamboo, with the Emoti
 
 --------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![TOUCH](https://raw.githubusercontent.com/lixie-labs/emotiscope/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
 
 ## 3D Printed Components
 
@@ -124,7 +124,7 @@ The plastic parts such as the feet and USB port cover are manufactured in-house 
 
 --------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![TOUCH](https://raw.githubusercontent.com/lixie-labs/emotiscope/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
 
 ## A Cushion Of Cork
 
