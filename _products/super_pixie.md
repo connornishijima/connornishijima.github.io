@@ -29,7 +29,7 @@ MANUFACTURING
 #### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
 
 <br>
-[Read The *UNFINISHED* Firmwware (C/C++)](https://github.com/connornishijima/SuperPixie_Firmware){: .btn .btn-green }
+[Read The UNFINISHED Firmwware (C/C++)](https://github.com/connornishijima/SuperPixie_Firmware){: .btn .btn-green }
 
 --------------------------------------------
 
