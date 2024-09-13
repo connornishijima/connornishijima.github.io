@@ -25,6 +25,9 @@ MANUFACTURING
 
 #### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
 
+<br>
+[Read The *UNFINISHED* Firmwware (C/C++)](https://github.com/connornishijima/SuperPixie_Firmware){: .btn .btn-green }
+
 --------------------------------------------
 
 <blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design.</blurb>
