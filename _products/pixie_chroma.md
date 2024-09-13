@@ -10,6 +10,9 @@ nav_order: 4
 
 #### COLORFUL DISPLAYS FOR FOLKS IN A HURRY - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
 
+<br>
+[Read The Arduino Library (C/C++)](https://connor.nishiji.ma/Pixie_Chroma/docs/class_pixie_chroma.html){: .btn .btn-green }
+
 --------------------------------------------
 
 <blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
