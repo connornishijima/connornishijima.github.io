@@ -49,7 +49,9 @@ MEMS
 
 **Emotiscope tries not to clash with anything around itself**
 
-Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time. This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
+With a magic diffuser covering 128 of the world’s smallest addressable LEDs - which are being refreshed at 300-500 FPS - Emotiscope doesn’t look like a screen. It looks more like some kind of neon-gas display from the far future or recent past.
+
+The RGB LEDs only 1.5mm apart and 1mm in size. I use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a resolution >250 DPI.
 
 --------------------------------------------
 
