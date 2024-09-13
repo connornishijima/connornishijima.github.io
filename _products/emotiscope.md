@@ -49,11 +49,13 @@ MEMS
 
 **Stunning when you need it, invisible when you don't**
 
-With a magic diffuser covering 128 of the world’s smallest addressable LEDs - which are being refreshed at 300-500 FPS - Emotiscope doesn’t look like a screen. It looks more like some kind of neon-gas display from the far future or recent past depending on your settings.
+With a show that’s reactive to notation, vibrato, tempo, and more, Emotiscope a power dual-core microcontroller to produce very unique and pleasant-to-look-at light shows which synchronize to your music without any perceptible latency.
+
+Emotiscope has a magic black diffuser covering 128 of the world’s smallest addressable LEDs. Those LEDs are being refreshed at 300-500 FPS to  Emotiscope doesn’t look like a screen. It looks more like some kind of neon-gas display from the far future or recent past depending on your settings.
 
 The RGB LEDs are 1.5mm apart and only 1mm in size. Even though these tiny LEDs already have a high pixel density, I also use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a resolution >250 DPI.
 
-
+Beneath the display is a wooden panel of either Walnut or Bamboo, with the Emotiscope logo in the center. Both the wooden panel and the diffuser are reversible: The wood can be reversed to hide the logo, and the diffuser has either a matte side which is fingerprint resistant, or a classy gloss side with slightly higher contrast.
 
 --------------------------------------------
 
