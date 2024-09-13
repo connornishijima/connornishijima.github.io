@@ -70,19 +70,18 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
     - [Temporal Dithering](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L240)
     - [Incandescent LUT](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/leds.h#L386)
     - [RMT output to LEDs](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L94)
-    - [300-500 FPS](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/profiler.h#L99)
+    - Runs At 300-500 FPS
 - **CPU** / Core 1: 
     - [IO/touch reading](https://github.dev/Lixie-Labs/Emotiscope/tree/2.0)
     - [Audio acquisition](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/microphone.h#L87)
-    - Goertzel (160 instances)
-    - FFT
-    - Tempo/phase estimation
-    - Autocorrelation
-    - WiFi
-    - Websocket
-    - HTTP
-    - Self Profiling
-    - 100 FPS
+    - [Goertzel (160 instances)](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/goertzel.h#L195)
+    - [FFT](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/fft.h#L45)
+    - [Tempo/phase estimation](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/tempo.h#L152)
+    - [WiFi](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/wireless.h#L299)
+    - [Websockets](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/packets.h#L12)
+    - [HTTP](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/wireless.h#L130)
+    - [Self Profiling](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/profiler.h#L99)
+    - Runs at fixed 100 FPS
 
 ### XL-1010RGBC (x128)
 
