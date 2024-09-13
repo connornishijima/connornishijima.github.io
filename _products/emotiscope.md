@@ -104,13 +104,13 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 
 ------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/HZR-9pEwA5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## LEDs Pretending To Be More
 
 **Your eyes can't see the tricks, just the results**
 
 The RGB LEDs are 1.5mm apart and only 1mm in size. Even though these tiny LEDs already have a high pixel density, I also use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a spatial resolution >250 DPI.
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/HZR-9pEwA5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 Important to the illusion was the use of per-LED Temporal Dithering. These WS2812B-compatible LEDs only have 8-bits per color channel, which leads to awful banding artifacts at low brightnesses. However, they can be updated 500 times a second, which is much faster than your eyes can make out. By dithering the 8-bit color channels of each LED every few frames, your eyes are tricked into seeing a color depth of approximately 11-bits per channel. That's 2048 brightness levels instead of just 256, which leads to darker possible colors and better gradients at low brightnesess.
 
