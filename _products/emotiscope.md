@@ -103,7 +103,7 @@ Emotiscope has a magic black diffuser covering 128 of the world’s smallest add
 
 ------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/HZR-9pEwA5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/_y0_qLfevxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## LEDs Pretending To Be More
 
@@ -113,7 +113,7 @@ Important to the illusion was the use of per-LED Temporal Dithering. These WS281
 
 ---------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/CTz4MPomY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/HZR-9pEwA5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Reversible Panels
 
@@ -208,12 +208,6 @@ void init_window_lookup() {
 ## Live Tempo Detection
 
 **Emotiscope knows how to "tap its foot" to the beat of your music**
-
-------------------------------------------------
-
-## Tricking Your Eyes
-
-**These aren't the colors you're looking at**
 
 ------------------------------------------------
 
