@@ -96,6 +96,11 @@ Emotiscope has a magic black diffuser covering 128 of the world’s smallest add
 - Sample Rate: 12,800Hz (Custom)
 - Mounted to custom daughter board to allow for drop-in replacement microphones if needed
 
+### 2300K LED Power Indicator
+
+- Not yellow, but a calm, wide-spectrum incandescent 2600K LED
+- Certainly not *bright blue* like a maniac
+
 ------------------------------------------------
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/FeMDX4kWn0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
