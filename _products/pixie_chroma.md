@@ -4,18 +4,10 @@ layout: page
 nav_order: 4
 ---
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-# **Pixie Chroma (2021)**
-
-#### COLORFUL DISPLAYS FOR FOLKS IN A HURRY - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
-
-<br>
-[Read The Arduino Library (C/C++)](https://connor.nishiji.ma/Pixie_Chroma/docs/class_pixie_chroma.html){: .btn .btn-green }
-
---------------------------------------------
-
-<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
+<video class="youtube-video-square" autoplay loop muted>
+    <source src="https://github.com/connornishijima/connornishijima.github.io/blob/main/img/PIXIE_CHROMA_LOOP.mp4?raw=true" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
 
 HARDWARE
 {: .label }
@@ -32,7 +24,20 @@ ARDUINO LIBRARY
 MANUFACTURING
 {: .label }
 
+# **Pixie Chroma (2021)**
+
+#### COLORFUL DISPLAYS FOR FOLKS IN A HURRY - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
+
+<br>
+[Read The Arduino Library (C/C++)](https://connor.nishiji.ma/Pixie_Chroma/docs/class_pixie_chroma.html){: .btn .btn-green }
+
 --------------------------------------------
+
+<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
+
+--------------------------------------------
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Part Highlights
 
