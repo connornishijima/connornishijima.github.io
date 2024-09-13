@@ -142,6 +142,18 @@ The plastic parts such as the feet and USB port cover are manufactured in-house 
 
 Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from damage and provide a good grip on surfaces.
 
+------------------------------------------------
+
+## The Remote Control
+
+**An app built by a hardware designer to be fun, responive, and ergonomic.**
+
+![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
+
+You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app.
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 --------------------------------------------------
 
 ## The "God Damn Fast Transform"
@@ -215,18 +227,6 @@ void init_window_lookup() {
 ## Live Tempo Detection
 
 **Emotiscope knows how to "tap its foot" to the beat of your music**
-
-------------------------------------------------
-
-## The Remote Control
-
-**An app built by a hardware designer to be fun, responive, and ergonomic.**
-
-![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
-
-You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app.
-
-<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ------------------------------------------------
 
