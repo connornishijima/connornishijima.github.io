@@ -116,6 +116,8 @@ Important to the illusion was the use of per-LED Temporal Dithering. These WS281
 
 ![TEMPORAL DITHERING](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_dithering.jpg?raw=true)
 
+This is a photo demonstrating the temporal dithering in action, by taking a photo while flinging my phone through the air. Hardware brag: You're seeing entire rendered + dithered frames drawn by the second ESP32-S3 core (and then transferred to the display) in about the same time my keyboard LEDs take to do a single PWM pulse.
+
 ---------------------------------------------------
 
 ## Reversible Panels
