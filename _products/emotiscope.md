@@ -49,9 +49,9 @@ MEMS
 
 **Stunning when you need it, invisible when you don't**
 
-With a show that’s reactive to notation, vibrato, tempo, and more, Emotiscope a power dual-core microcontroller to produce very unique and pleasant-to-look-at light shows which synchronize to your music without any perceptible latency.
+With a show that’s reactive to notation, vibrato, tempo, and more, Emotiscope uses a powerful dual-core microcontroller to produce very unique and pleasant-to-look-at light shows which synchronize to your music without any perceptible latency.
 
-Emotiscope has a magic black diffuser covering 128 of the world’s smallest addressable LEDs. Those LEDs are being refreshed at 300-500 FPS to  Emotiscope doesn’t look like a screen. It looks more like some kind of neon-gas display from the far future or recent past depending on your settings.
+It features a magic black diffuser covering 128 of the world’s smallest addressable LEDs, which are being refreshed at 300-500 FPS. This combination produces a beautiful, analog appearance with a very high dynamic range and apparent spatial resolution.
 
 --------------------------------------------
 
