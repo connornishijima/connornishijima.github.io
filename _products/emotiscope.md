@@ -84,7 +84,7 @@ MEMS
 
 - I2S Bottom-firing Digital Microphone
 - Sample Rate: 12,800Hz (Custom)
-- Mounted to custom daughter board
+- Mounted to custom daughter board to allow for drop-in replacement microphones if needed
 
 ------------------------------------------------
 
