@@ -72,7 +72,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
     - [Incandescent LUT](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/leds.h#L386)
     - [RMT output to LEDs](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L94)
 - **CPU** / Core 1: 
-    - Runs at fixed 100 FPS
+    - Runs at a fixed 100 FPS
     - [IO/touch reading](https://github.dev/Lixie-Labs/Emotiscope/tree/2.0)
     - [Audio acquisition](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/microphone.h#L87)
     - [Goertzel (160 instances)](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/goertzel.h#L195)
