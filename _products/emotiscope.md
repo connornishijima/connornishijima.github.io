@@ -65,13 +65,14 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 - Emotiscope Engine FW built on new ESP-IDF 5.x
 - Uses Espressif's ESP-DSP library to perform SIMD operations on 32-bit floating point registers
 - **GPU** / Core 0:
+    - Runs at a variable 300-500 FPS depending on shader complexity
     - ["Light Mode" Renderers (Shaders)](https://github.com/Lixie-Labs/Emotiscope/blob/2.0/main/light_modes/active/fft.h)
     - [Simulated Phosphor Decay](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/leds.h#L547)
     - [Temporal Dithering](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L240)
     - [Incandescent LUT](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/leds.h#L386)
     - [RMT output to LEDs](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L94)
-    - Runs At 300-500 FPS
 - **CPU** / Core 1: 
+    - Runs at fixed 100 FPS
     - [IO/touch reading](https://github.dev/Lixie-Labs/Emotiscope/tree/2.0)
     - [Audio acquisition](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/microphone.h#L87)
     - [Goertzel (160 instances)](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/goertzel.h#L195)
@@ -81,7 +82,6 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
     - [Websockets](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/packets.h#L12)
     - [HTTP](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/wireless.h#L130)
     - [Self Profiling](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/profiler.h#L99)
-    - Runs at fixed 100 FPS
 
 ### XL-1010RGBC (x128)
 
