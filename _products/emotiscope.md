@@ -52,12 +52,12 @@ MEMS
 - Emotiscope Engine FW built on new ESP-IDF 5.x
 - Uses Espressif's ESP-DSP library to perform SIMD operations on 32-bit floating point registers
 - **GPU** / Core 0:
-    - "Light Mode" Renderers (Shaders)
-    - Simulated Phosphor Decay
-    - Temporal Dithering
-    - Incandescent LUT
-    - RMT output to LEDs
-    - 300-500 FPS
+    - ["Light Mode" Renderers (Shaders)](https://github.com/Lixie-Labs/Emotiscope/blob/2.0/main/light_modes/active/fft.h)
+    - [Simulated Phosphor Decay](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/leds.h#L547)
+    - [Temporal Dithering](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L240)
+    - [Incandescent LUT](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/leds.h#L386)
+    - [RMT output to LEDs](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L94)
+    - [300-500 FPS](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/profiler.h#L99)
 - **CPU** / Core 1: 
     - IO/touch reading
     - Audio acquisition
