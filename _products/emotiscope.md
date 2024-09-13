@@ -70,8 +70,8 @@ Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on th
     - [RMT output to LEDs](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/led_driver.h#L94)
     - [300-500 FPS](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/profiler.h#L99)
 - **CPU** / Core 1: 
-    - IO/touch reading
-    - Audio acquisition
+    - [IO/touch reading](https://github.dev/Lixie-Labs/Emotiscope/tree/2.0)
+    - [Audio acquisition](https://github.com/Lixie-Labs/Emotiscope/blob/92e14bdd36d96f1da59f852a4a769af0639b7116/main/microphone.h#L87)
     - Goertzel (160 instances)
     - FFT
     - Tempo/phase estimation
