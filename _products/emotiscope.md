@@ -47,11 +47,13 @@ MEMS
 
 ## Design Overview
 
-**Emotiscope tries not to clash with anything around itself**
+**Stunning when you need it, invisible when you don't**
 
-With a magic diffuser covering 128 of the world’s smallest addressable LEDs - which are being refreshed at 300-500 FPS - Emotiscope doesn’t look like a screen. It looks more like some kind of neon-gas display from the far future or recent past.
+With a magic diffuser covering 128 of the world’s smallest addressable LEDs - which are being refreshed at 300-500 FPS - Emotiscope doesn’t look like a screen. It looks more like some kind of neon-gas display from the far future or recent past depending on your settings.
 
-The RGB LEDs are only 1.5mm apart and only 1mm in size. Even though these tiny LEDs already have a high pixel density, I also use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a resolution >250 DPI.
+The RGB LEDs are 1.5mm apart and only 1mm in size. Even though these tiny LEDs already have a high pixel density, I also use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a resolution >250 DPI.
+
+
 
 --------------------------------------------
 
