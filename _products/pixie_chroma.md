@@ -39,6 +39,8 @@ MANUFACTURING
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+--------------------------------------------
+
 ## Part Highlights
 
 ### SK6805-EC15 (x70)
