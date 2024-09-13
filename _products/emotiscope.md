@@ -98,7 +98,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 ### 2300K LED Power Indicator
 
 - Not yellow, but a calm, warm, incandescent-looking 2600K white
-- Certainly not *bright blue* like a maniac
+- Certainly not *bright blue* like a *maniac*
 
 ------------------------------------------------
 
