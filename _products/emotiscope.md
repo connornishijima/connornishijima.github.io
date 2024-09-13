@@ -88,6 +88,8 @@ MEMS
 
 ------------------------------------------------
 
+![TOUCH](https://raw.githubusercontent.com/lixie-labs/emotiscope/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
+
 ## Design Overview
 
 **It tries not to clash with anything around itself**
@@ -186,4 +188,3 @@ You don’t need an account, there’s no ads, there’s no subscription. You ca
 
 ------------------------------------------------
 
-![TOUCH](https://github.com/lixie-labs/emotiscope/blob/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
