@@ -148,11 +148,11 @@ Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from 
 
 **An app built by a hardware designer to be fun, responive, and ergonomic.**
 
-![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
+<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app.
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
 
 --------------------------------------------------
 
