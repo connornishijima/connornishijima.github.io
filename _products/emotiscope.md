@@ -45,6 +45,12 @@ MEMS
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Design Overview
+
+**It tries not to clash with anything around itself**
+
+Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time. This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
+
 ![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_pcb_fade.png)
 
 ## Part Highlights
@@ -85,16 +91,6 @@ MEMS
 - I2S Bottom-firing Digital Microphone
 - Sample Rate: 12,800Hz (Custom)
 - Mounted to custom daughter board to allow for drop-in replacement microphones if needed
-
-------------------------------------------------
-
-![TOUCH](https://raw.githubusercontent.com/lixie-labs/emotiscope/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
-
-## Design Overview
-
-**It tries not to clash with anything around itself**
-
-Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time. This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
 
 ------------------------------------------------
 
@@ -188,3 +184,4 @@ You don’t need an account, there’s no ads, there’s no subscription. You ca
 
 ------------------------------------------------
 
+![TOUCH](https://raw.githubusercontent.com/lixie-labs/emotiscope/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
