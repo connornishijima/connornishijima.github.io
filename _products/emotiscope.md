@@ -34,6 +34,7 @@ MEMS
 
 #### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
 
+<br>
 [Read The Firmwware (C/C++)](https://github.dev/Lixie-Labs/Emotiscope/blob/2.0/main/Emotiscope.c){: .btn .btn-green }
 
 --------------------------------------------
