@@ -211,11 +211,11 @@ void init_window_lookup() {
 
 ------------------------------------------------
 
+![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
+
 ## The Remote Control
 
 **An app built by a hardware designer to be fun, responive, and ergonomic.**
-
-![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
 
 You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app.
 
