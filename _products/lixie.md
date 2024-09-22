@@ -44,7 +44,7 @@ LEDS
 
 - 5mm-sized 8-bit RGB Addressable LEDs
 
-![LIXIE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_2_pcb.jpg)
+![LIXIE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_bokeh.jpg)
 
 ----------------------------------------------------------------
 
