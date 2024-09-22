@@ -44,17 +44,13 @@ LEDS
 
 - 5mm-sized 8-bit RGB Addressable LEDs
 
-![PIXIE CHROMA](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_2_pcb.jpg)
+![LIXIE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_2_pcb.jpg)
 
 ----------------------------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/646aZizYhE8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Make It Make Sense
 
-----------------------------------------------------------------
-
-## A New Standard for Arduino Libraries
-
-**I pride myself in how easy my products are to use.**
+**Doesn't developing and building your own fake Nixie Tubes cost more than Nixie Tubes?**
 
 I've always been a fan of the Nixie Tube. Beautiful typography, endearing glow, and very clever technology. But when commercial production stopped in the 1990s, prices for surplus Nixie Tubes began to rise. Smaller tubes like the IN-16 are still only about $3.50/piece, but bigger and more desirable tubes like the IN-18 can run up to $45/piece. If you wanted to make a 6-digit clock, it can cost up to $270 just for the tubes! And they're potentially dangerous. And they might "burn out" next week. And they need special switching circuitry. And they're old news. So let's modernize the Nixie Tube!
 
