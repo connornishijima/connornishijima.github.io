@@ -40,11 +40,11 @@ LEDS
 
 ## Part Highlights
 
-### SK6805-EC15 (x70)
+### WS2812B (x22)
 
-- 1.5mm-sized 8-bit RGB Addressable LEDs
+- 5mm-sized 8-bit RGB Addressable LEDs
 
-![PIXIE CHROMA](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/pixie_chroma_loose.jpg)
+![PIXIE CHROMA](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_2_pcb.jpg)
 
 ----------------------------------------------------------------
 
