@@ -34,7 +34,7 @@ LEDS
 
 --------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 --------------------------------------------
 
@@ -55,6 +55,79 @@ LEDS
 ## A New Standard for Arduino Libraries
 
 **I pride myself in how easy my products are to use.**
+
+I've always been a fan of the Nixie Tube. Beautiful typography, endearing glow, and very clever technology. But when commercial production stopped in the 1990s, prices for surplus Nixie Tubes began to rise. Smaller tubes like the IN-16 are still only about $3.50/piece, but bigger and more desirable tubes like the IN-18 can run up to $45/piece. If you wanted to make a 6-digit clock, it can cost up to $270 just for the tubes! And they're potentially dangerous. And they might "burn out" next week. And they need special switching circuitry. And they're old news. So let's modernize the Nixie Tube!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 I've kept the wiring very simple, with only three wires connected between each breadboard-friendly display. **[The Pixie Chroma Arduino Library](https://github.com/connornishijima/Pixie_Chroma/#readme)** also has many examples that are explained line-by-line so that anybody can understand them. I even included [template Arduino Sketches](https://github.com/connornishijima/Pixie_Chroma/blob/main/examples/04_Minimal_Sketches/01_Standard/01_Standard.ino) to skip the parts newcomers find tedious, like `#include` directives and class definitions. Many advanced projects that even seasoned coders would find challenging are hassle-free with the Pixie Chroma library!
 
