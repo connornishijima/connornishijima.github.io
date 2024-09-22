@@ -30,7 +30,7 @@ LEDS
 
 --------------------------------------------
 
-<blurb>I designed Lixie Displays because I could not afford Nixie Tubes. And I *really* wanted Nixie Tubes.</blurb>
+<blurb>I designed Lixie Displays because I could not afford Nixie Tubes. Development costed much more than Nixie Tubes.</blurb>
 
 --------------------------------------------
 
