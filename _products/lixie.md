@@ -30,7 +30,7 @@ LEDS
 
 --------------------------------------------
 
-<blurb>I designed Pixie Chroma to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 1 GPIO.</blurb>
+<blurb>I designed Lixie Displays because I could not afford Nixie Tubes. And I *really* wanted Nixie Tubes.</blurb>
 
 --------------------------------------------
 
