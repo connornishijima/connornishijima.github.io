@@ -12,16 +12,16 @@ nav_order: 6
 HARDWARE
 {: .label }
 
-CROWDFUNDING
-{: .label }
-
-OPTIMIZATION
-{: .label }
-
 ARDUINO LIBRARY
 {: .label }
 
 MANUFACTURING
+{: .label }
+
+CAD
+{: .label }
+
+LEDS
 {: .label }
 
 # **Lixie Displays (2016)**
