@@ -4,10 +4,7 @@ layout: page
 nav_order: 6
 ---
 
-<video class="youtube-video-square" autoplay loop muted>
-    <source src="https://github.com/connornishijima/connornishijima.github.io/blob/main/img/PIXIE_CHROMA_LOOP.mp4?raw=true" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+![LIXIE DISPLAY](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie.gif)
 
 HARDWARE
 {: .label }
@@ -26,7 +23,7 @@ LEDS
 
 # **Lixie Displays (2016)**
 
-#### COLORFUL DISPLAYS FOR FOLKS IN A HURRY - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
+#### NIXIES WITHOUT THE DANGER - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
 
 <br>
 [Read The Arduino Library (C/C++)](https://connor.nishiji.ma/Pixie_Chroma/docs/class_pixie_chroma.html){: .btn .btn-green }
