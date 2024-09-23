@@ -68,10 +68,8 @@ That's not to mention the potential danger of having 170VDC around children and 
 
 **Based on 1950s tech, Lixie borrows its techniques**
 
-Edge-lighting panes of acrylic etched with a design has been done for decades, but they've always been static information like an "EXIT" sign. If you stack multiple panes of acrylic (each with a unique design) and light them individually, you can change what design the user sees!
+Edge-lighting panes of acrylic etched with a design has been done for decades, but they've always been static information like an "EXIT" sign. If you stack multiple panes of acrylic (each with a unique design) and light them individually, you can change what design the user sees! This is what the old NLS displays in the above photo do - Lixies are just a modernized take with addressable LEDs.
 
-The Lixie has extremely simple setup, just connect the 5V, GND, and DIN pads to an Arduino and use the Lixie library to write a digit to the display. That's it! No HV switching, PCB footprint, or worries.
+Lixie displays have extremely simple setup: just connect the 5V, GND, and DIN pads to an Arduino and use the Lixie library to write a digit to the display. That's it! No HV switching, PCB footprint, or worries.
 
 Since the Lixie is just wired like a WS2812B strip, you can connect the DOUT pin of one to the next and show a number as long you'd like!
-
-Here is a video demonstrating the result:
