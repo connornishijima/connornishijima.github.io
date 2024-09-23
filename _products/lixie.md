@@ -23,7 +23,7 @@ LEDS
 
 # **Lixie Displays (2016)**
 
-#### NIXIES WITHOUT THE DANGER - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
+#### NIXIES WITHOUT THE RISK - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
 
 <br>
 [Read The Arduino Library (C/C++)](https://connor.nishiji.ma/Pixie_Chroma/docs/class_pixie_chroma.html){: .btn .btn-green }
