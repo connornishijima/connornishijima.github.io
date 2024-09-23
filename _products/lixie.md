@@ -23,10 +23,10 @@ LEDS
 
 # **Lixie Displays (2016)**
 
-#### NIXIES WITHOUT THE RISK - [WEBSITE](https://connor.nishiji.ma/Pixie_Chroma/)
+#### LED NIXIE TUBES FREE OF RISK - [WEBSITE](https://hackaday.io/project/18633)
 
 <br>
-[Read The Arduino Library (C/C++)](https://connor.nishiji.ma/Pixie_Chroma/docs/class_pixie_chroma.html){: .btn .btn-green }
+[Read The Arduino Library (C/C++)](https://github.com/connornishijima/Lixie-arduino){: .btn .btn-green }
 
 --------------------------------------------
 
