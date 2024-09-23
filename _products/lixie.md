@@ -30,7 +30,7 @@ LEDS
 
 --------------------------------------------
 
-<blurb>I designed Lixie Displays because I could not afford Nixie Tubes. Development costed me much more than Nixie Tubes would have.</blurb>
+<blurb>I designed Lixie Displays because I couldn't afford Nixie Tubes. Development costed me much more than Nixie Tubes would have.</blurb>
 
 --------------------------------------------
 
@@ -73,3 +73,4 @@ Edge-lighting panes of acrylic etched with a design has been done for decades, b
 Lixie displays have extremely simple setup: just connect the 5V, GND, and DIN pads to an Arduino and use the Lixie library to write a digit to the display. That's it! No HV switching, PCB footprint, or worries.
 
 Since the Lixie is just wired like a WS2812B strip, you can connect the DOUT pin of one to the next and show a number as long you'd like!
+
