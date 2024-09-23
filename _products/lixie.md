@@ -60,3 +60,19 @@ I've always been a fan of the Nixie Tube. Beautiful typography, endearing glow, 
 
 That's not to mention the potential danger of having 170VDC around children and pets, the risk that they might "burn out" next week, and that they need special switching circuitry.
 
+----------------------------------------------------------------
+
+![EDGE LIT DISPLAY](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/edge_lit_display.jpg)
+
+## Back From The Dead
+
+**Based on an **
+
+A: Yes
+
+I've always been a fan of the Nixie Tube. Beautiful typography, endearing glow, and very clever technology. But when commercial production stopped in the 1990s, prices for surplus Nixie Tubes began to rise. Smaller tubes like the IN-16 are still only about $3.50/piece, but bigger and more desirable tubes like the IN-18 can run up to $45/piece. If you wanted to make a 6-digit clock, it can cost up to $270 just for the tubes!
+
+![NIXIE TUBE CALCULATOR](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/nixie_calculator.jpg)
+
+That's not to mention the potential danger of having 170VDC around children and pets, the risk that they might "burn out" next week, and that they need special switching circuitry.
+
