@@ -34,17 +34,17 @@ LEDS
 
 --------------------------------------------
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![LIXIE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_bokeh.jpg)
 
 --------------------------------------------
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Part Highlights
 
 ### WS2812B (x22)
 
 - 5mm-sized 8-bit RGB Addressable LEDs
-
-![LIXIE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/lixie_bokeh.jpg)
 
 ----------------------------------------------------------------
 
