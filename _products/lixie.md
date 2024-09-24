@@ -68,6 +68,8 @@ I've always been a fan of the Nixie Tube. Beautiful typography, endearing glow, 
 
 **Based on 1950s tech, Lixie borrows its techniques**
 
+It turns out that replicating a Nixie is difficult. Their signature neon/argon glow exists in a three-dimensional space, since each numeral is a physical wire filament in a stack. 
+
 Edge-lighting panes of acrylic etched with a design has been done for decades, but they've always been static information like an "EXIT" sign. If you stack multiple panes of acrylic (each with a unique design) and light them individually, you can change what design the user sees! This is what the old NLS displays in the above photo do - Lixies are just a modernized take with addressable LEDs.
 
 Lixie displays have extremely simple setup: just connect the 5V, GND, and DIN pads to an Arduino and use the Lixie library to write a digit to the display. That's it! No HV switching, PCB footprint, or worries.

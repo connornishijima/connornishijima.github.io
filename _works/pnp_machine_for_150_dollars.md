@@ -15,6 +15,8 @@ layout: page
 
 --------------------------------------------
 
+![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/patrick.jfif)
+
 ## Part Highlights
 
 ### ESP32-S3 Microcontroller
@@ -55,8 +57,6 @@ layout: page
 - Mounted to custom daughter board
 
 ------------------------------------------------
-
-![EMOTISCOPE PCB](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/patrick.jfif)
 
 ## The "God Damn Fast Transform"
 
