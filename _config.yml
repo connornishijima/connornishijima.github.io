@@ -19,6 +19,20 @@ just_the_docs:
     works:
       name: Highlighted Works
 
+callouts:
+  warning:
+    title: WATCH OUT!
+    color: red
+  highlight:
+    title: PLEASE NOTE
+    color: yellow
+  info:
+    title: JUST SO YOU KNOW
+    color: grey-lt
+  glow:
+    title:  
+    color: grey-dk
+
 aux_links:
   "<link-out>HIRE ME</link-out>":
     - https://www.linkedin.com/in/connornishijima
