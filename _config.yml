@@ -28,7 +28,7 @@ callouts:
     color: yellow
   info:
     title: JUST SO YOU KNOW
-    color: grey-lt
+    color: blue
   glow:
     title:  
     color: grey-dk
