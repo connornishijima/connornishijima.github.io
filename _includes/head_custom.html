@@ -138,7 +138,7 @@ link-out {
 /* Hover effect with sliding rainbow background */
 link-out:hover {
     transform: scale(1.2);
-    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background: linear-gradient(90deg, hsl(0, 75%, 50%), hsl(30, 75%, 50%), hsl(60, 75%, 50%), hsl(120, 75%, 50%), hsl(240, 75%, 50%), hsl(275, 75%, 50%), hsl(0, 75%, 50%)); /* Seamless red at the start and end */
     background-size: 200% 100%;
     animation: rainbowSlide 1s linear infinite;
 }
@@ -151,6 +151,8 @@ link-out:hover {
     100% {
         background-position: 200% 50%;
     }
+}
+
 }
 
 
