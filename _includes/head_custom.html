@@ -135,20 +135,10 @@ link-out {
 
 /* Hover effect with perceptually uniform rainbow background */
 link-out:hover {
-    transform: scale(1.2);
-    background: linear-gradient(90deg,
-        hsl(0, 85%, 65%),     /* Red */
-        hsl(30, 90%, 70%),    /* Orange */
-        hsl(60, 100%, 75%),   /* Yellow */
-        hsl(120, 80%, 70%),   /* Green */
-        hsl(180, 70%, 70%),   /* Cyan */
-        hsl(240, 70%, 70%),   /* Blue */
-        hsl(275, 80%, 75%),   /* Violet */
-        hsl(300, 85%, 75%),   /* Magenta */
-        hsl(0, 85%, 65%)      /* Red (to loop seamlessly) */
-    );
+  transform: scale(1.2);
+    background: linear-gradient(90deg, hsl(0, 85%, 65%), /* Red */ hsl(30, 90%, 70%), /* Orange */ hsl(60, 100%, 75%), /* Yellow */ hsl(120, 80%, 70%), /* Green */ hsl(180, 70%, 70%), /* Cyan */ hsl(240, 70%, 70%), /* Blue */ hsl(275, 80%, 75%), /* Violet */ hsl(300, 85%, 75%), /* Magenta */ hsl(0, 85%, 65%) /* Red (to loop seamlessly) */);
     background-size: 200% 100%;
-    animation: rainbowSlide 0.4s linear infinite;
+    animation: rainbowSlide 2s linear infinite;
 }
 
 /* Keyframes for sliding the background gradient */
