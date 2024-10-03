@@ -78,18 +78,7 @@
     padding: 0.8rem;
 }
 
-  link-out{
-    color: #000000;
-    background-color: #ffa25e;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 20px;
-    padding: 5px 15px;
-  }
-
-  link-out:hover{
-    scale: 1.2;
-  }
+ 
 
   blurb{
     font-size: 1.2rem;
@@ -128,50 +117,37 @@
   }
 
 
+  
 
 
 
-
-
-  /* Base styles for the button */
-link-out {
+  link-out {
+  color: #000000;
+  background-color: #ffa25e;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px 15px;
   cursor: pointer;
-  transition: background 0.3s ease;
+  transition: transform 0.3s ease, background 0.3s ease;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 200%; /* Increase background size for smooth sliding */
 }
 
-/* Party Mode - Hover Effect */
+/* On hover, scale up and animate the rainbow slide */
 link-out:hover {
-  animation: partyMode 0.5s infinite;
+  transform: scale(1.2);
+  animation: slideRainbow 1s linear infinite; /* Smooth sliding animation */
 }
 
-/* Keyframes for rainbow gradient shifting */
-@keyframes partyMode {
+/* Keyframes to shift the background position for sliding effect */
+@keyframes slideRainbow {
   0% {
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
-    background-size: 400%;
-  }
-  25% {
-    background: linear-gradient(90deg, violet, red, orange, yellow, green, blue, indigo);
-    background-size: 400%;
-  }
-  50% {
-    background: linear-gradient(135deg, indigo, violet, red, orange, yellow, green, blue);
-    background-size: 400%;
-  }
-  75% {
-    background: linear-gradient(180deg, blue, indigo, violet, red, orange, yellow, green);
-    background-size: 400%;
+    background-position: 0% 50%;
   }
   100% {
-    background: linear-gradient(225deg, green, blue, indigo, violet, red, orange, yellow);
-    background-size: 400%;
+    background-position: 100% 50%;
   }
-}
-
-/* Optional: Add glow and movement effects */
-link-out:hover {
-  box-shadow: 0 0 15px rgba(255, 255, 255, 0.75), 0 0 30px rgba(255, 0, 255, 0.75);
-  transform: scale(1.05) rotate(2deg);
 }
 
 
