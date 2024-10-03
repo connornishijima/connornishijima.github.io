@@ -133,23 +133,42 @@ link-out {
     overflow: hidden;
 }
 
-/* Hover effect with perceptually uniform rainbow background */
+/* Hover effect with solid color cycling */
 link-out:hover {
-  transform: scale(1.2);
-    background: linear-gradient(90deg, hsl(0, 85%, 65%), /* Red */ hsl(30, 90%, 70%), /* Orange */ hsl(60, 100%, 75%), /* Yellow */ hsl(120, 80%, 70%), /* Green */ hsl(180, 70%, 70%), /* Cyan */ hsl(240, 70%, 70%), /* Blue */ hsl(275, 80%, 75%), /* Violet */ hsl(300, 85%, 75%), /* Magenta */ hsl(0, 85%, 65%) /* Red (to loop seamlessly) */);
-    background-size: 200% 100%;
-    animation: rainbowSlide 2s linear infinite;
+    transform: scale(1.2);
+    animation: colorCycle 0.8s steps(1) infinite;
 }
 
-/* Keyframes for sliding the background gradient */
-@keyframes rainbowSlide {
+@keyframes colorCycle {
     0% {
-        background-position: 0% 50%;
+        background-color: hsl(0, 70%, 65%);   /* Red */
+    }
+    12.5% {
+        background-color: hsl(30, 70%, 65%);  /* Orange */
+    }
+    25% {
+        background-color: hsl(60, 70%, 65%);  /* Yellow */
+    }
+    37.5% {
+        background-color: hsl(120, 70%, 65%); /* Green */
+    }
+    50% {
+        background-color: hsl(180, 70%, 65%); /* Cyan */
+    }
+    62.5% {
+        background-color: hsl(240, 70%, 65%); /* Blue */
+    }
+    75% {
+        background-color: hsl(275, 70%, 65%); /* Violet */
+    }
+    87.5% {
+        background-color: hsl(300, 70%, 65%); /* Magenta */
     }
     100% {
-        background-position: 200% 50%;
+        background-color: hsl(0, 70%, 65%);   /* Red */
     }
 }
+
 
 
 
