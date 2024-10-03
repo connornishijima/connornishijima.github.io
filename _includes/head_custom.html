@@ -121,34 +121,38 @@
 
 
 
-  link-out {
-  color: #000000;
-  background-color: #ffa25e; /* Original background */
-  font-size: 14px;
-  font-weight: bold;
-  border-radius: 20px;
-  padding: 5px 15px;
-  cursor: pointer;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+/* Base styles for the button */
+.link-out {
+    color: #000000;
+    background-color: #ffa25e;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+    position: relative;
+    overflow: hidden;
 }
 
-/* On hover, switch to rainbow gradient and slide it */
-link-out:hover {
-  transform: scale(1.2);
-  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
-  background-size: 200%; /* Make the background larger for a sliding effect */
-  animation: slideRainbow 1s linear infinite; /* Smooth continuous sliding */
+/* Hover effect with sliding rainbow background */
+.link-out:hover {
+    transform: scale(1.2);
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 200% 100%;
+    animation: rainbowSlide 1s linear infinite;
 }
 
-/* Keyframes for sliding the rainbow smoothly */
-@keyframes slideRainbow {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
+/* Keyframes for sliding the background gradient */
+@keyframes rainbowSlide {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 200% 50%;
+    }
 }
+
 
 
 
