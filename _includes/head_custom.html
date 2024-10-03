@@ -127,4 +127,56 @@
     border: 1px solid #ffa25e;
   }
 
+
+
+
+
+
+
+  /* Base styles for the button */
+.link-out {
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Party Mode - Hover Effect */
+.link-out:hover {
+  animation: partyMode 0.5s infinite;
+}
+
+/* Keyframes for rainbow gradient shifting */
+@keyframes partyMode {
+  0% {
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400%;
+  }
+  25% {
+    background: linear-gradient(90deg, violet, red, orange, yellow, green, blue, indigo);
+    background-size: 400%;
+  }
+  50% {
+    background: linear-gradient(135deg, indigo, violet, red, orange, yellow, green, blue);
+    background-size: 400%;
+  }
+  75% {
+    background: linear-gradient(180deg, blue, indigo, violet, red, orange, yellow, green);
+    background-size: 400%;
+  }
+  100% {
+    background: linear-gradient(225deg, green, blue, indigo, violet, red, orange, yellow);
+    background-size: 400%;
+  }
+}
+
+/* Optional: Add glow and movement effects */
+.link-out:hover {
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.75), 0 0 30px rgba(255, 0, 255, 0.75);
+  transform: scale(1.05) rotate(2deg);
+}
+
+
+
+
+
+
 </style>
