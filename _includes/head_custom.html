@@ -129,17 +129,26 @@ link-out {
     border-radius: 20px;
     padding: 5px 15px;
     cursor: pointer;
-    //transition: transform 0.1s ease, background 0.1s ease;
     position: relative;
     overflow: hidden;
 }
 
-/* Hover effect with balanced pastel/vibrant sliding rainbow background */
+/* Hover effect with perceptually uniform rainbow background */
 link-out:hover {
     transform: scale(1.2);
-    background: linear-gradient(90deg, hsl(0, 70%, 65%), hsl(30, 70%, 65%), hsl(60, 70%, 65%), hsl(120, 70%, 65%), hsl(240, 70%, 65%), hsl(275, 70%, 65%), hsl(0, 70%, 65%)); /* Seamless red at start and end, balanced colors */
+    background: linear-gradient(90deg,
+        hsl(0, 85%, 65%),     /* Red */
+        hsl(30, 90%, 70%),    /* Orange */
+        hsl(60, 100%, 75%),   /* Yellow */
+        hsl(120, 80%, 70%),   /* Green */
+        hsl(180, 70%, 70%),   /* Cyan */
+        hsl(240, 70%, 70%),   /* Blue */
+        hsl(275, 80%, 75%),   /* Violet */
+        hsl(300, 85%, 75%),   /* Magenta */
+        hsl(0, 85%, 65%)      /* Red (to loop seamlessly) */
+    );
     background-size: 200% 100%;
-    animation: rainbowSlide 1s linear infinite;
+    animation: rainbowSlide 0.4s linear infinite;
 }
 
 /* Keyframes for sliding the background gradient */
@@ -151,6 +160,7 @@ link-out:hover {
         background-position: 200% 50%;
     }
 }
+
 
 
 
