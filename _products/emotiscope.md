@@ -215,7 +215,7 @@ void init_window_lookup() {
 
 Metronome Mode is extra fancy. Your Emotiscope will synchronize itself to the beat of your music, swaying patterns back and forth exactly in time with the song. It’s not only aware of what the current tempo (BPM, speed) of your music is, it also knows the magnitude of all tempi at a given time and displays all readings at the same time. For example, if the snare drum hits 90 beats per minute but the hi-hat hits 180 beats per minute, both patterns are detected and shown at the same time!
 
-But how? By using 96 *MORE* instances of the Goertzel algorithm described above, for a total of 160. Imagine this: First, an STFT is taken of the time-domain audio, which yields a 2D spectrogram in memory. Next, the spectrogram is modified so that only the positive changes in spectral power are present before summing up all columns into the "spectral flux" of the given moment in time.
+But how? By using 96 *MORE* instances of the Goertzel algorithm described above, for a total of 160. Imagine this: First, an STFT is taken of the time-domain audio, which yields a 2D spectrogram in memory. Next, the spectrogram is modified so that only the positive changes in spectral power are present, before summing up all columns into the "spectral flux" of the given moment in time.
 
 (Hang in there, here's the cool part.)
 
