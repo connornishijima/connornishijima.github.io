@@ -94,7 +94,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 ### SPH-0645 MEMS Microphone
 
 - I2S Bottom-firing Digital Microphone
-- Sample Rate: 12,800Hz (Custom)
+- Sample Rate: 12,800Hz (Custom rate to process 128-sample frames at 100Hz)
 - Mounted to custom daughter board to allow for drop-in replacement microphones if needed
 
 ### 2300K LED Power Indicator
