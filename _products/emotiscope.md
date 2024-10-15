@@ -47,11 +47,11 @@ MEMS
 
 ## Table of Contents
 
-- [Hardware Design Overview](#hardware-design-overview)
-- [Part Highlights](#part-highlights)
-- [LEDs Pretending To Be More](#leds-pretending-to-be-more)
-- [Live Tempo Detection](#live-tempo-detection)
-- [The "God Damn Fast Transform"](#the-god-damn-fast-transform)
+- **[Hardware Design Overview](#hardware-design-overview)**
+- **[Part Highlights](#part-highlights)**
+- **[LEDs Pretending To Be More](#leds-pretending-to-be-more)**
+- **[The "God Damn Fast Transform"](#the-god-damn-fast-transform)**
+- **[Live Tempo Detection](#live-tempo-detection)**
 
 --------------------------------------------
 
