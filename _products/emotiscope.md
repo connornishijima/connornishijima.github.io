@@ -45,6 +45,13 @@ MEMS
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+## Table of Contents
+
+- [Part Highlights](#part-highlights)
+- [Hardware Design Overview](#hardware-design-overview)
+
+--------------------------------------------
+
 ## Hardware Design Overview
 
 **Stunning when you need it, invisible when you don't**
