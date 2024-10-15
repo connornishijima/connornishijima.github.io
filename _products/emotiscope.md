@@ -71,6 +71,8 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 
 ## Part Highlights
 
+**Carefully combined components create complex curiosities**
+
 ### ESP32-S3 Microcontroller
 
 - Dual-core 240 MHz (CPU and "GPU")
