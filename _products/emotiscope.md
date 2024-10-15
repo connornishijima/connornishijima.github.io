@@ -114,7 +114,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 
 **Your eyes can't see the tricks, just the results**
 
-The RGB LEDs are 1.5mm apart and only 1mm in size. Even though these tiny LEDs already have a high pixel density, I also use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a spatial resolution >250 DPI.
+The RGB LEDs are 1.5mm apart and only 1mm in size. Even though these tiny LEDs already have a high pixel density, I also use subpixel rendering techniques that allow me to move (the apparent position of) dots on the screen less than 0.1mm at a time. The effect gives the illusion of a display with a spatial resolution >250 DPI while only having 16.93 DPI in reality.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/HZR-9pEwA5I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
