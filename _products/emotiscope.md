@@ -244,23 +244,21 @@ Using intentionally oversized electrodes on the edges of the PCB, Emotiscope is 
 
 -------------------------------------------------
 
-## Reversible Panels
+## Other Details
+
+### Reversible Panels
 
 **A logo you can hide!**
 
 Beneath the display is a wooden panel of either Walnut or Bamboo, with the Emotiscope logo in the center. Both the wooden panel and the diffuser are reversible: The wood can be reversed to hide the logo, and the diffuser has either a matte side which is fingerprint resistant, or a classy gloss side with slightly higher contrast.
 
---------------------------------------------------
-
-## 3D Printed Components
+### 3D Printed Components
 
 **Smooth, glittery, strong**
 
 The plastic parts such as the feet and USB port cover are manufactured in-house with a Prusa Mini+ printer, in Galaxy Black PLA filament. They're designed to print quickly and without supports. I use a smooth print bed so that the faces of Emotiscope's feet are smooth to the touch.
 
---------------------------------------------------
-
-## A Cushion Of Cork
+### A Cushion Of Cork
 
 **Thank me later**
 
