@@ -47,8 +47,11 @@ MEMS
 
 ## Table of Contents
 
-- [Part Highlights](#part-highlights)
 - [Hardware Design Overview](#hardware-design-overview)
+- [Part Highlights](#part-highlights)
+- [LEDs Pretending To Be More](#leds-pretending-to-be-more)
+- [Live Tempo Detection](#live-tempo-detection)
+- [The "God Damn Fast Transform"](#the-god-damn-fast-transform)
 
 --------------------------------------------
 
@@ -143,42 +146,6 @@ Hardware brag: You're seeing entire rendered + dithered frames drawn by the seco
 
 Metronome Mode is extra fancy. Your Emotiscope will synchronize itself to the beat of your music, swaying patterns back and forth exactly in time with the song. It’s not only aware of what the current tempo (BPM, speed) of your music is, it also knows the magnitude of all tempi at a given time and displays all readings at the same time. For example, if the snare drum hits 90 beats per minute but the hi-hat hits 180 beats per minute, both patterns are detected and shown at the same time!
 
----------------------------------------------------
-
-## Reversible Panels
-
-**A logo you can hide!**
-
-Beneath the display is a wooden panel of either Walnut or Bamboo, with the Emotiscope logo in the center. Both the wooden panel and the diffuser are reversible: The wood can be reversed to hide the logo, and the diffuser has either a matte side which is fingerprint resistant, or a classy gloss side with slightly higher contrast.
-
---------------------------------------------------
-
-## 3D Printed Components
-
-**Smooth, glittery, strong**
-
-The plastic parts such as the feet and USB port cover are manufactured in-house with a Prusa Mini+ printer, in Galaxy Black PLA filament. They're designed to print quickly and without supports. I use a smooth print bed so that the faces of Emotiscope's feet are smooth to the touch.
-
---------------------------------------------------
-
-## A Cushion Of Cork
-
-**Thank me later**
-
-Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from damage and provide a good grip on surfaces.
-
-------------------------------------------------
-
-## The Remote Control
-
-**An app built by a hardware designer to be fun, responive, and ergonomic.**
-
-<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. 
-
-![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
-
 --------------------------------------------------
 
 ## The "God Damn Fast Transform"
@@ -246,6 +213,42 @@ void init_window_lookup() {
     }
 }
 ```
+
+---------------------------------------------------
+
+## Reversible Panels
+
+**A logo you can hide!**
+
+Beneath the display is a wooden panel of either Walnut or Bamboo, with the Emotiscope logo in the center. Both the wooden panel and the diffuser are reversible: The wood can be reversed to hide the logo, and the diffuser has either a matte side which is fingerprint resistant, or a classy gloss side with slightly higher contrast.
+
+--------------------------------------------------
+
+## 3D Printed Components
+
+**Smooth, glittery, strong**
+
+The plastic parts such as the feet and USB port cover are manufactured in-house with a Prusa Mini+ printer, in Galaxy Black PLA filament. They're designed to print quickly and without supports. I use a smooth print bed so that the faces of Emotiscope's feet are smooth to the touch.
+
+--------------------------------------------------
+
+## A Cushion Of Cork
+
+**Thank me later**
+
+Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from damage and provide a good grip on surfaces.
+
+------------------------------------------------
+
+## The Remote Control
+
+**An app built by a hardware designer to be fun, responive, and ergonomic.**
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. 
+
+![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
 
 ------------------------------------------------
 
