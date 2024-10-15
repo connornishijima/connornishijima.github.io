@@ -95,7 +95,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 
 - I2S Bottom-firing Digital Microphone
 - Sample Rate: 12,800Hz (Custom rate to process 128-sample frames at 100Hz)
-- Mounted to custom daughter board to allow for drop-in replacement microphones if needed
+- Mounted to custom daughter board to allow for replacement I2S microphones if needed
 
 ### 2300K LED Power Indicator
 
