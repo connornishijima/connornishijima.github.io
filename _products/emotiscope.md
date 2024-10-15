@@ -151,30 +151,32 @@ I used the Goertzel algorithm to quickly calculate each bin sequentially. This a
 
 ```c
 float calculate_magnitude_of_bin(uint16_t bin_number) {
-    float magnitude;
-    float magnitude_squared;
-    float normalized_magnitude;
-
-    float q1 = 0;
-    float q2 = 0;
+    float magnitude, magnitude_squared, normalized_magnitude;
+    float q1, q2;
     float window_pos = 0.0;
 
-    // blocksize*2 for downsampling
-    const uint16_t block_size = frequencies_musical[bin_number].block_size << 1;
+    // How many samples this specific bin needs (pre-calculated to balance time/freq resolution)
+    const uint16_t block_size = frequencies_musical[bin_number].block_size;
+    
+    // Coefficients were pre-calculated
     const float coeff = frequencies_musical[bin_number].coeff;
+
+    // Used to iterate through the Gaussian window LUT with substeps
     const float window_step = frequencies_musical[bin_number].window_step;
 
+    // Input audio chunk
     float* sample_ptr = &sample_history[(SAMPLE_HISTORY_LENGTH - 1) - block_size];
 
+    // Run Goertzel on this bin
     for ( uint16_t i = 0; i < block_size; i++ ) {
+        // Apply window
         float windowed_sample = sample_ptr[i] * window_lookup[(uint32_t)window_pos];
+        window_pos += window_step;
 
         // Perform Goertzel step
         float q0 = coeff * q1 - q2 + windowed_sample;
         q2 = q1;
         q1 = q0;
-
-        window_pos += window_step;
     }
 
     // Calculate magnitude, no phase
@@ -188,7 +190,7 @@ float calculate_magnitude_of_bin(uint16_t bin_number) {
 
 By having varying window lengths per bin, the highest notes can be detected with minimal sample data, and the lowest notes can still have good frequency-domain resolution with minimal latency.
 
-Also employed is a lookup table to a Gaussian window. The index into this table is a floating point number incremented by "window_step", another non-integer. This allows for nearest-neighbor interpolation of the 4096-sample-long LUT at crazy speeds.
+Also employed is a lookup table to a Gaussian window. The index into this table is a floating point number incremented by "window_step", another non-integer. This allows for nearest-neighbor interpolation of the 4096-sample-long LUT at crazy speeds. (I'm aware I could store only half of this window, but I'm trading memory for execution speed in this case)
 
 ```c
 void init_window_lookup() {
