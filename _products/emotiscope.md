@@ -102,6 +102,12 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 - Not yellow, but a calm, warm, incandescent-looking 2600K white
 - Certainly not *bright blue* like a *maniac*
 
+### Laser-cut / 3D-printed Enclosure
+
+- Faceplate laser-cut from a walnut veneer
+- Matte black rear plate
+- Printed PLA feet with cork pads
+
 ------------------------------------------------
 
 ## LEDs Pretending To Be More
