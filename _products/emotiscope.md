@@ -235,6 +235,18 @@ Luckily, this is quite easy, since our DFT calculations from Goertzel also yield
 
 This results in robust real-time tempo detection that's genre agnostic and quick to react to changes. By the way - every single type of audio measurement Emotiscope *can* do is done on every single frame, regardless of what light mode is selected. So even when Metronome Mode isn't shown, all of this tempo tracking is still being done in the background on the CPU core so that if you decide to switch modes, measurements like the spectrum, tempi or auto-corellation are already accurate on the first frame.
 
+------------------------------------------------
+
+## The Remote Control
+
+**An app built by a hardware designer to be fun, responive, and ergonomic.**
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. 
+
+![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
+
 -------------------------------------------------
 
 ## Reversible Panels
@@ -258,18 +270,6 @@ The plastic parts such as the feet and USB port cover are manufactured in-house 
 **Thank me later**
 
 Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from damage and provide a good grip on surfaces.
-
-------------------------------------------------
-
-## The Remote Control
-
-**An app built by a hardware designer to be fun, responive, and ergonomic.**
-
-<iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. 
-
-![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
 
 ------------------------------------------------
 
