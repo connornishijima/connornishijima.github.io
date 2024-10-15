@@ -53,6 +53,7 @@ MEMS
 4. **[The "God Damn Fast Transform"](#the-god-damn-fast-transform)**
 5. **[Live Tempo Detection](#live-tempo-detection)**
 6. **[The Remote Control](#the-remote-control)**
+7. **[Magic Touch](#magic-touch)**
 
 --------------------------------------------
 
@@ -247,6 +248,18 @@ This results in robust real-time tempo detection that's genre agnostic and quick
 You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. 
 
 ![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
+
+-------------------------------------------------
+
+## Magic Touch
+
+**Just because!**
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/5U7R8rfteFw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Many of Emotiscope's features are accesible without the app via touch on the top, left and right of the display. You can change modes with a tap on the top, hold to toggle Sleep Mode, or touch the sides to change color and toggle Mirror Mode.
+
+Using intentionally oversized electrodes on the edges of the PCB, Emotiscope is not only sensitive to touch, but proximity as well! As your hand approaches a given side, the LEDs react proportionally to your distance. Upon contact, the visual feedback turns gold to confirm touches.
 
 -------------------------------------------------
 
