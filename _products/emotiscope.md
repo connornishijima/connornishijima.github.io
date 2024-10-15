@@ -39,8 +39,6 @@ MEMS
 <br>
 [Read The Firmwware (C/C++)](https://github.com/Lixie-Labs/Emotiscope/blob/2.0/main/Emotiscope.c){: .btn .btn-green }
 
---------------------------------------------
-
 <blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency, invisible design, and novel DSP techniques.</blurb><br>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
