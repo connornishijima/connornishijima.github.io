@@ -10,7 +10,7 @@ layout: page
 #### I've already forgotten how the weird NES APU registers work!
 
 <br>
-[Cartridge Library](https://github.com/connornishijima/Cartridge){: .btn .btn-green }
+[Cartridge Library for Arduino](https://github.com/connornishijima/Cartridge){: .btn .btn-green }
 
 --------------------------------------------
 
