@@ -11,7 +11,7 @@ layout: page
 
 --------------------------------------------
 
-<blurb>I took the chore upon myself to emulate the quirky Ricoh 2A03 APU from the Nintendo Entertainment System on an ESP32, playing analog audio channels over Sigma Delta Modulation with nothing but a speaker and some wires. The resulting Cartridge Arduino Library can read .VGM files, which describe the timing of changes to the registers of an APU.</blurb>
+<blurb>I took the chore upon myself to emulate the quirky Ricoh 2A03 APU from the Nintendo Entertainment System on an ESP32, playing analog audio channels over [delta sigma modulation](https://en.wikipedia.org/wiki/Delta-sigma_modulation) with nothing but a speaker and some wires. The resulting Cartridge Arduino Library can read .VGM files, which describe the timing of changes to the registers of an APU.</blurb>
 
 --------------------------------------------
 
