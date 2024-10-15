@@ -225,6 +225,8 @@ Imagine this: First, an FFT is taken of the time-domain audio with a sliding win
 
 *(Hang in there, here's the cool part.)*
 
+<iframe class="youtube-video" src="https://www.youtube.com/embed/_y0_qLfevxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 **Now we have a time-domain signal again where the amplitude is modulated by how much spectral change is occurring on each frame so that spectrally interesting "beats" like drums or rhythmic playing cause spikes, but sustained notes don't affect the signal.** The final step is to run the 96 leftover instances of the Goertzel algorithm on this (much lower sample rate) signal to detect the presence of different tempi in the currently playing music. Each Goertzel bin is tuned to a specific tempo between 60 and 156 BPM, (60 BPM == 1Hz) meaning the presence of music played at 80 BPM will cause a lone peak centered at the 80 BPM / 1.33 Hz bin!
 
 Now that Emotiscope knows the magnitude/presence of all tempi in your music, it has to synchronize animations to it as well, which means tracking not only the rate of beats but their phase as well, to make the metronome animation look correct.
