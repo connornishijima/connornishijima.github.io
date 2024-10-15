@@ -105,7 +105,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 ### Laser-cut / 3D-printed Enclosure
 
 - Faceplate laser-cut from a walnut veneer
-- Matte black rear plate
+- Matte black rear acrylic plate
 - Printed PLA feet with cork pads
 
 ------------------------------------------------
