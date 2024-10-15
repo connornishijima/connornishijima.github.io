@@ -1,7 +1,7 @@
 ---
 title: Super Pixie
 layout: page
-nav_order: 2
+nav_order: 20
 ---
 
 <video class="youtube-video-square" autoplay loop muted>
