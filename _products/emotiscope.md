@@ -149,7 +149,7 @@ Hardware brag: You're seeing entire rendered + dithered frames drawn by the seco
 
 Instead of an FFT where there's ***N / 2*** frequency bins spaced linearly on the scale, *I've opted to calculate 64 bins of my own choosing*, one at a time. This way, they can be allocated logarithmically to represent every note of the western musical scale between A2 (110Hz) and C8 (4186Hz). That's the upper 64 keys of a grand piano!
 
-I used the Goertzel algorithm to quickly calculate each bin sequentially. This allows me to set custom window lengths (block sizes) for every bin to best balance them betweem time/frequency resolution and performance. Since Emotiscope is not a measurement tool, I was able to find compromises to the DSP code for the sake of speed without sacrificing the final look.
+I used [The Goertzel Algorithm](https://en.wikipedia.org/wiki/Goertzel_algorithm) to quickly calculate each bin sequentially. This allows me to set custom window lengths (block sizes) for every bin to best balance them betweem time/frequency resolution and performance. Since Emotiscope is not a measurement tool, I was able to find compromises to the DSP code for the sake of speed without sacrificing the final look.
 
 ```c
 float calculate_magnitude_of_bin(uint16_t bin_number) {
