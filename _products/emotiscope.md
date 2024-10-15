@@ -55,6 +55,8 @@ MEMS
 
 -----------------------------------------------
 
+![EMOTISCOPE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_transparent.png)
+
 ## Hardware Design Overview
 
 **Stunning when you need it, invisible when you don't**
@@ -266,4 +268,3 @@ Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from 
 
 ------------------------------------------------
 
-![EMOTISCOPE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_transparent.png)
