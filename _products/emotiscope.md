@@ -137,16 +137,6 @@ This is a photo demonstrating the temporal dithering in action. By taking a phot
 {: .info }
 Hardware brag: You're seeing entire rendered + dithered frames drawn by the second ESP32-S3 core (and then transferred to the display) in about the same time my keyboard LEDs take to do a single PWM pulse in the picture above.
 
-------------------------------------------------
-
-## Live Tempo Detection
-
-**Emotiscope knows how to "tap its foot" to the beat of your music**
-
-<iframe class="youtube-video" src="https://www.youtube.com/embed/g1X5JhoE_lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-Metronome Mode is extra fancy. Your Emotiscope will synchronize itself to the beat of your music, swaying patterns back and forth exactly in time with the song. It’s not only aware of what the current tempo (BPM, speed) of your music is, it also knows the magnitude of all tempi at a given time and displays all readings at the same time. For example, if the snare drum hits 90 beats per minute but the hi-hat hits 180 beats per minute, both patterns are detected and shown at the same time!
-
 --------------------------------------------------
 
 ## The "God Damn Fast Transform"
@@ -216,6 +206,26 @@ void init_window_lookup() {
 ```
 
 ---------------------------------------------------
+
+## Live Tempo Detection
+
+**Emotiscope knows how to "tap its foot" to the beat of your music**
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/g1X5JhoE_lc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+Metronome Mode is extra fancy. Your Emotiscope will synchronize itself to the beat of your music, swaying patterns back and forth exactly in time with the song. It’s not only aware of what the current tempo (BPM, speed) of your music is, it also knows the magnitude of all tempi at a given time and displays all readings at the same time. For example, if the snare drum hits 90 beats per minute but the hi-hat hits 180 beats per minute, both patterns are detected and shown at the same time!
+
+But how? By using 96 *MORE* instances of the Goertzel algorithm described above, for a total of 160. Imagine this: First, an STFT is taken of the time-domain audio, which yields a 2D spectrogram in memory. Next, the spectrogram is modified so that only the positive changes in spectral power are present before summing up all columns into the "spectral flux" of the given moment in time.
+
+(Hang in there, here's the cool part.)
+
+Now we have a time-domain signal again where the amplitude is modulated by how much spectral change is occurring on each frame, so that "beats" like drums or rhythmic playing cause spikes. The final step is to run the 96 leftover instances of the Goertzel algorithm on this signal. Each instance is tuned to a specific tempo between 60 and 156 BPM, meaning the presence of music played at 80 BPM will cause a peak in the 80 BPM bin!
+
+Last step! Now that Emotiscope knows the magnitude of all given tempi in a signal, it has to synchronize to them as well to make the metronome animation look correct. Luckily, this is quite easy, since our DFT calculations from Goertzel also yield phase information that tells exactly where we are in the time of one beat.
+
+This results in robust real-time tempo detection that's genre agnostic and quick to react to changes!
+
+-------------------------------------------------
 
 ## Reversible Panels
 
