@@ -192,7 +192,7 @@ By having varying window lengths per bin, the highest notes can be detected with
 
 ---------------------------------------------------
 
-## Live Tempo Detection
+## Live Tempo Synchronization
 
 **Emotiscope knows how to "tap its foot" to the beat of your music**
 
