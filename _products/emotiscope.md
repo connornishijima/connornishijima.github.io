@@ -192,23 +192,6 @@ float calculate_magnitude_of_bin(uint16_t bin_number) {
 
 By having varying window lengths per bin, the highest notes can be detected with minimal sample data, and the lowest notes can still have good frequency-domain resolution with minimal latency.
 
-Also employed is a lookup table to a Gaussian window. The index into this table is a floating point number incremented by "window_step", another non-integer. This allows for nearest-neighbor interpolation of the 4096-sample-long LUT at crazy speeds. (I'm aware I could store only half of this window, but I'm trading memory for execution speed in this case)
-
-```c
-void init_window_lookup() {
-    for (uint16_t i = 0; i < 2048; i++) {
-        // Gaussian window
-        float sigma = 0.8;
-        float n_minus_halfN = i - 2048 / 2;
-        float gaussian_weighing_factor = exp(-0.5 * pow((n_minus_halfN / (sigma * 2048 / 2)), 2));
-        float weighing_factor = gaussian_weighing_factor;
-
-        window_lookup[i] = weighing_factor;
-        window_lookup[4095 - i] = weighing_factor; // Mirror the value for the second half
-    }
-}
-```
-
 ---------------------------------------------------
 
 ## Live Tempo Detection
