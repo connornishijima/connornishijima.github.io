@@ -39,7 +39,7 @@ MEMS
 
 --------------------------------------------
 
-<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design.</blurb>
+<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design, and novel DSP techniques.</blurb>
 
 --------------------------------------------
 
@@ -52,6 +52,7 @@ MEMS
 3. **[LEDs Pretending To Be More](#leds-pretending-to-be-more)**
 4. **[The "God Damn Fast Transform"](#the-god-damn-fast-transform)**
 5. **[Live Tempo Detection](#live-tempo-detection)**
+6. **[The Remote Control](#the-remote-control)**
 
 --------------------------------------------
 
