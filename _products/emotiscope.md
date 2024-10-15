@@ -132,7 +132,7 @@ Important to the illusion was the use of per-LED Temporal Dithering. These WS281
 
 ![TEMPORAL DITHERING](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_dithering.jpg?raw=true)
 
-This is a photo demonstrating the temporal dithering in action. By taking a photo while flinging my phone through the air, I've effectively used the Y-axis of this photo to show the passage of time. When seen normally with your eyes, this appears as a smooth rainbow gradient from red to blue (with a spectral peak and a harmonic lit brightly in the center) at 1% brightness with no banding. You can see here how Emotiscope is preserves color at low brightness with its limited LEDs.
+This is a photo demonstrating the temporal dithering in action. By taking a photo while flinging my phone through the air, I've effectively used the Y-axis of this photo to show the passage of time. When seen normally with your eyes, this appears as a smooth rainbow gradient from red to blue (with a spectral peak and a harmonic lit brightly in the center) at 1% brightness with no banding. You can see here how Emotiscope preserves color at low brightness with its limited LEDs.
 
 Hardware brag: You're seeing entire rendered + dithered frames drawn by the second ESP32-S3 core (and then transferred to the display) in about the same time my keyboard LEDs take to do a single PWM pulse.
 
