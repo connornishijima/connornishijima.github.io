@@ -55,16 +55,6 @@ MEMS
 
 -----------------------------------------------
 
-1. **[Hardware Design Overview](#hardware-design-overview)**
-2. **[Part Highlights](#part-highlights)**
-3. **[LEDs Pretending To Be More](#leds-pretending-to-be-more)**
-4. **[The "God Damn Fast Transform"](#the-god-damn-fast-transform)**
-5. **[Live Tempo Detection](#live-tempo-detection)**
-6. **[The Remote Control](#the-remote-control)**
-7. **[Magic Touch](#magic-touch)**
-
---------------------------------------------
-
 ## Hardware Design Overview
 
 **Stunning when you need it, invisible when you don't**
