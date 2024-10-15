@@ -31,8 +31,10 @@ MEMS
 {: .label }
 
 # **Emotiscope (2024)**
+{: .no_toc }
 
 #### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
+{: .no_toc }
 
 <br>
 [Read The Firmwware (C/C++)](https://github.com/Lixie-Labs/Emotiscope/blob/2.0/main/Emotiscope.c){: .btn .btn-green }
@@ -46,6 +48,12 @@ MEMS
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+-----------------------------------------------
 
 1. **[Hardware Design Overview](#hardware-design-overview)**
 2. **[Part Highlights](#part-highlights)**
