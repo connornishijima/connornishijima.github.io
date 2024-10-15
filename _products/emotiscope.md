@@ -266,4 +266,4 @@ Beneath Emotiscope's feet are laser-cut cork pads, which protect furniture from 
 
 ------------------------------------------------
 
-![TOUCH](https://raw.githubusercontent.com/lixie-labs/emotiscope/main/extras/img/emotiscope_spectrum_crop.jpg?raw=true)
+![EMOTISCOPE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_transparent.png)
