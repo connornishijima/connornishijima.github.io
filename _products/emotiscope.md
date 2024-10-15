@@ -39,7 +39,7 @@ MEMS
 
 --------------------------------------------
 
-<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency and minimalist design, and novel DSP techniques.</blurb>
+<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency, invisible design, and novel DSP techniques.</blurb>
 
 --------------------------------------------
 
