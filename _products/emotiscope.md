@@ -221,7 +221,7 @@ Now that Emotiscope knows the magnitude/presence of all tempi in your music, it 
 Luckily, this is quite easy, since our DFT calculations from Goertzel also yield phase information that tells exactly where we are in the time of one beat, returning one synchonized sine wave signal for every single tempi. This even works when two different songs are played over top of one another, since all possible tempi are tracked in parallel. This results in robust real-time tempo detection that's genre agnostic and quick to react to changes.
 
 {: .info }
-Every single type of audio measurement Emotiscope *can* do is done on every single frame, regardless of what light mode is selected. So even when Metronome Mode isn't shown, all of this tempo tracking is still being done in the background on the CPU core, along with the other 64 instances of Goertzel, a separate FFT, some autocorrelation, etc.. That way if you decide to switch modes, measurements like the spectrum / tempi / pitch detection are already accurate on the first frame from the GPU core.
+Every single type of audio measurement Emotiscope *can* do is done on every single frame, regardless of what light mode is selected. So even when Metronome Mode isn't shown, all of this tempo tracking is still being done in the background on the CPU core, along with the other 64 instances of Goertzel, a separate FFT, some autocorrelation, etc.. That way measurements like the spectrum / tempi / pitch detection are already accurate on the first frame from the GPU core if you switch modes.
 
 ------------------------------------------------
 
