@@ -206,19 +206,19 @@ You can see the result of what I'm about to describe when Emotiscope is in Metro
 
 But how? By *using 96 MORE instances* of the Goertzel algorithm described above, for a total of 160 on every single audio frame. (160 x 100Hz)
 
-Imagine this: First, an FFT is taken of the time-domain audio with a sliding window of the last 1024 samples, which yields a spectral response frame. Next, the spectral response is modified so that only the positive changes in spectral power since the last frame are present (Note/beat onsets), before summing up all frequency bins into a single value, the "spectral flux" of the given audio frame.
+First, a fourier transform is performed on time-domain audio with a sliding window of the last 1024 samples, which yields a 512-point spectral curve. Next, the spectral curve is modified so that only the positive changes in spectral power since the last frame are present (Note/beat onsets), before summing up all frequency bins into a single value: the "spectral flux" of the given audio frame.
 
 *(Hang in there, here's the cool part.)*
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/_y0_qLfevxY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-**Now we have a time-domain signal again where the amplitude is modulated by how much spectral change is occurring on each frame. Spectrally interesting "beats" like drums or rhythmic playing cause spikes, but sustained notes don't affect the signal.**
+**We now have a weird DC time-domain signal again where the amplitude is modulated by how much spectral change is occurring on each frame. Spectrally interesting "beats" like drums or rhythmic playing cause spikes, but sustained notes don't affect the signal.**
 
-The final step is to run the 96 leftover instances of the Goertzel algorithm on this (much lower sample rate) signal again to detect the presence of different tempi in the currently playing music. Each Goertzel bin is tuned to a specific tempo between 60 and 156 BPM, (60 BPM = 1Hz, 156 BPM = 2.6Hz) meaning the presence of music played at 80 BPM will cause a lone peak centered at the 80 BPM / 1.33 Hz bin!
+The final step is to run the 96 leftover instances of the Goertzel algorithm on this (much lower sample rate) signal again to detect the presence of different tempi in the currently playing music. Each Goertzel bin is tuned exactly for every tempo between 60 and 156 BPM, (60 BPM = 1.0Hz, 156 BPM = 2.6Hz) meaning the presence of music played at 80 BPM will cause a lone peak centered at the 80 BPM / 1.3333 Hz bin!
 
 Now that Emotiscope knows the magnitude/presence of all tempi in your music, it has to synchronize animations to it as well, which means tracking not only the rate of beats but their phase as well, to make the metronome animation look correct.
 
-Luckily, this is quite easy, since our DFT calculations from Goertzel also yield phase information that tells exactly where we are in the time of one beat, returning one synchonized sine wave signal for every single tempi. This even works when two different songs are played over top of one another, since all possible tempi are tracked in parallel. This results in robust real-time tempo detection that's genre agnostic and quick to react to changes.
+Luckily, this is quite easy, since our DFT calculations from Goertzel also yield phase information that tells exactly where we are within in the time of one beat, returning one synchonized sine wave signal for every single tempi reading. This method even works when two different songs are played over top of one another, since all possible tempi are tracked in parallel. "DFTing the DFT" results in robust real-time tempo detection that's genre agnostic and quick to react to changes.
 
 {: .info }
 Every single type of audio measurement Emotiscope *can* do is done on every single frame, regardless of what light mode is selected. So even when Metronome Mode isn't shown, all of this tempo tracking is still being done in the background on the CPU core, along with the other 64 instances of Goertzel, a separate FFT, some autocorrelation, etc.. That way measurements like the spectrum / tempi / pitch detection are already accurate on the first frame from the GPU core if you switch modes.
