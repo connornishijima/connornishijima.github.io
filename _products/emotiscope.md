@@ -204,7 +204,7 @@ By having varying window lengths per bin, the highest notes can be detected with
 
 You can see the result of what I'm about to describe when Emotiscope is in Metronome Mode. The LEDs quickly synchronize themselves to the beat of a song, swaying patterns back and forth right on cue. It’s not only aware of what the current tempo (BPM, speed) of your music is, it also knows the magnitude of all common tempi at a given time and displays all predictions in parallel. For example, if the snare drum hits at 90 BPM but the hi-hat hits at 120 BPM, both patterns are detected and shown at the same time.
 
-But how? By using 96 *MORE* instances of the Goertzel algorithm described above, for a total of 160 on every single audio frame. (160 x 100Hz)
+But how? By *using 96 MORE instances* of the Goertzel algorithm described above, for a total of 160 on every single audio frame. (160 x 100Hz)
 
 Imagine this: First, an FFT is taken of the time-domain audio with a sliding window of the last 1024 samples, which yields a spectral response frame. Next, the spectral response is modified so that only the positive changes in spectral power since the last frame are present (Note/beat onsets), before summing up all frequency bins into a single value, the "spectral flux" of the given audio frame.
 
