@@ -53,7 +53,7 @@ MEMS
 
 -----------------------------------------------
 
-![EMOTISCOPE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_transparent.png)
+![EMOTISCOPE](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/emotiscope_glow.png)
 
 ## Hardware Design Overview
 
