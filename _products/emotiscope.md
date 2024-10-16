@@ -103,7 +103,7 @@ It features a magic black diffuser covering 128 of the world’s smallest addres
 - Error diffusion algorithm for temporal dithering
 - Approx. 11-bit range visible to eye after dither trick
 
-### SPH-0645 MEMS Microphone
+### SPH0645 MEMS Microphone
 
 - I2S Bottom-firing Digital Microphone
 - Sample Rate: 12,800Hz (Custom rate to process 128-sample frames at 100Hz)
