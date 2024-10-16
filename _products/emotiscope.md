@@ -233,7 +233,7 @@ Every single type of audio measurement Emotiscope *can* do is done on every sing
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/SXX167ymKAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. 
+You don’t need an account, there’s no ads, there’s no subscription. You can save it to your homescreen via the browser’s menu and it’ll get an icon just like a “real” app. Low-latency communication happens over a WS connection, while the underlying HTML/JS is stored and served from Emotiscope's filesystem. Remotiscope is also fully open source, and currently undergoing a port from raw HTML/JS to WASM via the Godot Engine.
 
 ![EMOTISCOPE APP](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/remote_control.jpg)
 
