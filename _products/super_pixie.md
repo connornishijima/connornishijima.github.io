@@ -37,4 +37,6 @@ MANUFACTURING
 
 --------------------------------------------
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">And here&#39;s a quick 360° view with one *not* lit up! <a href="https://t.co/E6eVzZxLro">pic.twitter.com/E6eVzZxLro</a></p>&mdash; 𝕃𝕚𝕩𝕚𝕖 𝕃𝕒𝕓𝕤 🔌❤️💚💙 (@lixielabs) <a href="https://twitter.com/lixielabs/status/1712627307943543127?ref_src=twsrc%5Etfw">October 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/GBwgY8yKXiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/GBwgY8yKXiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
