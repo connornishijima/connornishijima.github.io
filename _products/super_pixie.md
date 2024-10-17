@@ -52,3 +52,8 @@ MANUFACTURING
 <iframe class="youtube-video" src="https://www.youtube.com/embed/thfjp7ciXKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/lD4lZDL1xP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/p2QuIIpAoNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/wCqaJwUP8xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
