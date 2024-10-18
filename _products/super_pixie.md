@@ -61,6 +61,57 @@ Using a slightly modified Xiolin Wu line algorithm which can draw lines less tha
 
 ----------------------------------------
 
+## A UART chain
+
+A *what?* It's a strange method, but Super Pixie chains UART ports together to operate instead of a more common method like SPI or I2C. It's stil very performant, but has some distict advantages of its own:
+
+### SPI
+
+- Fast AF
+- Addressed with one extra GPIO per device
+
+### I2C
+
+- Relatively slower, still plenty fast
+- Not self-addressing
+
+### UART CHAIN
+
+- Whatever maximum common baud rate is possible for all devices in the chain (fast enough for my application)
+- Self-addressing
+- Uses only two GPIO
+
+Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "HELLO WORLD" and not "EHLLOLD WOR". The easier answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
+
+To handle this complexity, Super Pixies instead send packets back and forth, which contain descriptors about their purpose and content. Instead of shifting "A" directly to a display, you'd send a packet telling the Super Pixie at that position to begin a transition to a the vector of "A" already stored in its flash.
+
+To make them self-addressing, the following sequence runs at boot:
+
+```
+USER CONTROLLER   ------------- SUPER PIXIES -------------
+
++--------+        +--------+     +--------+     +--------+
+| MAIN   |        | PIX 1  |     | PIX 2  |     | PIX 3  |
+|        |        |        |     |        |     |        |
+| RX  TX + -----> + RX  TX + --> + RX  TX + --> + RX  TX |
++-+------+        +--------+     +--------+     +-----+--+
+  ^                                                   |
+  |                  <--- RETURN LINE                 |
+  +---------------------------------------------------+
+```
+
+1.  MAIN sends an ASSIGN ADDRESS 1 packet @ BROADCAST
+2.  PIX 1 receives this, assigns itself Address 1 (instead of default ADDRESS NULL)
+3.  PIX 1 enables propagation, so that future bytes received are passed
+4.  PIX 2 heard nothing yet
+6.  MAIN sends an ASSIGN ADDRESS 2 packet @ BROADCAST
+7.  PIX 1 ignores this (already assigned) PIX 2 has address assigned instead
+8.  PIX 2 enables propagation
+9.  This repeats until MAIN tries to assign a fourth address
+10. There are only three devices, so this packet will fully loop back to MAIN
+11. MAIN can't have it's address assigned (Permanent address of 0)
+12. MAIN now knows there are three devices in the chain based on final address assignment which failed.
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/0Y3tDgQeQdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
