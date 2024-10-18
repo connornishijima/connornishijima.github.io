@@ -75,7 +75,7 @@ Now that I'd proved the ultra fast refresh rates and vector font method were pos
 
 ## UART chain
 
-A *what?* It's a strange method, but Super Pixie chains UART ports together to operate instead of a more common method like SPI or I2C. It's stil very performant, but has some distict advantages of its own:
+A *what?* It's a strange method, but Super Pixie chains UART ports together to operate instead of a more common method like SPI or I2C. It's stil very performant, but has some distinct advantages of its own:
 
 ### SPI
 {: .no_toc }
