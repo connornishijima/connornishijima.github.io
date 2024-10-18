@@ -57,6 +57,8 @@ Of course, that doesn't quite account for overhead in the actual C++ rendering p
 
 Using a slightly modified Xiolin Wu line algorithm which can draw lines less than 1px in length or width, I convert vector font data in memory to an 8x16 raster image with anti-aliasing and subpixel positioning. Applying a position, scale, and rotation to a vector image is much simpler work than rotating the equivalent raster image, so very early on I had everything necessary for fancy animations and transitions.
 
+Now that I'd proved the ultra fast refresh rates were possible, I wanted to design the communication method used to control each display.
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/l5XtuTuHbco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ----------------------------------------
@@ -117,7 +119,19 @@ USER CONTROLLER   ------------- SUPER PIXIES -------------
 
 Once the chain is established, the MAIN controller can individually command any single unit by sending data to their physical address. Below was my very first UART chain, where an ESP8266 is commanding three ESP32s to blink their LEDs in sequence.
 
+------------------------------------
+
+## A much, much smaller prototype
+
+While designing the UART chain method, I repurposed my own [Pixie Chroma](https://connor.nishiji.ma/products/pixie_chroma) boards as debug displays, showing dots of various colors to indicate things like "is propagation enabled" or displaying their assigned addresses.
+
+Originally, Super Pixie was meant to have an 8x16 display, but I had a weird realization: two Pixie Chroma PCBs make up a strangely spaced but *TINY* 7x15 matrix with some leftover LEDs below for debugging. Since I wrote the whole system around vectors instead of rasters, I just updated a few variables and suddenly my Pixie Chromas functioned as tiny Super Pixie displays, just with one less row and column.
+
+I'd lost the high refresh rates since it was now 140 pixels on a single GPIO instead of 16 pixels on 8 (>8x slower) but that still resulted in 235 FPS. Now I was able to prototype both the rasterization code *and* the UART chain code in a single device.
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+----------------------------------
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/0Y3tDgQeQdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
