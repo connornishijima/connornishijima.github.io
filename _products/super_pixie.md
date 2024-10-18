@@ -25,8 +25,10 @@ MANUFACTURING
 {: .label }
 
 # **Super Pixie (Unreleased)**
+{: .no_toc }
 
-#### A Music Visualizer From The Future - [emotiscope.rocks](https://emotiscope.rocks)
+#### The Smartest Arduino Display Ever
+{: .no_toc }
 
 <br>
 [Read The UNFINISHED Firmwware (C/C++)](https://github.com/connornishijima/SuperPixie_Firmware){: .btn .btn-green }
@@ -36,6 +38,12 @@ MANUFACTURING
 <blurb>Super Pixie uses 106 RGB LEDs to display a full alphanumeric character set using vector graphics, allowing for advanced animation controlled over UART.</blurb>
 
 --------------------------------------------
+
+## Table of Contents
+{: .no_toc }
+
+1. TOC
+{:toc}
 
 ## First, a massive prototype
 
