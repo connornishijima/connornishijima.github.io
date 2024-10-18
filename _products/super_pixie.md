@@ -143,11 +143,35 @@ Remember the scaling and rotation? Now I had them working along with self-addres
 
 ----------------------------------
 
+## Very satisfying to watch
+
+I always love watching odometers turn past 9, or digital clocks change to midnight. I made sure that anyone else as weird as myself gets a good show:
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/thfjp7ciXKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+--------------------------------
+
+## How about a hundred more characters?
+
+A hundred more charcters? What is this, The Simpsons?
+
+(I added the full printable ASCII charset)
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/lD4lZDL1xP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
+-------------------------------
+
+## Further optimization
+
+I was able to identify and reduce errors that caused chain de-sync or jitter. Now they even perform perfectly in slow motion:
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/jBIulcIhz4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+-------------------------------
+
+## Self-healing chain
+
+If anything goes wrong with a given Super Pixie, the Watchdog Timer resets it. This causes it to lose an address, which can break comms. When this happens anywhere in the chain the MAIN controller will no longer recieve its own data back in time, causing it to quickly reset and reassign the chain units.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/p2QuIIpAoNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
