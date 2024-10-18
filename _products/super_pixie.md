@@ -150,7 +150,7 @@ I'd lost the high refresh rates since it was now 140 pixels on a single GPIO ins
 
 ## Fancy Transitions On Board
 
-Remember the scaling and rotation? Now I had them working along with self-addressing, so that you can send a single packet down the line with a number to show, and each Super Pixie will decide whether or not to flip to a new character onscreen. This transition is handled fully internally, meaning that after sending a single packet your microcontroller is free to do anything else while the transition is still occurring.
+Remember the scaling and rotation? Now I had them working along with self-addressing, so that you can send a single packet down the line with a number to show, and each Super Pixie will decide whether or not to flip to a new character onscreen. This transition is handled fully internally, meaning that after sending a single packet your microcontroller is free to do anything else while a transition is still occurring. Super Pixies handle the hundreds-of-FPS rendering for you.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/3vnzpUjgBBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
