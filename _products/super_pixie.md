@@ -105,7 +105,7 @@ To handle this complexity, Super Pixies instead send tiny packets back and forth
 
 The MAIN unit of the chain (the user's microcontroller that's commanding Super Pixies) has a UART TX connected to the UART RX of the first device in the chain. Depending on the state of the chain device, it will either ingest or forward any bytes sent to it.
 
-This unique control over the propagation of data allows for self-discovery, automatic address assignment based on their physical position in the chain, and pseudo-bidirectional communication between any two points with minimal latency. For a chain unit to respond back to MAIN, it has to send a packet addressed for MAIN to it's child node. It eventually cycles back to MAIN two hops later.
+This unique control over the propagation of data allows for chain length discovery, automatic address assignment based on physical position within the chain, and pseudo-bidirectional communication between any two points with minimal latency. For a chain unit to respond back to MAIN, it has to send a packet addressed for MAIN to it's child link on the right. The packet eventually cycles back to MAIN two hops later.
 
 ```
 USER CONTROLLER   ------------- SUPER PIXIES -------------
