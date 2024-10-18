@@ -47,11 +47,19 @@ $ \text{Time for 16 LEDs} = 30 µs × 16 + 50\text{ us (latch)} = 530\text{ 
 
 $ \text{Maximum refresh rate} = \frac{1\text{ second}}{530\text{ µs}} = 1,886\text{ Hz} $
 
+Of course, that doesn't quite account for overhead in the actual C++ rendering process before data is tranmitted to the LEDs, but I still achieved >600 FPS in practice.
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/GBwgY8yKXiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 -------------------------------------------
 
+## Next, a fast line rasterizer
+
+Using a slightly modified Xiolin Wu line algorithm which can draw lines less than 1px in length or width, I convert vector font data in memory to an 8x16 raster image with anti-aliasing and subpixel positioning. Applying a position, scale, and rotation to a vector image is much simpler work than rotating the equivalent raster image, so very early on I had everything necessary for fancy animations and transitions.
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/l5XtuTuHbco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+----------------------------------------
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
