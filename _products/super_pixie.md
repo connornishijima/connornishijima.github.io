@@ -103,7 +103,9 @@ Super Pixies inherently exist in a physical position relative to one another tha
 
 To handle this complexity, Super Pixies instead send tiny packets back and forth, which contain descriptors about their purpose and content. Instead of shifting "A" directly to a display, you'd send a packet telling the Super Pixie at that position to begin a transition to a the vector of "A" already stored in its flash. It's a few bytes extra, but the overhead is worth the flexibility.
 
-To make them self-addressing, the following sequence runs at boot:
+The MAIN unit of the chain (the user's microcontroller that's commanding Super Pixies) has a UART TX connected to the UART RX of the first device in the chain. Depending on the state of the chain device, it will either ingest or forward any bytes sent to it.
+
+This unique control over the propagation of data allows for self-discovery, automatic address assignment based on their physical position in the chain, and pseudo-bidirectional communication between any two points with minimal latency. For a chain unit to respond back to MAIN, it has to send a packet addressed for MAIN to it's child node. It eventually cycles back to MAIN two hops later.
 
 ```
 USER CONTROLLER   ------------- SUPER PIXIES -------------
@@ -117,6 +119,8 @@ USER CONTROLLER   ------------- SUPER PIXIES -------------
   |                  <--- RETURN LINE                 |
   +---------------------------------------------------+
 ```
+
+To make them self-addressing, the following sequence runs at boot:
 
 1.  MAIN sends an ASSIGN ADDRESS 1 packet @ BROADCAST
 2.  PIX 1 receives this, assigns itself Address 1 (instead of default ADDRESS NULL)
