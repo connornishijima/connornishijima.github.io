@@ -119,6 +119,8 @@ USER CONTROLLER   ------------- SUPER PIXIES -------------
 
 Once the chain is established, the MAIN controller can individually command any single unit by sending data to their physical address. Below was my very first UART chain, where an ESP8266 is commanding three ESP32s to blink their LEDs in sequence.
 
+<iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ------------------------------------
 
 ## A much, much smaller prototype
@@ -129,11 +131,9 @@ Originally, Super Pixie was meant to have an 8x16 display, but I had a weird rea
 
 I'd lost the high refresh rates since it was now 140 pixels on a single GPIO instead of 16 pixels on 8 (>8x slower) but that still resulted in 235 FPS. Now I was able to prototype both the rasterization code *and* the UART chain code in a single device.
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/0Y3tDgQeQdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ----------------------------------
-
-<iframe class="youtube-video" src="https://www.youtube.com/embed/0Y3tDgQeQdY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/3vnzpUjgBBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
