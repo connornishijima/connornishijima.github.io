@@ -166,7 +166,7 @@ I always love watching odometers turn past 9, or digital clocks change to `10:00
 
 ## How About A Hundred More Characters?
 
-A hundred more charcters? What is this, The Simpsons? I added the full printable ASCII charset.
+A hundred more charcters? *What is this, The Simpsons?* I added the full printable ASCII charset.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/lD4lZDL1xP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
