@@ -130,7 +130,7 @@ USER CONTROLLER   ------------- SUPER PIXIES -------------
 11. MAIN can't have it's address assigned (Permanent address of 0)
 12. MAIN now knows there are three devices in the chain based on final address assignment which failed.
 
-Once the chain is established, the MAIN controller can individually command any single unit by sending data to their physical address. Below was my very first UART chain, where an ESP8266 is commanding three ESP32s to blink their LEDs in sequence.
+Once the chain is established, the MAIN controller can individually command any single unit by sending data to their physical address. Bytes propagate through every device in the chain with only a single byte of delay per unit in the chain. This delay is *tiny*, and imperceptiple under normal circumstances. Below was my very first UART chain, where an ESP8266 is commanding three ESP32s to blink their LEDs in sequence.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
