@@ -86,7 +86,7 @@ A *what?* It's a strange method, but Super Pixie chains UART ports together to o
 - Uses only two GPIO for the whole chain
 - Works out of box on any microcontroller with a UART or SoftSerial
 
-Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "Hello World" and not "doll HoWler". The easier answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
+Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "hello world" and not "doll howler". The easier answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
 
 To handle this complexity, Super Pixies instead send tiny packets back and forth, which contain descriptors about their purpose and content. Instead of shifting "A" directly to a display, you'd send a packet telling the Super Pixie at that position to begin a transition to a the vector of "A" already stored in its flash. It's a few bytes extra, but the overhead is worth the flexibility.
 
