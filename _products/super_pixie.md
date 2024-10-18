@@ -158,7 +158,7 @@ Remember the scaling and rotation? Now I had them working along with self-addres
 
 ## Very Satisfying Numbers
 
-I always love watching odometers turn past 9, or digital clocks change to midnight. I made sure that anyone else as weird as myself gets a good show:
+I always love watching odometers turn past 9, or digital clocks change to `10:00`. Smooth transitions make sure that anyone else as weird as myself gets a good show:
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/thfjp7ciXKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
