@@ -1,3 +1,10 @@
+{% assign math = page.math | default: layout.math | default: site.math %}
+
+{% case math %}
+  {% when "katex" %}
+    {% include katex.html %}
+{% endcase %}
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
@@ -182,12 +189,4 @@ link-out:hover {
 
 
 </style>
-
-
-{% assign math = page.math | default: layout.math | default: site.math %}
-
-{% case math %}
-  {% when "katex" %}
-    {% include katex.html %}
-{% endcase %}
 
