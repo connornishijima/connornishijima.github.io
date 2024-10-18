@@ -68,22 +68,25 @@ A *what?* It's a strange method, but Super Pixie chains UART ports together to o
 ### SPI
 
 - Fast AF
-- Addressed with one extra GPIO per device
+- Uses three GPIO
+- Addressed with one extra GPIO per device (ehh)
 
 ### I2C
 
 - Relatively slower, still plenty fast
 - Not self-addressing
+- Impossible to automatically discover physical device order
 
 ### UART CHAIN
 
 - Whatever maximum common baud rate is possible for all devices in the chain (fast enough for my application)
 - Self-addressing
-- Uses only two GPIO
+- Uses only two GPIO for the whole chain
+- Works out of box on any microcontroller with a UART or SoftSerial
 
-Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "HELLO WORLD" and not "EHLLOLD WOR". The easier answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
+Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "Hello World" and not "doll HoWler". The easier answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
 
-To handle this complexity, Super Pixies instead send packets back and forth, which contain descriptors about their purpose and content. Instead of shifting "A" directly to a display, you'd send a packet telling the Super Pixie at that position to begin a transition to a the vector of "A" already stored in its flash.
+To handle this complexity, Super Pixies instead send tiny packets back and forth, which contain descriptors about their purpose and content. Instead of shifting "A" directly to a display, you'd send a packet telling the Super Pixie at that position to begin a transition to a the vector of "A" already stored in its flash. It's a few bytes extra, but the overhead is worth the flexibility.
 
 To make them self-addressing, the following sequence runs at boot:
 
@@ -111,6 +114,8 @@ USER CONTROLLER   ------------- SUPER PIXIES -------------
 10. There are only three devices, so this packet will fully loop back to MAIN
 11. MAIN can't have it's address assigned (Permanent address of 0)
 12. MAIN now knows there are three devices in the chain based on final address assignment which failed.
+
+Once the chain is established, the MAIN controller can individually command any single unit by sending data to their physical address. Below was my very first UART chain, where an ESP8266 is commanding three ESP32s to blink their LEDs in sequence.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/ak5L2RLOQnI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
