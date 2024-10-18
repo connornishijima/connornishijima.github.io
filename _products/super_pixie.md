@@ -96,7 +96,7 @@ A *what?* It's a strange method, but Super Pixie chains UART ports together to o
 
 - Whatever maximum common baud rate is possible for all devices in the chain (fast enough for my application)
 - Self-addressing
-- Uses only two GPIO for the whole chain
+- Uses only two GPIO for a chain of any valid length
 - Works out of box on any microcontroller with a UART or SoftSerial
 
 Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "hello world" and not "doll howler". The simplest answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
