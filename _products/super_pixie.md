@@ -37,7 +37,19 @@ MANUFACTURING
 
 --------------------------------------------
 
+## First, a massive prototype
+
+Made from cut sections of 60 LED/meter strips, the original prototype stood about a foot tall, and featured 8 independent lines of 16 addressable LEDs. Having only 16 LEDs per line and driving each in parallel allows for frame rates well above 1000 FPS:
+
+$$ \text{Time per LED} = \frac{24 \text{ bits}}{800,000 \text{ bits per second}} = 0.00003 \text{ seconds} = 30 \text{ µs} $$
+
+$$ \text{Time for 16 LEDs} = 30 µs × 16 + 50\text{ us (latch)} = 530\text{ µs} $$
+
+$$ \text{Maximum refresh rate} = \frac{1}{530\text{ µs}} = 1886\text{ Hz} $$
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/GBwgY8yKXiw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+-------------------------------------------
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/l5XtuTuHbco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
