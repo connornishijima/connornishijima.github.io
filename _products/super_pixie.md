@@ -134,7 +134,7 @@ To make them self-addressing, the following sequence runs at boot:
 11. MAIN can't have it's address assigned (Permanent address of 0)
 12. MAIN now knows there are three devices in the chain based on final address assignment which failed.
 
-STROBE WARNING: Here's a look at a UART Chain discovery process shown on a high speed camera, with debugging LEDs enabled:
+STROBE WARNING: Here's a look at a UART Chain discovery process shown on a high speed camera, with debugging LEDs enabled. It normally happens without
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/tP_2r-4zSM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
