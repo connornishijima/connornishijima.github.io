@@ -37,6 +37,9 @@ callouts:
     title:  
     color: grey-dk
 
+compress_html:
+  blanklines: true
+
 aux_links:
   "<link-out>HIRE ME</link-out>":
     - https://www.linkedin.com/in/connornishijima
