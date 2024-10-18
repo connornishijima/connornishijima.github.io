@@ -39,7 +39,7 @@ MANUFACTURING
 
 ## First, a massive prototype
 
-Made from cut sections of 60 LED/meter strips, the original prototype stood about a foot tall, and featured 8 independent lines of 16 addressable LEDs. Having only 16 LEDs per line and driving each in parallel allows for frame rates well above 1,000 FPS:
+Made from cut sections of 60 LED/meter strips and interlocking 3D printed parts, the original prototype stood about a foot tall, and featured 8 independent lines of 16 addressable LEDs. Having only 16 LEDs per line and driving each in parallel allows for frame rates well above 1,000 FPS:
 
 $ \text{Time per LED} = \frac{24 \text{ bits}}{800,000 \text{ bits per second}} = 0.00003 \text{ seconds} = 30 \text{ µs} $
 
@@ -86,7 +86,7 @@ A *what?* It's a strange method, but Super Pixie chains UART ports together to o
 - Uses only two GPIO for the whole chain
 - Works out of box on any microcontroller with a UART or SoftSerial
 
-Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "hello world" and not "doll howler". The easier answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
+Super Pixies inherently exist in a physical position relative to one another that must be known when showing data so that the chain correctly reads "hello world" and not "doll howler". The simplest answer would be to just shift ASCII data down the line until latching it, but Super Pixies are a little more involved. They support custom vectors, different transitions, any color combo you want, a backlight, etc..
 
 To handle this complexity, Super Pixies instead send tiny packets back and forth, which contain descriptors about their purpose and content. Instead of shifting "A" directly to a display, you'd send a packet telling the Super Pixie at that position to begin a transition to a the vector of "A" already stored in its flash. It's a few bytes extra, but the overhead is worth the flexibility.
 
