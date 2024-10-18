@@ -76,18 +76,21 @@ Now that I'd proved the ultra fast refresh rates and vector font method were pos
 A *what?* It's a strange method, but Super Pixie chains UART ports together to operate instead of a more common method like SPI or I2C. It's stil very performant, but has some distict advantages of its own:
 
 ### SPI
+{: .no_toc }
 
 - Fast AF
 - Uses three GPIO
 - Addressed with one extra GPIO per device (ehh)
 
 ### I2C
+{: .no_toc }
 
 - Relatively slower, still plenty fast
 - Not self-addressing
 - Impossible to automatically discover physical device order
 
 ### UART CHAIN
+{: .no_toc }
 
 - Whatever maximum common baud rate is possible for all devices in the chain (fast enough for my application)
 - Self-addressing
