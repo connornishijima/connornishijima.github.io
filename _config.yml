@@ -8,6 +8,8 @@ color_scheme: connor
 
 favicon_ico: "/favicon.ico"
 
+math: katex
+
 collections:
   products:
     output: true
