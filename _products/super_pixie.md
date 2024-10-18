@@ -57,7 +57,7 @@ Of course, that doesn't quite account for overhead in the actual C++ rendering p
 
 Using a slightly modified Xiolin Wu line algorithm which can draw lines less than 1px in length or width, I convert vector font data in memory to an 8x16 raster image with anti-aliasing and subpixel positioning. Applying a position, scale, and rotation to a vector image is much simpler work than rotating the equivalent raster image, so very early on I had everything necessary for fancy animations and transitions.
 
-Now that I'd proved the ultra fast refresh rates were possible, I wanted to design the communication method used to control each display.
+Now that I'd proved the ultra fast refresh rates and vector font method were possible, I wanted to design the communication method used to control each display.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/l5XtuTuHbco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -135,13 +135,19 @@ I'd lost the high refresh rates since it was now 140 pixels on a single GPIO ins
 
 ----------------------------------
 
+## Fancy transitions are here
+
+Remember the scaling and rotation? Now I had them working along with self-addressing, so that you can send a single packet down the line with a number to show, and each Super Pixie will decide whether or not to flip to a new character onscreen.
+
 <iframe class="youtube-video" src="https://www.youtube.com/embed/3vnzpUjgBBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe class="youtube-video" src="https://www.youtube.com/embed/jBIulcIhz4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+----------------------------------
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/thfjp7ciXKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/lD4lZDL1xP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe class="youtube-video" src="https://www.youtube.com/embed/jBIulcIhz4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/p2QuIIpAoNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
