@@ -45,7 +45,9 @@ MANUFACTURING
 1. TOC
 {:toc}
 
-## First, a massive prototype
+------------------------------------------
+
+## Massive Prototype
 
 Made from cut sections of 60 LED/meter strips and interlocking 3D printed parts, the original prototype stood about a foot tall, and featured 8 independent lines of 16 addressable LEDs. Having only 16 LEDs per line and driving each in parallel allows for frame rates well above 1,000 FPS:
 
@@ -61,7 +63,7 @@ Of course, that doesn't quite account for overhead in the actual C++ rendering p
 
 -------------------------------------------
 
-## Next, a fast line rasterizer
+## Fast Line Rasterizer
 
 Using a slightly modified Xiolin Wu line algorithm which can draw lines less than 1px in length or width, I convert vector font data in memory to an 8x16 raster image with anti-aliasing and subpixel positioning. Applying a position, scale, and rotation to a vector image is much simpler work than rotating the equivalent raster image, so very early on I had everything necessary for fancy animations and transitions.
 
@@ -71,7 +73,7 @@ Now that I'd proved the ultra fast refresh rates and vector font method were pos
 
 ----------------------------------------
 
-## A UART chain
+## UART chain
 
 A *what?* It's a strange method, but Super Pixie chains UART ports together to operate instead of a more common method like SPI or I2C. It's stil very performant, but has some distict advantages of its own:
 
@@ -134,7 +136,7 @@ Once the chain is established, the MAIN controller can individually command any 
 
 ------------------------------------
 
-## A much, much smaller prototype
+## Much, Much Smaller Prototype
 
 While designing the UART chain method, I repurposed my own [Pixie Chroma](https://connor.nishiji.ma/products/pixie_chroma) boards as debug displays, showing dots of various colors to indicate things like "is propagation enabled" or displaying their assigned addresses.
 
@@ -146,7 +148,7 @@ I'd lost the high refresh rates since it was now 140 pixels on a single GPIO ins
 
 ----------------------------------
 
-## Fancy transitions are here
+## Fancy Transitions Are Here
 
 Remember the scaling and rotation? Now I had them working along with self-addressing, so that you can send a single packet down the line with a number to show, and each Super Pixie will decide whether or not to flip to a new character onscreen.
 
@@ -154,7 +156,7 @@ Remember the scaling and rotation? Now I had them working along with self-addres
 
 ----------------------------------
 
-## Very satisfying to watch
+## Very Satisfying Numbers
 
 I always love watching odometers turn past 9, or digital clocks change to midnight. I made sure that anyone else as weird as myself gets a good show:
 
@@ -162,17 +164,15 @@ I always love watching odometers turn past 9, or digital clocks change to midnig
 
 --------------------------------
 
-## How about a hundred more characters?
+## How About A Hundred More Characters?
 
-A hundred more charcters? What is this, The Simpsons?
-
-(I added the full printable ASCII charset)
+A hundred more charcters? What is this, The Simpsons? I added the full printable ASCII charset.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/lD4lZDL1xP8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 -------------------------------
 
-## Further optimization
+## Chain Optimization
 
 I was able to identify and reduce errors that caused chain de-sync or jitter. Now they even perform perfectly in slow motion:
 
@@ -180,11 +180,13 @@ I was able to identify and reduce errors that caused chain de-sync or jitter. No
 
 -------------------------------
 
-## Self-healing chain
+## Self Healing
 
 If anything goes wrong with a given Super Pixie, the Watchdog Timer resets it. This causes it to lose an address, which can break comms. When this happens anywhere in the chain the MAIN controller will no longer recieve its own data back in time, causing it to quickly reset and reassign the chain units.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/p2QuIIpAoNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+----------------------------
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/wCqaJwUP8xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
