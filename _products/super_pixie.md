@@ -31,7 +31,7 @@ MANUFACTURING
 {: .no_toc }
 
 <br>
-[Read The UNFINISHED Firmwware (C/C++)](https://github.com/connornishijima/SuperPixie_Firmware){: .btn .btn-green }
+[Read The Alpha Firmwware (C/C++)](https://github.com/connornishijima/SuperPixie_Firmware){: .btn .btn-green }
 
 --------------------------------------------
 
