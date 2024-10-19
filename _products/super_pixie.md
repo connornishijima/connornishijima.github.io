@@ -137,7 +137,7 @@ To make them self-addressing, the following sequence runs at boot:
 ### Strobe Warning
 {: .no_toc }
 
-Here's a look at a UART Chain discovery process shown on a high speed camera, with debugging LEDs enabled. It normally happens without
+Here's a look at a UART Chain discovery process shown on a high speed camera, with debugging LEDs enabled. This normally happens within 150ms, and without any visual readout.
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/tP_2r-4zSM4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
