@@ -38,7 +38,7 @@ MEMS
 
 <br>
 
-<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptable latency, invisible design, and novel DSP techniques.</blurb>
+<blurb>I designed Emotiscope as a powerful bridge between sight and sound, with a focus on imperceptible latency, invisible design, and novel DSP techniques.</blurb>
 
 [Read The Firmwware (C/C++)](https://github.com/Lixie-Labs/Emotiscope/blob/2.0/main/Emotiscope.c){: .btn .btn-green }
 
