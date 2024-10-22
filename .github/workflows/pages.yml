@@ -27,17 +27,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Disable Bundler frozen mode and install dependencies
-        run: |
-          bundle config set frozen false  # Disable frozen mode
-          bundle install --jobs 4         # Install dependencies
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3' # Not needed with a .ruby-version file
           bundler-cache: false # runs 'bundle install' and caches installed gems automatically
           cache-version: 1 # Increment this number if you need to re-download cached gems
+      
+      - name: Disable Bundler frozen mode and install dependencies
+        run: |
+          bundle config set frozen false  # Disable frozen mode
+          bundle install --jobs 4         # Install dependencies
 
       - name: Setup Pages
         id: pages
