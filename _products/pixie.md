@@ -55,6 +55,10 @@ MANUFACTURING
 
 ----------------------------------------------------------------
 
+<iframe class="youtube-video" src="https://www.youtube.com/embed/79p6e2WKmAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+----------------------------------------------------------------
+
 ## Do You Like Datasheets?
 
 **(I do, I wrote one.)**
