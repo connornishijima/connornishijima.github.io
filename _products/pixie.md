@@ -27,7 +27,7 @@ MANUFACTURING
 
 --------------------------------------------
 
-<blurb>I designed Pixies to enable both beginners and professionals to quickly deploy alphanumeric LEDs displays using an intuitive Arduino Library and only 2 GPIO.</blurb>
+<blurb>I designed Pixie PCBs as a way to quickly address 5x7 micro-LED displays using an ATTiny45 and I2C driver chip.</blurb>
 
 --------------------------------------------
 
