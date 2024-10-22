@@ -8,9 +8,6 @@ color_scheme: connor
 
 favicon_ico: "/favicon.ico"
 
-plugins:
-  - jekyll-sitemap
-
 collections:
   products:
     output: true
