@@ -6,7 +6,7 @@ url: https://connor.nishiji.ma
 
 color_scheme: connor
 
-favicon_ico: "/favicon.ico"
+favicon_ico: "/favicon.ico" 
 
 collections:
   products:
