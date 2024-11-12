@@ -7,7 +7,7 @@ nav_order: 1
 # Embedded C/C++ Engineer
 
 <blurb>
-I get quite sad whenever I run out of ways to optimize software. Luckily - I never do! Below are a few of the products that I've developed, manufactured and sold from home since 2016.<br>
+I get quite sad whenever I run out of ways to optimize software. Luckily - I never do! Below are a few of the products that I've designed, manufactured and sold from home since 2016.<br>
 </blurb>
 
 [Learn More](https://connor.nishiji.ma/products/emotiscope.html){: .btn .btn-green }
