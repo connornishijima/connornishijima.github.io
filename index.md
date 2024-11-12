@@ -39,7 +39,7 @@ I also created the promotional media for my products using tools like Blender, P
 ------------------------------
 
 <blurb>
-<bold>I'm currently open to work</bold>, seeking to a join a team of passionate developers who also want to build and improve upon everything they see around themselves.<br><br>
+<bold>I'm currently open to work</bold>, seeking to a join a team of passionate developers who also want to build and improve upon everything they see around themselves.<br>
 </blurb>
 
 [Hire Me](https://www.linkedin.com/in/connornishijima/details/experience/){: .btn .btn-green }
