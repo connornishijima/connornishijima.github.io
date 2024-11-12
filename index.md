@@ -26,7 +26,12 @@ Since 2016, I've utilized a broad spectrum of manufacturing methods such as refl
 I also created the media for them using tools like Blender, Photoshop, and After Effects. I've been editing videos for twenty years, and have a well-rounded 3D animation skillset. Two of these ads are 100% CGI, rendered with the Cycles raytracing engine.<br><br>
 </blurb>
 
-
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+------------------------------
+
+<blurb>
+I strive to create products and software <bold>with incredible polish</bold>, to make them <bold>intuitive and memorable</bold>.<br><br>
+</blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
