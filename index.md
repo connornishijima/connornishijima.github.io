@@ -15,10 +15,15 @@ I get quite sad whenever I run out of ways to optimize software. Luckily - I nev
 ------------------------------
 
 <blurb>
-<bold>Since 2016, I've utilized a broad spectrum of manufacturing methods such as reflow soldering, 3D printing, laser cutting, PNP assembly, and more to design, manufacture and sell my own electronics from home.</bold> <quiet>I also created the media for them using tools like Blender, Photoshop, and After Effects. I've been editing videos for twenty years, and have a well-rounded 3D animation skillset. Two of these ads are 100% CGI, rendered with the Cycles raytracing engine.</quiet><br><br>
+Since 2016, I've utilized a broad spectrum of manufacturing methods such as reflow soldering, 3D printing, laser cutting, PNP assembly, and more to design, manufacture and sell my own electronics from home.<br><br>
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<blurb>
+I also created the media for them using tools like Blender, Photoshop, and After Effects. I've been editing videos for twenty years, and have a well-rounded 3D animation skillset. Two of these ads are 100% CGI, rendered with the Cycles raytracing engine.<br><br>
+</blurb>
+
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
