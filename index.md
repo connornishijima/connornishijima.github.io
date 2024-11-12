@@ -35,3 +35,11 @@ I also created the promotional media for my products using tools like Blender, P
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+------------------------------
+
+<blurb>
+I'm currently open to work, seeking to a join a team of passionate developers who also want to build and improve upon everything they see around them.<br><br>
+</blurb>
+
+![CONNOR](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/connor.jpeg?raw=true)
