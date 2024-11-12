@@ -15,7 +15,7 @@ I get quite sad whenever I run out of ways to optimize software. Luckily - I nev
 ------------------------------
 
 <blurb>
-<bold>Below are a few of the products that I've designed, manufactured and sold from home since 2016</bold>. I also created all of the media for them using tools like Blender and Adobe After Effects.<br><br>
+Below are a few of the products that I've designed, manufactured and sold from home since 2016. <quiet>I also created all of the media for them using tools like Blender and Adobe After Effects.</quiet><br><br>
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
