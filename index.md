@@ -8,13 +8,15 @@ nav_order: 1
 
 <blurb>
 I get quite sad whenever I run out of ways to optimize software. Luckily - I never do!<br>
-<br>
-Below are a few of the products that I've designed, manufactured and sold from home since 2016.<br>
 </blurb>
 
 [Learn More](https://connor.nishiji.ma/products/emotiscope.html){: .btn .btn-green }
 
 ------------------------------
+
+<blurb>
+Below are a few of the products that I've designed, manufactured and sold from home since 2016. I also created all of the media for them using tools like Blender and Adobe After Effects.<br>
+</blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/n2YH9V63OQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
