@@ -39,7 +39,8 @@ I also created the promotional media for my products using tools like Blender, P
 ------------------------------
 
 <blurb>
-<bold>I'm currently open to work</bold>, seeking to a join a team of passionate developers who also want to build and improve upon everything they see around them.<br><br>
+<bold>I'm currently open to work</bold>, seeking to a join a team of passionate developers who also want to build and improve upon everything they see around themselves.<br><br>
+- Connor<br><br>
 </blurb>
 
-![CONNOR](https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/connor.jpeg?raw=true)
+<img class="portrait" src="https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/connor.jpeg?raw=true"></img>
