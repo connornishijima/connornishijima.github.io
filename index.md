@@ -12,10 +12,10 @@ I get quite sad whenever I run out of ways to optimize software. Luckily - I nev
 
 [Learn More](https://connor.nishiji.ma/products/emotiscope.html){: .btn .btn-green }
 
+------------------------------
+
 {: .info }
 I'm designing this portfolio as you read this! Pardon the dust if you're here early, some links aren't working yet but are documented elsewhere online like my [YouTube](https://www.youtube.com/user/connornishijima) or [GitHub](https://github.com/connornishijima) accounts.
-
-------------------------------
 
 <center># A Few Products I've Designed:</center>
 
