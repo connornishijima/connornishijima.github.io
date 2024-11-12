@@ -31,7 +31,7 @@ I also created the media for them using tools like Blender, Photoshop, and After
 ------------------------------
 
 <blurb>
-I strive to create products and software <bold>with incredible polish</bold>, to make them <bold>intuitive and memorable</bold>.<br><br>
+I strive to create products, software, and media <bold>with incredible polish</bold>, and to make them <bold>intuitive and memorable</bold> for a diverse audience of beginners and professionals alike. <br><br>
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
