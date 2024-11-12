@@ -24,7 +24,7 @@ just_the_docs:
     products:
       name: Products I've Designed
     works:
-      name: Highlighted Works
+      name: Personal Projects
 
 callouts:
   warning:
