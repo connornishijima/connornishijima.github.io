@@ -4,7 +4,7 @@ layout: home
 nav_order: 1
 ---
 
-# Embedded C/C++ Engineer <span class="quiet-header">and</span> Multimedia Maniac
+# Embedded C/C++ Engineer <span class="quiet-header">and</span> Multimedia&nbsp;Maniac
 
 <blurb>
 I get quite sad whenever I run out of ways to optimize software. Luckily - I never do!<br>
