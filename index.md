@@ -23,7 +23,7 @@ I strive to create products, software, and media <bold>with incredible polish</b
 ------------------------------
 
 <blurb>
-Since 2016, I've utilized a broad spectrum of manufacturing methods such as reflow soldering, 3D printing, laser cutting, PNP assembly, and more to design, manufacture and sell my own electronics from home.<br><br>
+Since 2016, I've utilized a broad spectrum of manufacturing methods such as <bold>reflow soldering, 3D printing, laser cutting, PNP assembly</bold>, and more to <bold>design, manufacture and sell my own electronics from home.</bold><br><br>
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -31,7 +31,7 @@ Since 2016, I've utilized a broad spectrum of manufacturing methods such as refl
 ------------------------------
 
 <blurb>
-I also created the media for them using tools like Blender, Photoshop, and After Effects. I've been editing videos for twenty years, and have a well-rounded 3D animation skillset. Two of these ads are 100% CGI, rendered with the Cycles raytracing engine.<br><br>
+I also created the media for them using tools like Blender, Photoshop, and After Effects. <bold>I've been editing videos for twenty years, and have a well-rounded 3D animation skillset.</bold> Two of these ads are 100% CGI, rendered with the Cycles raytracing engine.<br><br>
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/xxs3tj32z9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
