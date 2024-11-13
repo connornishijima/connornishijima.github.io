@@ -42,6 +42,6 @@ I also created the promotional media for my products using tools like Blender, P
 <bold>I'm currently open to work</bold>, seeking to a join a team of passionate developers who also want to build and improve upon everything they see around themselves.<br>
 </blurb>
 
-<a class="site-button" href="https://www.linkedin.com/in/connornishijima/details/experience/"><link-out>Hire Me on LinkedIn</link-out></a>
+[Hire Me on LinkedIn](https://www.linkedin.com/in/connornishijima/details/experience/){: .btn .btn-green }
 
 <img class="portrait" src="https://raw.githubusercontent.com/connornishijima/connornishijima.github.io/main/img/connor.jpeg?raw=true" />
