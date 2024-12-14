@@ -23,7 +23,7 @@ I strive to create products, software, and media <bold>with incredible polish</b
 ------------------------------
 
 <blurb>
-Since 2016 I've utilized a broad spectrum of manufacturing methods such as <bold>reflow soldering, 3D printing, laser cutting, PNP assembly</bold>, and more to <bold>design, manufacture and sell my own electronics from home.</bold><br><br>
+Since 2016 I've utilized a broad spectrum of manufacturing methods such as <bold>reflow soldering, 3D printing, laser cutting, PNP assembly</bold>, and more to <bold>design, manufacture and sell my own electronics from home under the name [Lixie Labs](https://www.tindie.com/stores/lixielabs/).</bold><br><br>
 </blurb>
 
 <iframe class="youtube-video" src="https://www.youtube.com/embed/don7XKYEpeE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
