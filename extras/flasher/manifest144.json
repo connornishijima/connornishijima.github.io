@@ -1,0 +1,12 @@
+{
+    "name": "PixelAir",
+    "version": "1.4.4",
+    "builds": [
+        {
+            "chipFamily": "ESP32",
+            "parts": [
+                { "path": "pixelair-firmware-144.bin", "offset": 0 }
+            ]
+        }
+    ]
+}
