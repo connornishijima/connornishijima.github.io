@@ -14,8 +14,14 @@
                 width:100%;
                 max-width: 400px;
                 display:block;
-                margin-left: auto;
-                margin-right: auto;
+                margin: 40px auto;
+            }
+
+            .install_button{
+                color:#fff;
+                background-color:#f32060;
+                padding:8px;
+                border-radius: 8px;
             }
             
         </style>
@@ -25,15 +31,15 @@
         <img id="flasher_logo" src="img/device_recovery.png" />
         
         <div id="content">
-            <esp-web-install-button id="install_button" manifest="https://connor.nishiji.ma/extras/flasher/v144/manifest.json">
-                <button slot="activate">Install 1.4.4 (Fluora Floor)</button>
+            <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v144/manifest.json">
+                <button id="install_button" slot="activate">Install 1.4.4 (Fluora Floor)</button>
                 <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
                 <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
             </esp-web-install-button>
             <br><br>
 
-            <esp-web-install-button id="install_button" manifest="https://connor.nishiji.ma/extras/flasher/v200/manifest.json">
-                <button slot="activate">Install 2.0.0 (Fluora Floor)</button>
+            <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v200/manifest.json">
+                <button id="install_button" slot="activate">Install 2.0.0 (Fluora Floor)</button>
                 <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
                 <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
             </esp-web-install-button>
