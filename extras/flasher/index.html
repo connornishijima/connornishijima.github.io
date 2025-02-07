@@ -3,10 +3,18 @@
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
     </head>
     <body>
-        Install 1.4.4:
+        <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v144/manifest.json">
+            <button slot="activate">Instal 1.4.4 (Fluora Floor)</button>
+            <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
+            <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
+        </esp-web-install-button>
+        <br>
 
-        <esp-web-install-button
-        manifest="https://connor.nishiji.ma/extras/flasher/v144/manifest.json"
-        ></esp-web-install-button>
+        <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v200/manifest.json">
+            <button slot="activate">Instal 2.0.0 (Fluora Floor)</button>
+            <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
+            <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
+        </esp-web-install-button>
+        <br>    
     </body>
 </html>
