@@ -1,6 +1,7 @@
 {
     "name": "PixelAir",
     "version": "1.4.4",
+    "new_install_prompt_erase": true,
     "builds": [
         {
             "chipFamily": "ESP32",
