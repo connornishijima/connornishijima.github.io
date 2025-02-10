@@ -143,7 +143,7 @@
                     let firmware_versions_available = pixelair_manifest.products[original_product_index-1]["firmware_versions"];
                     for(let i = 0; i < firmware_versions_available.length; i++){
                         let version_name = firmware_versions_available[i];
-                        let version_name_condensed = "v" + version_name.replace(".","");
+                        let version_name_condensed = "v" + version_name.replace(".","").replace(".","");
                         firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
 
                         console.log("loaded firmware version: "+version_name_condensed);
