@@ -116,19 +116,12 @@
             }
             
             function update_menu(){
-                
-
                 let product_model = document.getElementById("product_model");                
                 let original_product_index = product_model.selectedIndex;
                 let product_model_selected = product_model.options[original_product_index].id;
 
                 let firmware_version = document.getElementById("firmware_version");
                 let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex].id;
-
-                console.log(product_model);
-                console.log(product_model_selected);
-                console.log(firmware_version);
-                console.log(firmware_version_selected);
 
                 console.log("product_model set to:    " + product_model_selected);
                 console.log("firmware version set to: " + firmware_version_selected);
@@ -148,11 +141,13 @@
                     firmware_version.innerHTML = '';
                     firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
 
-                    let firmware_versions_available = pixelair_manifest.products[original_product_index]["firmware_versions"];
+                    let firmware_versions_available = pixelair_manifest.products[original_product_index-1]["firmware_versions"];
                     for(let i = 0; i < firmware_versions_available.length; i++){
                         let version_name = firmware_versions_available[i];
                         let version_name_condensed = "v" + version_name.replace(".","");
                         firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
+
+                        console.log("loaded firmware version: "+version_name_condensed);
                     }
                 }
                 
