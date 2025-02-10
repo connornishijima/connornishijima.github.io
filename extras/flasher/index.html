@@ -35,24 +35,33 @@
         <img id="flasher_logo" src="img/device_recovery.png" />
         
         <div id="content">
-            <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v200/manifest.json">
-                <button class="install_button" slot="activate">Install 2.0.0 (Fluora Floor)</button>
-                <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
-                <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
-            </esp-web-install-button>
+            <div class="step" id="step1">
+                <div class="step_label">Select a product:</div>           
+                <select id="product_model" class="product_picker">
+                    <option id="fluora_floor">Fluora (Floor Model)</option>
+                    <option id="fluora_mini">Fluora Mini</option>
+                    <option id="monos">Monos</option>
+                </select>
+            </div>
+            
+            <div class="step" id="step2" style="display:none;">
+                <div class="step_label">Select a firmware version:</div>           
+                <select id="firmware_versions" class="product_picker">
+                    <option id="v200">2.0.0</option>
+                    <option id="v144">1.4.4</option>
+                    <option id="v135">1.3.5</option>
+                </select>
+            </div>
 
-            <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v144/manifest.json">
-                <button class="install_button" slot="activate">Install 1.4.4 (Fluora Floor)</button>
-                <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
-                <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
-            </esp-web-install-button>
-            
-            <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v135/manifest.json">
-                <button class="install_button" slot="activate">Install 1.3.5 (Fluora Floor)</button>
-                <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
-                <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
-            </esp-web-install-button>
-            
+            <div class="step" id="step3" style="display:none;">
+                <div class="step_label">Install Software</div>           
+                
+                <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v200/floor/manifest.json">
+                    <button class="install_button" slot="activate">Install 2.0.0 (Fluora Floor)</button>
+                    <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
+                    <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
+                </esp-web-install-button>
+            </div>
         </div>
 
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
