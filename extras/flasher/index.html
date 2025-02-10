@@ -148,7 +148,7 @@
                     firmware_version.innerHTML = '';
                     firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
 
-                    let firmware_versions_available = pixelair_manifest.products[product_model.selectedIndex]["firmware_versions"];
+                    let firmware_versions_available = pixelair_manifest.products[original_product_index]["firmware_versions"];
                     for(let i = 0; i < firmware_versions_available.length; i++){
                         let version_name = firmware_versions_available[i];
                         let version_name_condensed = "v" + version_name.replace(".","");
