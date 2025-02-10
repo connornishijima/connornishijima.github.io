@@ -5,8 +5,7 @@
             "pretty_name":"Fluora (Floor Model)",
             "firmware_versions":[
                 "1.3.5",
-                "1.4.4",
-                "2.0.0"
+                "1.4.4"
             ]
         },
         {
@@ -14,8 +13,7 @@
             "pretty_name":"Fluora Mini",
             "firmware_versions":[
                 "1.3.5",
-                "1.4.4",
-                "2.0.0"
+                "1.4.4"
             ]
         },
         {
