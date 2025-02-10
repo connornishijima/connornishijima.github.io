@@ -119,8 +119,11 @@
             }
             
             function update_menu(){
-                let product_model = document.getElementById("product_model");
-                let product_model_selected = product_model.options[product_model.selectedIndex].id;
+                
+
+                let product_model = document.getElementById("product_model");                
+                let original_product_index = product_model.selectedIndex;
+                let product_model_selected = product_model.options[original_product_index].id;
 
                 let firmware_version = document.getElementById("firmware_version");
                 let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex].id;
@@ -172,7 +175,7 @@
                     }
                 }
 
-                
+                product_model.selectedIndex = original_product_index;
             }
         </script>
     </body>
