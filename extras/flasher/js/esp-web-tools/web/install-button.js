@@ -8,7 +8,7 @@ const e = async (t) => {
     }
     if (!o) return;
     try {
-        await o.open({ baudRate: 256000 });
+        await o.open({ baudRate: 460800 });
     } catch (e) {
         return void alert(e.message);
     }
