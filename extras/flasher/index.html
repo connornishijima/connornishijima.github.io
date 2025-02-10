@@ -65,6 +65,10 @@
     <body onload="init_system();">
         <img id="flasher_logo" src="img/device_recovery.png" />
         
+        <div id="loader" style:"display:none;">
+            LOADING
+        </div>
+
         <div id="content">
             <div class="step" id="step1">
                 <select id="product_model" class="product_picker" onchange="update_menu();">
@@ -106,12 +110,12 @@
                 .then(data => {
                     pixelair_manifest = data;
                     console.log('PixelAir Manifest:', pixelair_manifest); // Access the JSON data
+                    update_menu();
+                    
                 })
                 .catch(error => {
                     console.error('There was a problem with the fetch operation:', error);
                 });
-
-                update_menu();
             }
             
             function update_menu(){
