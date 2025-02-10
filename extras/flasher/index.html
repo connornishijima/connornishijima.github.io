@@ -82,13 +82,7 @@
             </div>
 
             <div class="step" id="step3" style="display:none;">
-                <div class="step_label">Install Software:</div>           
-                
-                <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v200/floor/manifest.json">
-                    <button class="install_button" slot="activate">Install 2.0.0 (Fluora Floor)</button>
-                    <span slot="unsupported">Ah snap, your browser doesn't work! Sorry, this only works on desktop Chrome so far. :(</span>
-                    <span slot="not-allowed">Sorry pal you can't use the flasher without HTTPS...</span>
-                </esp-web-install-button>
+                NOTHING
             </div>
         </div>
 
@@ -118,12 +112,14 @@
                 let product_model = document.getElementById("product_model");                
                 let original_product_index = product_model.selectedIndex;
                 let product_model_selected = product_model.options[original_product_index].id;
+                let product_model_selected_pretty = product_model.options[original_product_index].innerHTML;
 
                 let firmware_version = document.getElementById("firmware_version");
                 let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex].id;
+                let firmware_version_selected_pretty = firmware_version.options[firmware_version.selectedIndex].innerHTML;
 
-                console.log("product_model set to:    " + product_model_selected);
-                console.log("firmware version set to: " + firmware_version_selected);
+                console.log("product_model set to:    " + product_model_selected_pretty + "(" + product_model_selected + ")");
+                console.log("firmware version set to: " + firmware_version_selected_pretty + "(" + firmware_version_selected + ")");
 
                 // clear dropdowns
                 product_model.innerHTML = '';
@@ -162,6 +158,13 @@
                         document.getElementById("step3").style.display = "none";
                     }
                     else{
+                        document.getElementById("step3").innerHTML = "";
+
+                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+product_model_selected+'/'+firmware_version_selected+'/manifest.json">';
+                        document.getElementById("step3").innerHTML += '<button class="install_button" slot="activate">Install '+firmware_version_selected_pretty+' to '+product_model_selected_pretty+'</button>';
+                        document.getElementById("step3").innerHTML += '<span slot="unsupported">Ah snap, your browser doesn\'t work! Sorry, this only works on desktop Chrome so far. :(</span>';
+                        document.getElementById("step3").innerHTML += '</esp-web-install-button>';
+
                         document.getElementById("step3").style.display = "block";
                     }
                 }
