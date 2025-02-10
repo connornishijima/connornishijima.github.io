@@ -115,6 +115,7 @@
                 let product_model_selected_pretty = product_model.options[original_product_index].innerHTML;
 
                 let firmware_version = document.getElementById("firmware_version");
+                let original_firmware_index = firmware_version.selectedIndex;
                 let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex].id;
                 let firmware_version_selected_pretty = firmware_version.options[firmware_version.selectedIndex].innerHTML;
 
@@ -176,6 +177,7 @@
                 }
 
                 product_model.selectedIndex = original_product_index;
+                firmware_version.selectedIndex = original_firmware_index;
             }
         </script>
     </body>
