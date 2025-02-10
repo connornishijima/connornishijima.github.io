@@ -1,7 +1,7 @@
 {
     "products":[
         {
-            "name":"fluora_floor",
+            "id":"fluora_floor",
             "pretty_name":"Fluora (Floor Model)",
             "firmware_versions":[
                 "1.3.5",
@@ -10,7 +10,7 @@
             ]
         },
         {
-            "name":"fluora_mini",
+            "id":"fluora_mini",
             "pretty_name":"Fluora Mini",
             "firmware_versions":[
                 "1.3.5",
@@ -19,7 +19,7 @@
             ]
         },
         {
-            "name":"monos",
+            "id":"monos",
             "pretty_name":"Monos",
             "firmware_versions":[
                 "2.0.0"
