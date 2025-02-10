@@ -62,12 +62,13 @@
                 width: 100%;
             }
 
-            .install_button{
+            esp-web-install-button::part(button) {
                 background-color: #bb215e !important;
                 font-family: 'Quicksand' !important;
                 font-weight: 700 !important;
                 font-size: 24px !important;
             }
+
             
         </style>
     </head>
@@ -176,7 +177,7 @@
 
                         let manifest_url = product_model_selected+'/'+firmware_version_selected+"/manifest.json";
                         console.log("Manifest location: "+manifest_url);
-                        document.getElementById("step3").innerHTML += '<esp-web-install-button class="install_button" manifest="'+manifest_url+'" ></esp-web-install-button>';
+                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" ></esp-web-install-button>';
 
                         document.getElementById("step3").style.display = "block";
                     }
