@@ -165,12 +165,7 @@
 
                         let manifest_url = product_model_selected+'/'+firmware_version_selected+"/manifest.json";
                         console.log("Manifest location: "+manifest_url);
-
-                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'">';
-                        document.getElementById("step3").innerHTML += '<button slot="activate" class="install_button">Install '+firmware_version_selected_pretty+' to '+product_model_selected_pretty+'</button>';
-                        document.getElementById("step3").innerHTML += '<span slot="unsupported">Ah snap, your browser doesn\'t work! Sorry, this only works on desktop Chrome so far. :(</span>';
-                        document.getElementById("step3").innerHTML += '<span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>';
-                        document.getElementById("step3").innerHTML += '</esp-web-install-button>';
+                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" ></esp-web-install-button>';
 
                         document.getElementById("step3").style.display = "block";
                     }
