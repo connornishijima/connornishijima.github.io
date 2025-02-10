@@ -73,7 +73,7 @@
             </div>
             
             <div class="step" id="step2" style="display:none;">         
-                <select id="firmware_versions" class="product_picker" onchange="update_menu();">
+                <select id="firmware_version" class="product_picker" onchange="update_menu();">
                     <option id="null">Choose A Firmware Version...</option>
                     <option id="v200">2.0.0</option>
                     <option id="v144">1.4.4</option>
@@ -95,7 +95,26 @@
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
         <script>
             function update_menu(){
-                console.log("step 1 set to: " + document.getElementById("product_model").value);
+                let product_model = document.getElementById("product_model").value;
+                let firmware_version = document.getElementById("firmware_version").value;
+
+                console.log("product_model set to:    " + product_model);
+                console.log("firmware version set to: " + firmware_version);
+
+                if(product_model == "null"){
+                    document.getElementById("step2").style.display = "none";
+                    document.getElementById("step3").style.display = "none";
+                }
+                else{
+                    document.getElementById("step2").style.display = "block";
+
+                    if(firmware_version == "null"){
+                        document.getElementById("step3").style.display = "none";
+                    }
+                    else{
+                        document.getElementById("step3").style.display = "block";
+                    }
+                }
             }
         </script>
     </body>
