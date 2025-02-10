@@ -62,17 +62,17 @@
         
         <div id="content">
             <div class="step" id="step1">
-                <div class="step_label">Select a product:</div>           
                 <select id="product_model" class="product_picker">
+                    <option id="null">Choose A Product...</option>
                     <option id="fluora_floor">Fluora (Floor Model)</option>
                     <option id="fluora_mini">Fluora Mini</option>
                     <option id="monos">Monos</option>
                 </select>
             </div>
             
-            <div class="step" id="step2" style="display:none;">
-                <div class="step_label">Select a firmware version:</div>           
+            <div class="step" id="step2" style="display:none;">         
                 <select id="firmware_versions" class="product_picker">
+                    <option id="null">Choose A Firmware Version...</option>
                     <option id="v200">2.0.0</option>
                     <option id="v144">1.4.4</option>
                     <option id="v135">1.3.5</option>
@@ -80,7 +80,7 @@
             </div>
 
             <div class="step" id="step3" style="display:none;">
-                <div class="step_label">Install Software</div>           
+                <div class="step_label">Install Software:</div>           
                 
                 <esp-web-install-button manifest="https://connor.nishiji.ma/extras/flasher/v200/floor/manifest.json">
                     <button class="install_button" slot="activate">Install 2.0.0 (Fluora Floor)</button>
