@@ -137,6 +137,8 @@
                     firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
 
                     let firmware_versions_available = pixelair_manifest.products[original_product_index-1]["firmware_versions"];
+                    firmware_versions_available.reverse(); // Newest first
+
                     for(let i = 0; i < firmware_versions_available.length; i++){
                         let version_name = firmware_versions_available[i];
                         let version_name_condensed = "v" + version_name.replace(".","").replace(".","");
@@ -161,8 +163,9 @@
                         document.getElementById("step3").innerHTML = "";
 
                         document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+product_model_selected+'/'+firmware_version_selected+'/manifest.json">';
-                        document.getElementById("step3").innerHTML += '<button class="install_button" slot="activate">Install '+firmware_version_selected_pretty+' to '+product_model_selected_pretty+'</button>';
+                        document.getElementById("step3").innerHTML += '<button slot="activate" class="install_button">Install '+firmware_version_selected_pretty+' to '+product_model_selected_pretty+'</button>';
                         document.getElementById("step3").innerHTML += '<span slot="unsupported">Ah snap, your browser doesn\'t work! Sorry, this only works on desktop Chrome so far. :(</span>';
+                        document.getElementById("step3").innerHTML += '<span slot="not-allowed">Ah snap, you are not allowed to use this on HTTP!</span>';
                         document.getElementById("step3").innerHTML += '</esp-web-install-button>';
 
                         document.getElementById("step3").style.display = "block";
