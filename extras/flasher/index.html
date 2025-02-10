@@ -65,7 +65,7 @@
     <body onload="init_system();">
         <img id="flasher_logo" src="img/device_recovery.png" />
         
-        <div id="loader" style:"display:none;">
+        <div id="loader" style="display:none;">
             LOADING
         </div>
 
@@ -120,18 +120,18 @@
             
             function update_menu(){
                 let product_model = document.getElementById("product_model");
-                let product_model_selected = product_model.options[product_model.selectedIndex];
+                let product_model_selected = product_model.options[product_model.selectedIndex].id;
 
                 let firmware_version = document.getElementById("firmware_version");
-                let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex];
+                let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex].id;
 
                 console.log(product_model);
                 console.log(product_model_selected);
                 console.log(firmware_version);
                 console.log(firmware_version_selected);
 
-                console.log("product_model set to:    " + product_model_selected.id);
-                console.log("firmware version set to: " + firmware_version_selected.id);
+                console.log("product_model set to:    " + product_model_selected);
+                console.log("firmware version set to: " + firmware_version_selected);
 
                 // clear dropdowns
                 product_model.innerHTML = '';
@@ -144,11 +144,11 @@
                     product_model.innerHTML += "<option id='"+product_id+"'>"+product_pretty_name+"</option>";
                 }
 
-                if(product_model_selected.id != "null"){
+                if(product_model_selected != "null"){
                     firmware_version.innerHTML = '';
                     firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
-                    let firmware_versions_available = pixelair_manifest.products[product_model.selectedIndex];
 
+                    let firmware_versions_available = pixelair_manifest.products[product_model.selectedIndex]["firmware_versions"];
                     for(let i = 0; i < firmware_versions_available.length; i++){
                         let version_name = firmware_versions_available[i];
                         let version_name_condensed = "v" + version_name.replace(".","");
@@ -157,15 +157,14 @@
                 }
                 
                 // Show dropdowns
-
-                if (product_model_selected.id == "null") {
+                if (product_model_selected == "null") {
                     document.getElementById("step2").style.display = "none";
                     document.getElementById("step3").style.display = "none";
                 }
                 else{
                     document.getElementById("step2").style.display = "block";
 
-                    if (firmware_version_selected.id == "null") {
+                    if (firmware_version_selected == "null") {
                         document.getElementById("step3").style.display = "none";
                     }
                     else{
