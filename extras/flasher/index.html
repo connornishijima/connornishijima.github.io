@@ -53,6 +53,8 @@
                 border: none;
                 border-radius: 10px;
                 font-weight: 800;
+                display: block;
+                width: 100%;
             }
             
         </style>
@@ -62,7 +64,7 @@
         
         <div id="content">
             <div class="step" id="step1">
-                <select id="product_model" class="product_picker">
+                <select id="product_model" class="product_picker" onchange="update_menu();">
                     <option id="null">Choose A Product...</option>
                     <option id="fluora_floor">Fluora (Floor Model)</option>
                     <option id="fluora_mini">Fluora Mini</option>
@@ -71,7 +73,7 @@
             </div>
             
             <div class="step" id="step2" style="display:none;">         
-                <select id="firmware_versions" class="product_picker">
+                <select id="firmware_versions" class="product_picker" onchange="update_menu();">
                     <option id="null">Choose A Firmware Version...</option>
                     <option id="v200">2.0.0</option>
                     <option id="v144">1.4.4</option>
@@ -91,5 +93,10 @@
         </div>
 
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+        <script>
+            function update_menu(){
+                console.log("step 1 set to: " + document.getElementById("product_model").value);
+            }
+        </script>
     </body>
 </html>
