@@ -72,9 +72,8 @@
                 border: none;
                 border-radius: 10px;
             }
-
             #custom_button:hover{
-                background-color: #f44a8d;
+                background-color: #f44a8d !important;
                 cursor:pointer;
             }
 
@@ -92,11 +91,7 @@
                 background-color: #cd7247;
             }
 
-            .scrim{
-                background: #00000000 !important;
-                opacity: 1.0 !important;
-                backdrop-filter: blur(10px) !important;
-            }
+            
             
         </style>
     </head>
@@ -205,7 +200,7 @@
 
                         let manifest_url = product_model_selected+'/'+firmware_version_selected+"/manifest.json";
                         console.log("Manifest location: "+manifest_url);
-                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" > <button slot="activate" id="custom_button">Install Firmware</button> </esp-web-install-button>';
+                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" > <button slot="activate" id="custom_button">Connect To Device</button> </esp-web-install-button>';
 
                         document.getElementById("step3").style.display = "block";
                     }
