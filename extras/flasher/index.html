@@ -62,7 +62,7 @@
                 width: 100%;
             }
 
-            #custom-button {
+            #custom_button {
                 background-color: #bb215e !important;
                 color: #fff;
                 font-family: 'Quicksand' !important;
@@ -73,9 +73,23 @@
                 border-radius: 10px;
             }
 
-            #custom-button:hover{
+            #custom_button:hover{
                 background-color: #f44a8d;
                 cursor:pointer;
+            }
+
+            #product_model{
+                background-color: #1c7d61;
+            }
+            #product_model:hover{
+                background-color: #259c7a;
+            }
+
+            #firmware_version{
+                background-color: #ac5b35;
+            }
+            #firmware_version:hover{
+                background-color: #cd7247;
             }
             
         </style>
@@ -89,13 +103,13 @@
 
         <div id="content">
             <div class="step" id="step1">
-                <select id="product_model" class="product_picker" onchange="update_menu(true);" style="background-color: #1c7d61;">
+                <select id="product_model" class="product_picker" onchange="update_menu(true);">
                     <option id="null" selected>Choose A Product...</option>
                 </select>
             </div>
             
             <div class="step" id="step2" style="display:none;">         
-                <select id="firmware_version" class="product_picker" onchange="update_menu(false);" style="background-color: #ac5b35;">
+                <select id="firmware_version" class="product_picker" onchange="update_menu(false);">
                     <option id="null" selected>Choose A Firmware Version...</option>
                 </select>
             </div>
@@ -185,7 +199,7 @@
 
                         let manifest_url = product_model_selected+'/'+firmware_version_selected+"/manifest.json";
                         console.log("Manifest location: "+manifest_url);
-                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" > <button slot="activate" id="custom-button">Install Firmware</button> </esp-web-install-button>';
+                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" > <button slot="activate" id="custom_button">Install Firmware</button> </esp-web-install-button>';
 
                         document.getElementById("step3").style.display = "block";
                     }
