@@ -48,7 +48,6 @@
             }
 
             .product_picker{
-                background-color: #f36725;
                 font-family: 'Quicksand';
                 color: #fff;
                 font-size: 18px;
@@ -71,13 +70,13 @@
 
         <div id="content">
             <div class="step" id="step1">
-                <select id="product_model" class="product_picker" onchange="update_menu();">
+                <select id="product_model" class="product_picker" onchange="update_menu();" style="background-color: #1c7d61;">
                     <option id="null" selected>Choose A Product...</option>
                 </select>
             </div>
             
             <div class="step" id="step2" style="display:none;">         
-                <select id="firmware_version" class="product_picker" onchange="update_menu();">
+                <select id="firmware_version" class="product_picker" onchange="update_menu();" style="background-color: #f36725;">
                     <option id="null" selected>Choose A Firmware Version...</option>
                 </select>
             </div>
