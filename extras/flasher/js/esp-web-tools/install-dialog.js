@@ -820,14 +820,14 @@ export class EwtInstallDialog extends LitElement {
             if (state.state === "finished" /* FlashStateType.FINISHED */) {
                 sleep(100)
                     // Flashing closes the port
-                    .then(() => this.port.open({ baudRate: 115200 }))
+                    .then(() => this.port.open({ baudRate: 921600 }))
                     .then(() => this._initialize(true))
                     .then(() => this.requestUpdate());
             }
             else if (state.state === "error" /* FlashStateType.ERROR */) {
                 sleep(100)
                     // Flashing closes the port
-                    .then(() => this.port.open({ baudRate: 115200 }));
+                    .then(() => this.port.open({ baudRate: 921600 }));
             }
         }, this.port, this.manifestPath, this._manifest, this._installErase);
     }

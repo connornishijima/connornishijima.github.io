@@ -24,8 +24,8 @@ export const flash = async (onEvent, port, manifestPath, manifest, eraseFirst) =
     const transport = new Transport(port);
     const esploader = new ESPLoader({
         transport,
-        baudrate: 115200,
-        romBaudrate: 115200,
+        baudrate: 921600,
+        romBaudrate: 921600,
         enableTracing: false,
     });
     // For debugging

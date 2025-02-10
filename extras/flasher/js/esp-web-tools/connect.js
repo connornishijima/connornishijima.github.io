@@ -16,7 +16,7 @@ export const connect = async (button) => {
         return;
     }
     try {
-        await port.open({ baudRate: 115200 });
+        await port.open({ baudRate: 921600 });
     }
     catch (err) {
         alert(err.message);
