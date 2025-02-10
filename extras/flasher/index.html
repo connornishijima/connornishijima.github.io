@@ -62,13 +62,13 @@
                 width: 100%;
             }
 
-            esp-web-install-button::part(button) {
+            #custom-button {
                 background-color: #bb215e !important;
+                color: #fff;
                 font-family: 'Quicksand' !important;
                 font-weight: 700 !important;
                 font-size: 24px !important;
             }
-
             
         </style>
     </head>
@@ -177,7 +177,7 @@
 
                         let manifest_url = product_model_selected+'/'+firmware_version_selected+"/manifest.json";
                         console.log("Manifest location: "+manifest_url);
-                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" ></esp-web-install-button>';
+                        document.getElementById("step3").innerHTML += '<esp-web-install-button manifest="'+manifest_url+'" > <button slot="activate" id="custom-button">Install Firmware</button> </esp-web-install-button>';
 
                         document.getElementById("step3").style.display = "block";
                     }
