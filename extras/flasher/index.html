@@ -73,13 +73,13 @@
 
         <div id="content">
             <div class="step" id="step1">
-                <select id="product_model" class="product_picker" onchange="update_menu();" style="background-color: #1c7d61;">
+                <select id="product_model" class="product_picker" onchange="update_menu(true);" style="background-color: #1c7d61;">
                     <option id="null" selected>Choose A Product...</option>
                 </select>
             </div>
             
             <div class="step" id="step2" style="display:none;">         
-                <select id="firmware_version" class="product_picker" onchange="update_menu();" style="background-color: #ac5b35;">
+                <select id="firmware_version" class="product_picker" onchange="update_menu(false);" style="background-color: #ac5b35;">
                     <option id="null" selected>Choose A Firmware Version...</option>
                 </select>
             </div>
@@ -103,7 +103,7 @@
                 .then(data => {
                     pixelair_manifest = data;
                     console.log('PixelAir Manifest:', pixelair_manifest); // Access the JSON data
-                    update_menu();
+                    update_menu(true);
                     
                 })
                 .catch(error => {
@@ -111,7 +111,7 @@
                 });
             }
             
-            function update_menu(){
+            function update_menu(reset_firmware_selection = true){
                 let product_model = document.getElementById("product_model");                
                 let original_product_index = product_model.selectedIndex;
                 let product_model_selected = product_model.options[original_product_index].id;
@@ -136,18 +136,20 @@
                 }
 
                 if(product_model_selected != "null"){
-                    firmware_version.innerHTML = '';
-                    firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
+                    if(reset_firmware_selection == true){
+                        firmware_version.innerHTML = '';
+                        firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
 
-                    let firmware_versions_available = pixelair_manifest.products[original_product_index-1]["firmware_versions"];
-                    firmware_versions_available.reverse(); // Newest first
+                        let firmware_versions_available = pixelair_manifest.products[original_product_index-1]["firmware_versions"];
+                        firmware_versions_available.reverse(); // Newest first
 
-                    for(let i = 0; i < firmware_versions_available.length; i++){
-                        let version_name = firmware_versions_available[i];
-                        let version_name_condensed = "v" + version_name.replace(".","").replace(".","");
-                        firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
+                        for(let i = 0; i < firmware_versions_available.length; i++){
+                            let version_name = firmware_versions_available[i];
+                            let version_name_condensed = "v" + version_name.replace(".","").replace(".","");
+                            firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
 
-                        console.log("loaded firmware version: "+version_name_condensed);
+                            console.log("loaded firmware version: "+version_name_condensed);
+                        }
                     }
                 }
                 
