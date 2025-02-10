@@ -65,10 +65,7 @@
         <div id="content">
             <div class="step" id="step1">
                 <select id="product_model" class="product_picker" onchange="update_menu();">
-                    <option id="null" selected>Choose A Product...</option>
-                    <option id="fluora_floor">Fluora (Floor Model)</option>
-                    <option id="fluora_mini">Fluora Mini</option>
-                    <option id="monos">Monos</option>
+                    
                 </select>
             </div>
             
@@ -94,6 +91,24 @@
 
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
         <script>
+            function init_system(){
+                fetch('/pixelair_manifest.json')
+                .then(response => {
+                    if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json(); // Parse the JSON from the response
+                })
+                .then(data => {
+                    console.log('JSON Data:', data); // Access the JSON data
+                })
+                .catch(error => {
+                    console.error('There was a problem with the fetch operation:', error);
+                });
+
+                update_menu();
+            }
+            
             function update_menu(){
                 let product_model = document.getElementById("product_model");
                 let product_model_selected = product_model.options[product_model.selectedIndex];
@@ -103,6 +118,21 @@
 
                 console.log("product_model set to:    " + product_model_selected.id);
                 console.log("firmware version set to: " + firmware_version_selected.id);
+
+                // set contents of dropdowns
+            
+                /*
+                product_model.innerHTML = '';
+            
+                    <option id="null" selected>Choose A Product...</option>
+                    <option id="fluora_floor">Fluora (Floor Model)</option>
+                    <option id="fluora_mini">Fluora Mini</option>
+                    <option id="monos">Monos</option>
+                */
+
+
+
+                // Show dropdowns
 
                 if (product_model_selected.id == "null") {
                     document.getElementById("step2").style.display = "none";
@@ -118,6 +148,8 @@
                         document.getElementById("step3").style.display = "block";
                     }
                 }
+
+                
             }
         </script>
     </body>
