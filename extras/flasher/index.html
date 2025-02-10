@@ -67,13 +67,13 @@
         
         <div id="content">
             <div class="step" id="step1">
-                <select id="product_model" class="product_picker" onchange="update_menu('product_model');">
+                <select id="product_model" class="product_picker" onchange="update_menu();">
                     
                 </select>
             </div>
             
             <div class="step" id="step2" style="display:none;">         
-                <select id="firmware_version" class="product_picker" onchange="update_menu('firmware_version');">
+                <select id="firmware_version" class="product_picker" onchange="update_menu();">
                     <option id="null" selected>Choose A Firmware Version...</option>
                     <option id="v200">2.0.0</option>
                     <option id="v144">1.4.4</option>
@@ -135,7 +135,7 @@
                     product_model.innerHTML += "<option id='"+product_id+"'>"+product_pretty_name+"</option>";
                 }
 
-                if(product_model != "null"){
+                if(product_model_selected.id != "null"){
                     firmware_version.innerHTML = '';
                     firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
                     let firmware_versions_available = pixelair_manifest.products[product_model.selectedIndex];
