@@ -129,7 +129,7 @@
 
                 // set contents of dropdowns
                 product_model.innerHTML += "<option id='null'>Choose A Product...</option>";
-                for(let i = 0; i < pixelair_manifest.products.length()){
+                for(let i = 0; i < pixelair_manifest.products.length){
                     let product_id          = pixelair_manifest.products[i].id;
                     let product_pretty_name = pixelair_manifest.products[i].pretty_name;
                     product_model.innerHTML += "<option id='"+product_id+"'>"+product_pretty_name+"</option>";
@@ -140,7 +140,7 @@
                     firmware_version.innerHTML += "<option id='null'>Choose A Firmware Version...</option>";
                     let firmware_versions_available = pixelair_manifest.products[product_model.selectedIndex];
 
-                    for(let i = 0; i < firmware_versions_available.length()){
+                    for(let i = 0; i < firmware_versions_available.length){
                         let version_name = firmware_versions_available[i];
                         let version_name_condensed = "v" + version_name.replace(".","");
                         firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
