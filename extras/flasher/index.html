@@ -68,7 +68,7 @@
         <div id="content">
             <div class="step" id="step1">
                 <select id="product_model" class="product_picker" onchange="update_menu();">
-                    
+                    <option id="null" selected>Choose A Product...</option>
                 </select>
             </div>
             
@@ -120,6 +120,11 @@
 
                 let firmware_version = document.getElementById("firmware_version");
                 let firmware_version_selected = firmware_version.options[firmware_version.selectedIndex];
+
+                console.log(product_model);
+                console.log(product_model_selected);
+                console.log(firmware_version);
+                console.log(firmware_version_selected);
 
                 console.log("product_model set to:    " + product_model_selected.id);
                 console.log("firmware version set to: " + firmware_version_selected.id);
