@@ -20,8 +20,9 @@
             "id":"monos",
             "pretty_name":"Monos",
             "firmware_versions":[
-                "2.0.0"
+                
             ]
         }       
     ]
 }
+
