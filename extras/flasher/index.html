@@ -118,6 +118,10 @@
             <div class="step" id="step3" style="display:none;">
                 NOTHING
             </div>
+
+            <div class="step" id="warning" style="display: none;">
+                NOTHING
+            </div>
         </div>
 
         <script>
@@ -143,6 +147,8 @@
             }
             
             function update_menu(reset_firmware_selection = true){
+                document.getElementById("warning").style.display = "none";
+
                 let product_model = document.getElementById("product_model");                
                 let original_product_index = product_model.selectedIndex;
                 let product_model_selected = product_model.options[original_product_index].id;
@@ -174,12 +180,20 @@
                         let firmware_versions_available = pixelair_manifest.products[original_product_index-1]["firmware_versions"];
                         firmware_versions_available.reverse(); // Newest first
 
-                        for(let i = 0; i < firmware_versions_available.length; i++){
-                            let version_name = firmware_versions_available[i];
-                            let version_name_condensed = "v" + version_name.replace(".","").replace(".","");
-                            firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
+                        if( firmware_versions_available.length > 0){
+                            for(let i = 0; i < firmware_versions_available.length; i++){
+                                let version_name = firmware_versions_available[i];
+                                let version_name_condensed = "v" + version_name.replace(".","").replace(".","");
+                                firmware_version.innerHTML += "<option id='"+version_name_condensed+"'>"+version_name+"</option>";
 
-                            console.log("loaded firmware version: "+version_name_condensed);
+                                console.log("loaded firmware version: "+version_name_condensed);
+                            }
+                        }
+                        else{
+                            firmware_version.style.display = "none";
+                            document.getElementById("step3").style.display = "none";
+                            document.getElementById("warning").innerHTML = "No firmware available yet for this product";
+                            document.getElementById("warning").style.display = "block";
                         }
                     }
                 }
