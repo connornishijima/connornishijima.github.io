@@ -1,5 +1,5 @@
 {
-    "name": "PixelAir v1.4.4 for Fluora (Floor Model)",
+    "name": "PixelAir v1.4.5 for Fluora (Floor Model)",
     "new_install_prompt_erase": true,
     "builds": [
         {
@@ -8,7 +8,7 @@
                 { "path": "bootloader.bin",                    "offset": 4096  },
                 { "path": "partitions.bin",                    "offset": 32768 },
                 { "path": "boot_app0.bin",                     "offset": 57344 },
-                { "path": "pa_v144_fluora_floor_firmware.bin", "offset": 65536 }
+                { "path": "pa_v145_fluora_floor_firmware.bin", "offset": 65536 }
             ]
         }
     ]
