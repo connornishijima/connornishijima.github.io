@@ -4,7 +4,8 @@
             "id":"fluora_floor",
             "pretty_name":"Fluora (Floor Model)",
             "firmware_versions":[
-                "1.5.0"
+                "1.5.0",
+                "1.4.9"
             ]
         },
         {
