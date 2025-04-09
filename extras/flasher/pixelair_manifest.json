@@ -4,14 +4,14 @@
             "id":"fluora_floor",
             "pretty_name":"Fluora (Floor Model)",
             "firmware_versions":[
-                "1.5.0"
+                
             ]
         },
         {
             "id":"fluora_mini",
             "pretty_name":"Fluora Mini",
             "firmware_versions":[
-                "1.5.0"
+             
             ]
         }   
     ]
